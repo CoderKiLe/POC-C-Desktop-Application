@@ -1,0 +1,25 @@
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\bin\Debug\net8.0-windows\POC TreeViewNavigationPanle.exe
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\bin\Debug\net8.0-windows\POC TreeViewNavigationPanle.deps.json
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\bin\Debug\net8.0-windows\POC TreeViewNavigationPanle.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\bin\Debug\net8.0-windows\POC TreeViewNavigationPanle.dll
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\bin\Debug\net8.0-windows\POC TreeViewNavigationPanle.pdb
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\App.g.cs
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle_MarkupCompile.lref
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\MainWindow.baml
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle.g.resources
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle.dll
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\refint\POC TreeViewNavigationPanle.dll
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle.pdb
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\ref\POC TreeViewNavigationPanle.dll
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\bin\Debug\net8.0-windows\Wpf.Ui.dll
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\bin\Debug\net8.0-windows\Wpf.Ui.Abstractions.dll
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC TreeViewNavigationPanle.csproj.AssemblyReference.cache
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\App.baml
+K:\POC and My Samples\POC\WPF\POC TreeViewNavigationPanle\POC TreeViewNavigationPanle\obj\Debug\net8.0-windows\POC Tree.AC8AD1AD.Up2Date

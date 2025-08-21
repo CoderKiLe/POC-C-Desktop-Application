@@ -1,0 +1,20 @@
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\bin\Debug\net8.0-windows\POC Dummy Data with d color.exe
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\bin\Debug\net8.0-windows\POC Dummy Data with d color.deps.json
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\bin\Debug\net8.0-windows\POC Dummy Data with d color.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\bin\Debug\net8.0-windows\POC Dummy Data with d color.dll
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\bin\Debug\net8.0-windows\POC Dummy Data with d color.pdb
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\App.g.cs
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color_MarkupCompile.lref
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\MainWindow.baml
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color.g.resources
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color.dll
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\refint\POC Dummy Data with d color.dll
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color.pdb
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\POC Dummy Data with d color.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC Dummy Data with d color\POC Dummy Data with d color\obj\Debug\net8.0-windows\ref\POC Dummy Data with d color.dll

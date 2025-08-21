@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>POC_RichTextBox_Ribbon</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="C1.WPF.RichTextBox" Version="9.0.20251.1102" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\WPF Code Base - Source Clone\WPF\Controls\Ribbon\C1.WPF.Ribbon.csproj" />
+    <ProjectReference Include="..\..\..\..\WPF Code Base - Source Clone\WPF\Controls\RichTextBox.Ribbon\C1.WPF.RichTextBox.Ribbon.csproj" />
+    <ProjectReference Include="..\..\..\..\WPF Code Base - Source Clone\WPF\Controls\RichTextBox\C1.WPF.RichTextBox.csproj" />
+  </ItemGroup>
+
+</Project>

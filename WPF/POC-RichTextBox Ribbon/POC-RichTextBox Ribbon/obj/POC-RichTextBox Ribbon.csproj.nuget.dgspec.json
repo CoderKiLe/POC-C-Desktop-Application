@@ -1,0 +1,920 @@
+{
+  "format": 1,
+  "restore": {
+    "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj": {}
+  },
+  "projects": {
+    "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj",
+        "projectName": "POC-RichTextBox Ribbon",
+        "projectPath": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Ribbon\\C1.WPF.Ribbon.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Ribbon\\C1.WPF.Ribbon.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox.Ribbon\\C1.WPF.RichTextBox.Ribbon.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox.Ribbon\\C1.WPF.RichTextBox.Ribbon.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox\\C1.WPF.RichTextBox.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox\\C1.WPF.RichTextBox.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "C1.WPF.RichTextBox": {
+              "target": "Package",
+              "version": "[9.0.20251.1102, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj": {
+      "version": "9.0.20251.1102",
+      "restore": {
+        "projectUniqueName": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj",
+        "projectName": "C1.WPF.Core",
+        "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "K:\\WPF Code Base - Source Clone\\NuGet.Config",
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows",
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          },
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.135, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        },
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.135, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj": {
+      "version": "9.0.20251.1102",
+      "restore": {
+        "projectUniqueName": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj",
+        "projectName": "C1.WPF.Input",
+        "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "K:\\WPF Code Base - Source Clone\\NuGet.Config",
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\ListView\\C1.WPF.ListView.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\ListView\\C1.WPF.ListView.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\ListView\\C1.WPF.ListView.csproj": {
+      "version": "9.0.20251.1102",
+      "restore": {
+        "projectUniqueName": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\ListView\\C1.WPF.ListView.csproj",
+        "projectName": "C1.WPF.ListView",
+        "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\ListView\\C1.WPF.ListView.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\ListView\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "K:\\WPF Code Base - Source Clone\\NuGet.Config",
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "C1.WPF.DataCollection": {
+              "target": "Package",
+              "version": "[9.0.20242.209, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Menu\\C1.WPF.Menu.csproj": {
+      "version": "9.0.20251.1102",
+      "restore": {
+        "projectUniqueName": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Menu\\C1.WPF.Menu.csproj",
+        "projectName": "C1.WPF.Menu",
+        "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Menu\\C1.WPF.Menu.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Menu\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "K:\\WPF Code Base - Source Clone\\NuGet.Config",
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\ListView\\C1.WPF.ListView.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\ListView\\C1.WPF.ListView.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Ribbon\\C1.WPF.Ribbon.csproj": {
+      "version": "9.0.20251.1102",
+      "restore": {
+        "projectUniqueName": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Ribbon\\C1.WPF.Ribbon.csproj",
+        "projectName": "C1.WPF.Ribbon",
+        "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Ribbon\\C1.WPF.Ribbon.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Ribbon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Menu\\C1.WPF.Menu.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Menu\\C1.WPF.Menu.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\TabControl\\C1.WPF.TabControl.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\TabControl\\C1.WPF.TabControl.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "C1.WPF.DataCollection": {
+              "target": "Package",
+              "version": "[9.0.20242.209, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox.Ribbon\\C1.WPF.RichTextBox.Ribbon.csproj": {
+      "version": "9.0.20251.1102",
+      "restore": {
+        "projectUniqueName": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox.Ribbon\\C1.WPF.RichTextBox.Ribbon.csproj",
+        "projectName": "C1.WPF.RichTextBox.Ribbon",
+        "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox.Ribbon\\C1.WPF.RichTextBox.Ribbon.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox.Ribbon\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Ribbon\\C1.WPF.Ribbon.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Ribbon\\C1.WPF.Ribbon.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox\\C1.WPF.RichTextBox.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox\\C1.WPF.RichTextBox.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\SpellChecker\\C1.WPF.SpellChecker.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\SpellChecker\\C1.WPF.SpellChecker.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox\\C1.WPF.RichTextBox.csproj": {
+      "version": "9.0.20251.1102",
+      "restore": {
+        "projectUniqueName": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox\\C1.WPF.RichTextBox.csproj",
+        "projectName": "C1.WPF.RichTextBox",
+        "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox\\C1.WPF.RichTextBox.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\RichTextBox\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\SpellChecker\\C1.WPF.SpellChecker.csproj": {
+      "version": "9.0.20251.1102",
+      "restore": {
+        "projectUniqueName": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\SpellChecker\\C1.WPF.SpellChecker.csproj",
+        "projectName": "C1.WPF.SpellChecker",
+        "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\SpellChecker\\C1.WPF.SpellChecker.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\SpellChecker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "K:\\WPF Code Base - Source Clone\\NuGet.Config",
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "C1.Zip": {
+              "target": "Package",
+              "version": "[9.0.20251.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\TabControl\\C1.WPF.TabControl.csproj": {
+      "version": "9.0.20251.1102",
+      "restore": {
+        "projectUniqueName": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\TabControl\\C1.WPF.TabControl.csproj",
+        "projectName": "C1.WPF.TabControl",
+        "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\TabControl\\C1.WPF.TabControl.csproj",
+        "packagesPath": "C:\\Users\\kile3\\.nuget\\packages\\",
+        "outputPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\TabControl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\WinForms\\bin\\v8\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "K:\\WPF Code Base - Source Clone\\NuGet.Config",
+          "C:\\Users\\kile3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\ComponentOne.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\MESCIUS\\ComponentOne\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dt4dev/C1/_packaging/c1-dev/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Core\\C1.WPF.Core.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Input\\C1.WPF.Input.csproj"
+              },
+              "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Menu\\C1.WPF.Menu.csproj": {
+                "projectPath": "K:\\WPF Code Base - Source Clone\\WPF\\Controls\\Menu\\C1.WPF.Menu.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+﻿<Window x:Class="POC_WPF_D_Reference.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POC_WPF_D_Reference"
+        mc:Ignorable="d"
+        Title="Task Manager" Height="450" Width="800">
+
+    <!-- Design-time Data (Task List) -->
+    <d:Window.DataContext>
+        <local:MainWindowViewModel>
+            <local:MainWindowViewModel.Tasks>
+                <local:TaskItem Title="Design-time Task 1" 
+                                IsCompleted="True" 
+                                Priority="High"/>
+                <local:TaskItem Title="Design-time Task 2" 
+                                DueDate="2023-12-25"/>
+                <local:TaskItem Title="Design-time Task 3" 
+                                Priority="Low"/>
+            </local:MainWindowViewModel.Tasks>
+        </local:MainWindowViewModel>
+    </d:Window.DataContext>
+    <!--Design-time data (Task List) delete lator-->
+
+    <Window.DataContext>
+        <local:MainWindowViewModel />
+    </Window.DataContext>
+
+    <Grid>
+        <ListView ItemsSource="{Binding Tasks}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Done" Width="50">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <CheckBox IsChecked="{Binding IsCompleted}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Task" 
+                                    DisplayMemberBinding="{Binding Title}" 
+                                    Width="200"/>
+                    <GridViewColumn Header="Priority" 
+                                    DisplayMemberBinding="{Binding Priority}" 
+                                    Width="100"/>
+                    <GridViewColumn Header="Due Date" 
+                                    DisplayMemberBinding="{Binding DueDate,StringFormat=d}" 
+                                    Width="100"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

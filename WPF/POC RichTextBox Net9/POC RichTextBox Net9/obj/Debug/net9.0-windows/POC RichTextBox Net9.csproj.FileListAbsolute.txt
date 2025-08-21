@@ -1,0 +1,190 @@
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\POC RichTextBox Net9.exe
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\POC RichTextBox Net9.deps.json
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\POC RichTextBox Net9.runtimeconfig.json
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\POC RichTextBox Net9.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\POC RichTextBox Net9.pdb
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.DataCollection.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.Core.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.DataCollection.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.Input.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.ListView.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.Menu.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.Ribbon.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.RichTextBox.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.RichTextBox.Ribbon.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.SpellChecker.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.WPF.TabControl.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\C1.Zip.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\Microsoft.Xaml.Behaviors.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ar\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\cs\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\da\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\de\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\el\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\es\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fi\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fr\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\he\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\it\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ja\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ko\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\nl\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\no\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pl\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pt\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ro\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ru\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sk\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sv\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\tr\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hans\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hant\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh\C1.WPF.Input.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ar\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\cs\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\da\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\de\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\el\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\es\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fi\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fr\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\he\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\it\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ja\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ko\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\nl\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\no\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pl\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pt\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ro\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ru\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sk\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sv\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\tr\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hans\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hant\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh\C1.WPF.ListView.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\de\C1.WPF.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ja\C1.WPF.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ko\C1.WPF.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh\C1.WPF.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ar\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\cs\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\da\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\de\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\el\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\es\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fi\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fr\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\he\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\it\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ja\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ko\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\nl\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\no\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pl\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pt\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ro\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ru\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sk\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sv\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\tr\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hans\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hant\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh\C1.WPF.RichTextBox.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ar\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\cs\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\da\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\de\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\el\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\es\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fi\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fr\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\he\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\hu-HU\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\hu\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\it\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ja\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ko\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\nl\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\no\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pl\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pt\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ro\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ru\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sk\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sl-SI\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sl\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sv\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\tr\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hans\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hant\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh\C1.WPF.RichTextBox.Ribbon.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ar\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\cs\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\da\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\de\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\el\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\es\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fi\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fr\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\he\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\hu-HU\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\hu\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\it\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ja\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\nl\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\no\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pl\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pt\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ro\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ru\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sk\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sl-SI\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sl\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sv\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\tr\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hans\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hant\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh\C1.WPF.SpellChecker.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ar\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\cs\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\da\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\de\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\el\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\es\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fi\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\fr\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\he\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\it\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ja\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ko\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\nl\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\no\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pl\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\pt\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ro\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\ru\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sk\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\sv\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\tr\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hans\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh-Hant\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\bin\Debug\net9.0-windows\zh\C1.WPF.TabControl.resources.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9.csproj.AssemblyReference.cache
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\MainWindow.g.cs
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\App.g.cs
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9_MarkupCompile.cache
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9_MarkupCompile.lref
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\MainWindow.baml
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9.g.resources
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9.AssemblyInfoInputs.cache
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9.AssemblyInfo.cs
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9.csproj.CoreCompileInputs.cache
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC Rich.49669199.Up2Date
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\refint\POC RichTextBox Net9.dll
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9.pdb
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\POC RichTextBox Net9.genruntimeconfig.cache
+K:\POC - WPF and Winforms\WPF\POC RichTextBox Net9\POC RichTextBox Net9\obj\Debug\net9.0-windows\ref\POC RichTextBox Net9.dll

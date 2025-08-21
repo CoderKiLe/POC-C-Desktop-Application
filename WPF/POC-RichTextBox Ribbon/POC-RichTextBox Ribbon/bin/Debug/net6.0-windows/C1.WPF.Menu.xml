@@ -1,0 +1,3672 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C1.WPF.Menu</name>
+    </assembly>
+    <members>
+        <member name="T:C1.WPF.Menu.C1CircularGradientBrushBuilder">
+            <summary>
+            Builds a circular gradient brush from 2 gradient colors.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1CircularGradientBrushBuilder.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1CircularGradientBrushBuilder"/> class.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1CircularGradientBrushBuilder.Output">
+            <summary>
+            Gets the resulting circular gradient brush.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1CircularGradientBrushBuilder.OutputProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1CircularGradientBrushBuilder.Output"/> dependency property.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1CircularGradientBrushBuilder.Color1">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Color"/> structure used as the first gradient color.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1CircularGradientBrushBuilder.Color1Property">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1CircularGradientBrushBuilder.Color1"/> dependency property.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1CircularGradientBrushBuilder.Color2">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Color"/> structure used as the second gradient color.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1CircularGradientBrushBuilder.Color2Property">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1CircularGradientBrushBuilder.Color2"/> dependency property.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1CircularGradientBrushBuilder.Angle">
+            <summary>
+            Gets or sets the <see cref="T:System.Double"/> values specifying brush rotation angle.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1CircularGradientBrushBuilder.AngleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1CircularGradientBrushBuilder.Angle"/> dependency property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1CircularGradientBrushBuilder.OutputChanged">
+            <summary>
+            Event is fired when output brush is changed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialColorItem._brush">
+            <summary>
+            Gets or sets the <see cref="P:C1.WPF.Menu.C1RadialColorItem.Brush"/> property.
+            </summary>
+            <remarks>This property will be set automatically if application sets the <see cref="P:C1.WPF.Menu.C1RadialColorItem.Color"/> property.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialColorItem._color">
+            <summary>
+            Gets or sets the <see cref="P:C1.WPF.Menu.C1RadialColorItem.Color"/> property.
+            </summary>
+            <remarks>This property will be set automatically if application sets the <see cref="P:C1.WPF.Menu.C1RadialColorItem.Brush"/> property.</remarks>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialColorItem.HasContent">
+            <summary>
+            Gets a value that indicates whether the <see cref="T:C1.WPF.Menu.C1RadialColorItem"/> contains sub-items or any other content.
+            </summary>
+            <remarks>This property returns false for empty items, used as separators.</remarks>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialColorItem.Index">
+            <summary>
+            Gets the index of this <see cref="T:C1.WPF.Menu.C1RadialColorItem" /> in its parent items collection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialColorItem.OnClick(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Responds to a click action by raising a Click event.
+            </summary>
+            <param name="e">Provides data for SourcedEventArgs.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialColorItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1RadialColorItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialColorItem.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialColorItem.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialColorItem.BrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialColorItem.Brush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialColorItem.Brush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> property.
+            </summary>
+            <remarks>This property will be set automatically if application sets the <see cref="T:System.Windows.Media.Color" /> property.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialColorItem.ColorProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialColorItem.Color"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialColorItem.Color">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Color" /> property.
+            </summary>
+            <remarks>This property will be set automatically if application sets the <see cref="T:System.Windows.Media.Brush" /> property.</remarks>
+        </member>
+        <member name="T:C1.WPF.Menu.C1RadialMenu">
+            <summary>
+            The C1RadialMenu control represents a touch-friendly alternative to the traditional context menu.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.Closing">
+            <summary>
+            Occurs when the C1RadialMenu is Closing.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the <see cref="E:Closing"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.ComponentModel.CancelEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.Opening">
+            <summary>
+            Occurs when the C1RadialMenu is Opening.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnOpening(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the <see cref="E:Opening"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.ComponentModel.CancelEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.Opened">
+             <summary>
+            Occurs when the C1RadialMenu opens.
+             </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnOpened(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:Opened"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.Closed">
+             <summary>
+            Occurs when the C1RadialMenu closes.
+             </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnClosed(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:Closed"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.Collapsing">
+            <summary>
+            Occurs when the C1RadialMenu is collapsing.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnCollapsing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Collapsing event.
+            </summary>
+            <param name="e">Provides data for CancelEventArgs.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.Collapsed">
+            <summary>
+            Occurs when the C1RadialMenu is collapsed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnCollapsed(System.EventArgs)">
+            <summary>
+            Raises the Collapsed event.
+            </summary>
+            <param name="e">Provides data for EventArgs.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.Expanding">
+            <summary>
+            Occurs when the C1RadialMenu is expanding.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnExpanding(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the Expanding event.
+            </summary>
+            <param name="e">Provides data for CancelEventArgs.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.Expanded">
+            <summary>
+            Occurs when the C1RadialMenu is expanded.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnExpanded(System.EventArgs)">
+            <summary>
+            Raises the Expanded event.
+            </summary>
+            <param name="e">Provides data for EventArgs.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.ItemClick">
+            <summary>
+            Occurs when a C1RadialMenuItem is clicked.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnItemClick(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1.WPF.Menu.C1RadialMenu.ItemClick"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.ItemOpening">
+            <summary>
+            Occurs when a C1RadialMenuItem is opening.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnItemOpening(C1.WPF.Core.CancelSourceEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1.WPF.Menu.C1RadialMenu.ItemOpening"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.ItemOpened">
+            <summary>
+            Occurs when a C1RadialMenuItem is opened.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnItemOpened(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1.WPF.Menu.C1RadialMenu.ItemOpened"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.ItemClosing">
+            <summary>
+            Occurs when a C1RadialMenuItem is closing.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnItemClosing(C1.WPF.Core.CancelSourceEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1.WPF.Menu.C1RadialMenu.ItemClosing"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.ItemClosed">
+            <summary>
+            Occurs when a C1RadialMenuItem is closed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnItemClosed(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1.WPF.Menu.C1RadialMenu.ItemClosed"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.ItemChecked">
+            <summary>
+            Occurs when a C1RadialMenuItem is checked.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnItemChecked(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1.WPF.Menu.C1RadialMenu.ItemChecked"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenu.ItemUnchecked">
+            <summary>
+            Occurs when a C1RadialMenuItem is unchecked.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnItemUnchecked(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1.WPF.Menu.C1RadialMenu.ItemUnchecked"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._autoCollapse">
+            <summary>
+            Gets or sets a value indicating if the menu will auto collapse when the user clicks outside of it.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._expandAreaThickness">
+            <summary>
+            Gets or sets the thickness of expand area.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._accentBrush">
+            <summary>
+            Gets or sets the &lt;see cref=&quot;Brush&quot; /&gt; used to color small menu parts.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._icon">
+            <summary>
+            Gets or sets the icon that appears in a C1RadialMenu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._itemIconStyle">
+            <summary>
+            Gets or sets the style used to display the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._colorItemStyle">
+            <summary>
+            Gets or sets the style used to display the C1RadialColorItem.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._radialSliderStyle">
+            <summary>
+            Gets or sets the style used to display the C1RadialSlider.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._navigationButtonRelativeSize">
+            <summary>
+            Gets or sets the navigation button size relative to the menu size.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._navigationButtonStyle">
+            <summary>
+            Represents the style to apply to navigation button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._offset">
+            <summary>
+            Gets or sets the relative offset of the C1RadialMenu relative to the pointer position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._placementTarget">
+            <summary>
+            Gets or sets the FrameworkElement relative to which the C1RadialMenu is positioned when it opens.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._toolTipPlacement">
+            <summary>
+            Gets or sets the tooltip placement.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._toolTipTemplate">
+            <summary>
+            Gets or sets the data template used to display the tooltip.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._showToolTip">
+            <summary>
+            Determines whether the control should display tooltips for individual items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._sectorCount">
+            <summary>
+            Gets or sets the number of sectors which should be displayed in menu.
+            </summary>
+            <remarks>The default value is -1 and the actual number of sectors is defined by the number of menu items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu._backIcon">
+            <summary>
+            Gets or sets the back icon that appears in a C1RadialMenu.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.HasItems">
+            <summary>
+            Gets a value that indicates whether the ItemsControl contains items.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.IsCollapsed">
+            <summary>
+            Gets a value that indicates whether the menue is collapsed.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.RootElement">
+            <summary>
+            Gets the root visible element of the <see cref="T:C1.WPF.Menu.C1RadialMenu"/> control. 
+            </summary>
+            <remarks>If you need to show popup relative to the C1RadialMenu control, use RootElement as PlacementTarget.</remarks>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.Show(System.Windows.FrameworkElement,System.Windows.Point)">
+            <summary>
+            Displays the radial menu at the specified position. 
+            </summary>
+            <remarks>This method shows menu in the collapsed state.</remarks>
+            <param name="placementTarget">Specifies the control to which the context menu
+            is associated.</param>
+            <param name="offset">The offset coordinates where the context menu will be displayed.
+            These coordinates are relative to the control specified in the control parameter.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.Show(System.Windows.FrameworkElement,System.Windows.Point,System.Boolean)">
+            <summary>
+            Displays the radial menu at the specified position. 
+            </summary>
+            <param name="placementTarget">Specifies the control to which the context menu
+            is associated.</param>
+            <param name="offset">The offset coordinates where the context menu will be displayed.
+            These coordinates are relative to the control specified in the control parameter.</param>
+            <param name="expand">Specifies whhether menu should be expanded at opening.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.Hide">
+            <summary>
+            Hides the menu.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.Expand">
+            <summary>
+            Expands the menu.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.Collapse">
+            <summary>
+            Collapses the menu.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.CurrentItem">
+            <summary>
+            Gets the C1RadialMenu or C1RadialMenuItem control which items are currently visible in the <see cref="T:C1.WPF.Menu.C1RadialMenu"/> UI.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.CurrentItemProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.CurrentItem"/> dependency property. 
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.GoBack">
+            <summary>
+            Navigates the <see cref="T:C1.WPF.Menu.C1RadialMenu"/> control one level up as if end-user clicked Back button.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1RadialMenu"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Menu.C1RadialMenu"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.AutoCollapseProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.AutoCollapse"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.AutoCollapse">
+            <summary>
+            Gets or sets a value indicating if the menu will auto collapse when the user clicks outside of it.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenu.OnAutoCollapseChanged">
+            <summary>
+            Called when the property AutoCollapse is changed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.ExpandAreaThicknessProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.ExpandAreaThickness"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.ExpandAreaThickness">
+            <summary>
+            Gets or sets the thickness of expand area.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.AccentBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.AccentBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.AccentBrush">
+            <summary>
+            Gets or sets the &lt;see cref="Brush" /&gt; used to color small menu parts.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.IconProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.Icon"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.Icon">
+            <summary>
+            Gets or sets the icon that appears in a C1RadialMenu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.ItemIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.ItemIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.ItemIconStyle">
+            <summary>
+            Gets or sets the style used to display the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.ColorItemStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.ColorItemStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.ColorItemStyle">
+            <summary>
+            Gets or sets the style used to display the C1RadialColorItem.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.RadialSliderStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.RadialSliderStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.RadialSliderStyle">
+            <summary>
+            Gets or sets the style used to display the C1RadialSlider.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.NavigationButtonRelativeSizeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.NavigationButtonRelativeSize"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.NavigationButtonRelativeSize">
+            <summary>
+            Gets or sets the navigation button size relative to the menu size.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.NavigationButtonStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.NavigationButtonStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.NavigationButtonStyle">
+            <summary>
+            Represents the style to apply to navigation button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.OffsetProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.Offset"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.Offset">
+            <summary>
+            Gets or sets the relative offset of the C1RadialMenu relative to the pointer position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.PlacementTargetProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.PlacementTarget"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.PlacementTarget">
+            <summary>
+            Gets or sets the FrameworkElement relative to which the C1RadialMenu is positioned when it opens.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.ToolTipPlacementProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.ToolTipPlacement"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.ToolTipPlacement">
+            <summary>
+            Gets or sets the tooltip placement.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.ToolTipTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.ToolTipTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.ToolTipTemplate">
+            <summary>
+            Gets or sets the data template used to display the tooltip.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.ShowToolTipProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.ShowToolTip"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.ShowToolTip">
+            <summary>
+            Determines whether the control should display tooltips for individual items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.SectorCountProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.SectorCount"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.SectorCount">
+            <summary>
+            Gets or sets the number of sectors which should be displayed in menu.
+            </summary>
+            <remarks>The default value is -1 and the actual number of sectors is defined by the number of menu items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenu.BackIconProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenu.BackIcon"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenu.BackIcon">
+            <summary>
+            Gets or sets the back icon that appears in a C1RadialMenu.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.SelectedItemOptions">
+            <summary>
+            Determines what part of the selected item should be displayed in the parent C1RadialMenuItem.
+            </summary>
+            <remarks>Note, the options don't include item check sign. It is always shown for checked items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.SelectedItemOptions.None">
+            <summary>
+            None.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.SelectedItemOptions.Header">
+            <summary>
+            The header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.SelectedItemOptions.Icon">
+            <summary>
+            The icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.SelectedItemOptions.All">
+            <summary>
+            All parts.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.ChangeVisualStateCommon(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Common visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenuItem.Click">
+            <summary>
+            Occurs when the <see cref="T:C1.WPF.Menu.C1RadialMenuItem"/> is clicked. 
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.OnClick(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Responds to a click action by raising a Click event.
+            </summary>
+            <param name="e">Provides data for SourcedEventArgs.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenuItem.Checked">
+            <summary>
+            Occurs when a C1RadialMenuItem is checked.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.OnChecked(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Responds to a check item action by raising a Checked event.
+            </summary>
+            <param name="e">Provides data for SourcedEventArgs.</param>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenuItem.Unchecked">
+            <summary>
+            Occurs when a C1RadialMenuItem is unchecked.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.OnUnchecked(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Responds to an uncheck item action by raising a Unchecked event.
+            </summary>
+            <param name="e">Provides data for SourcedEventArgs.</param>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._angle">
+            <summary>
+            Gets or sets the item angle.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._expandAreaThickness">
+            <summary>
+            Gets or sets the thickness of expand area.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._centerPoint">
+            <summary>
+            Gets the coordinates of the circle center, which can be used in xaml to draw circle sector, representing the current C1RadialMenuItem.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._outerArc">
+            <summary>
+            Gets the definition of outer arc segment which can be used in xaml to draw circle sector, representing the current C1RadialMenuItem.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._expandArc">
+            <summary>
+            Gets the definition of expand area arc segment.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._checkArc">
+            <summary>
+            Gets the definition of check arc segment.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._command">
+            <summary>
+            Gets or sets the command to invoke when this button is pressed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._commandParameter">
+            <summary>
+            Gets or sets the parameter to pass to the Command property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._forcePointerOver">
+            <summary>
+            Gets a value indicating whether to force the pointer over visual state.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._groupName">
+            <summary>
+            Gets or sets the name that specifies which MenuItems are mutually exclusive (when checkable).
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._header">
+            <summary>
+            Gets or sets the header of this control.
+            </summary>
+            <remarks>This property will be displayed in the tooltip as well if ToolTip property is not set.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._headerTemplate">
+            <summary>
+            Gets or sets the data template used to display the header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._accentBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush"/> used to color small menu parts.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._icon">
+            <summary>
+            Gets or sets the icon that appears in a C1RadialMenuItem.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._iconStyle">
+            <summary>
+            Gets or sets the style used to display the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._isCheckable">
+            <summary>
+            Gets a value that indicates whether a C1RadialMenuItem can be checked.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._isChecked">
+            <summary>
+            Gets or sets a value that indicates whether the C1RadialMenuItem is checked.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._isHighlighted">
+            <summary>
+            Gets a value that indicates whether a C1RadialMenuItem is highlighted.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._isPointerOver">
+            <summary>
+            Gets a value indicating whether the pointer is located over this element.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._textAlignment">
+            <summary>
+            Gets or sets a value that indicates the horizontal alignment of text content in the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._textDecorations">
+            <summary>
+            Gets or sets a TextDecorationCollection that contains the effects to apply to the text of the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._textWrapping">
+            <summary>
+            Gets or sets a value that indicates how any text should be wrapped in the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._toolTip">
+            <summary>
+            Gets or sets the tooltip of this control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._showSelectedItem">
+            <summary>
+            Determines whether icon, header and check sign of the selected sub-item should be displayed for the curren item.
+            </summary>
+            <remarks>This property only makes sense for items with sub-items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._selectedItemOptions">
+            <summary>
+            Determines what part of the selected sub-item should be displayed for the curren item.
+            </summary>
+            <remarks>This property only makes sense for items with sub-items when the &lt;see cref=&quot;ShowSelectedItem&quot; /&gt; property is true.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._selectedIndex">
+            <summary>
+            Gets or sets the index of the curerntly selected sub-item.
+            </summary>
+            <remarks>This property only makes sense for items with sub-items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._autoSelect">
+            <summary>
+            Determines whether C1RadialMenuItem should update SelectedIndex property acccording to the end-user selection.
+            </summary>
+            <remarks>This property only makes sense for items with sub-items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._isSelectable">
+            <summary>
+            Determines whether this item should be honored when SelectedIndex property is changed acccording to the end-user selection.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._sectorCount">
+            <summary>
+            Gets or sets the number of sectors which should be displayed in menu.
+            </summary>
+            <remarks>This property only makes sense if item has subitems. If this property is set to -1, the number of sectors will be defined by the number of menu items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._displayIndex">
+            <summary>
+            Gets or sets the zero-based index of this item which should be used to layout this item in the parent submenu.
+            </summary>
+            <remarks>The default value is -1 and the actual item index is defined by its place in the parent Items collection.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._itemContainerStyle">
+            <summary>
+            Gets or sets the item container style used to display the item container .
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._collapseOnClick">
+            <summary>
+            Gets or sets a value indicating if the menu will auto collapse when the user clicks on item which has no child items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._headerBackground">
+            <summary>
+            Gets or sets the background brush of the header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem._headerForeground">
+            <summary>
+            Gets or sets the foreground brush of the header.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.Index">
+            <summary>
+            Gets the index of this <see cref="T:C1.WPF.Menu.C1RadialMenuItem" /> in its parent items collection.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.HasItems">
+            <summary>
+            Gets a value that indicates whether the ItemsControl contains items.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.HasContent">
+            <summary>
+            Gets a value that indicates whether the <see cref="T:C1.WPF.Menu.C1RadialMenuItem"/> contains sub-items or any other content.
+            </summary>
+            <remarks>This property returns false for empty items, used as separators.</remarks>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.ParentItem">
+            <summary>
+            Gets the <see cref="T:System.Windows.Controls.ItemsControl"/> that is the parent of this item.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.Menu">
+            <summary>
+            Identifies the parent <see cref="T:C1.WPF.Menu.C1RadialMenu" /> of this item.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.OnAccessKeyPressed(System.Object,System.Windows.Input.AccessKeyPressedEventArgs)">
+            <summary>
+            Add accesskey support for wpf C1RadialMenu
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1RadialMenuItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Menu.C1RadialMenuItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.AngleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.Angle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.Angle">
+            <summary>
+            Gets or sets the item angle.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.ExpandAreaThicknessProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.ExpandAreaThickness"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.ExpandAreaThickness">
+            <summary>
+            Gets or sets the thickness of expand area.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.CenterPointProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.CenterPoint"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.CenterPoint">
+            <summary>
+            Gets the coordinates of the circle center, which can be used in xaml to draw circle sector, representing the current C1RadialMenuItem.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.OuterArcProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.OuterArc"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.OuterArc">
+            <summary>
+            Gets the definition of outer arc segment which can be used in xaml to draw circle sector, representing the current C1RadialMenuItem.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.ExpandArcProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.ExpandArc"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.ExpandArc">
+            <summary>
+            Gets the definition of expand area arc segment.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.CheckArcProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.CheckArc"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.CheckArc">
+            <summary>
+            Gets the definition of check arc segment.
+            </summary>
+            <remarks>This property is set by the C1RadialPanel panel.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.CommandProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.Command"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.Command">
+            <summary>
+            Gets or sets the command to invoke when this button is pressed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.CommandParameterProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.CommandParameter"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.CommandParameter">
+            <summary>
+            Gets or sets the parameter to pass to the Command property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.ForcePointerOverProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.ForcePointerOver"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.ForcePointerOver">
+            <summary>
+            Gets a value indicating whether to force the pointer over visual state.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.GroupNameProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.GroupName"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.GroupName">
+            <summary>
+            Gets or sets the name that specifies which MenuItems are mutually exclusive (when checkable).
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.HeaderProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.Header"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.Header">
+            <summary>
+            Gets or sets the header of this control.
+            </summary>
+            <remarks>This property will be displayed in the tooltip as well if ToolTip property is not set.</remarks>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.OnHeaderChanged">
+            <summary>
+            Called when the value of the <see cref="P:Header"/> property changes.
+            </summary>
+            <param name="oldValue">The old value.</param>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.HeaderTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.HeaderTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.HeaderTemplate">
+            <summary>
+            Gets or sets the data template used to display the header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.AccentBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.AccentBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.AccentBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to color small menu parts.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.IconProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.Icon"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.Icon">
+            <summary>
+            Gets or sets the icon that appears in a C1RadialMenuItem.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.IconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.IconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.IconStyle">
+            <summary>
+            Gets or sets the style used to display the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.IsCheckableProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.IsCheckable"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.IsCheckable">
+            <summary>
+            Gets a value that indicates whether a C1RadialMenuItem can be checked.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.IsCheckedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.IsChecked"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.IsChecked">
+            <summary>
+            Gets or sets a value that indicates whether the C1RadialMenuItem is checked.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.IsHighlightedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.IsHighlighted"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.IsHighlighted">
+            <summary>
+            Gets a value that indicates whether a C1RadialMenuItem is highlighted.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.IsPointerOverProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.IsPointerOver"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.IsPointerOver">
+            <summary>
+            Gets a value indicating whether the pointer is located over this element.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1RadialMenuItem.IsPointerOverChanged">
+            <summary> 
+            Event raised when the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.IsPointerOver"/> property has changed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.TextAlignmentProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.TextAlignment"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.TextAlignment">
+            <summary>
+            Gets or sets a value that indicates the horizontal alignment of text content in the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.TextDecorationsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.TextDecorations"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.TextDecorations">
+            <summary>
+            Gets or sets a TextDecorationCollection that contains the effects to apply to the text of the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.TextWrappingProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.TextWrapping"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.TextWrapping">
+            <summary>
+            Gets or sets a value that indicates how any text should be wrapped in the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.ToolTipProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.ToolTip"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.ToolTip">
+            <summary>
+            Gets or sets the tooltip of this control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.ShowSelectedItemProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.ShowSelectedItem"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.ShowSelectedItem">
+            <summary>
+            Determines whether icon, header and check sign of the selected sub-item should be displayed for the curren item.
+            </summary>
+            <remarks>This property only makes sense for items with sub-items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.SelectedItemOptionsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.SelectedItemOptions"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.SelectedItemOptions">
+            <summary>
+            Determines what part of the selected sub-item should be displayed for the curren item.
+            </summary>
+            <remarks>This property only makes sense for items with sub-items when the &lt;see cref="ShowSelectedItem" /&gt; property is true.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.SelectedIndexProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.SelectedIndex"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.SelectedIndex">
+            <summary>
+            Gets or sets the index of the curerntly selected sub-item.
+            </summary>
+            <remarks>This property only makes sense for items with sub-items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.AutoSelectProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.AutoSelect"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.AutoSelect">
+            <summary>
+            Determines whether C1RadialMenuItem should update SelectedIndex property acccording to the end-user selection.
+            </summary>
+            <remarks>This property only makes sense for items with sub-items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.IsSelectableProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.IsSelectable"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.IsSelectable">
+            <summary>
+            Determines whether this item should be honored when SelectedIndex property is changed acccording to the end-user selection.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.SectorCountProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.SectorCount"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.SectorCount">
+            <summary>
+            Gets or sets the number of sectors which should be displayed in menu.
+            </summary>
+            <remarks>This property only makes sense if item has subitems. If this property is set to -1, the number of sectors will be defined by the number of menu items.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.DisplayIndexProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.DisplayIndex"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.DisplayIndex">
+            <summary>
+            Gets or sets the zero-based index of this item which should be used to layout this item in the parent submenu.
+            </summary>
+            <remarks>The default value is -1 and the actual item index is defined by its place in the parent Items collection.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.ItemContainerStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.ItemContainerStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.ItemContainerStyle">
+            <summary>
+            Gets or sets the item container style used to display the item container .
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.CollapseOnClickProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.CollapseOnClick"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.CollapseOnClick">
+            <summary>
+            Gets or sets a value indicating if the menu will auto collapse when the user clicks on item which has no child items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.HeaderBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.HeaderBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.HeaderBackground">
+            <summary>
+            Gets or sets the background brush of the header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialMenuItem.HeaderForegroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialMenuItem.HeaderForeground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItem.HeaderForeground">
+            <summary>
+            Gets or sets the foreground brush of the header.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItem.ChangeVisualStateHighlighted(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Highlighted visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.C1RadialMenuItemsPresenter">
+            <summary>
+            Used within the template of the <see cref="T:C1.WPF.Menu.C1RadialMenu"/> control to specify where items are placed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItemsPresenter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1RadialMenuItemsPresenter"/> control.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialMenuItemsPresenter.Menu">
+            <summary>
+            Identifies the parent <see cref="T:C1.WPF.Menu.C1RadialMenu" /> control.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialMenuItemsPresenter.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)">
+            <summary>
+            Prepares the specified element to display the specified item.
+            </summary>
+            <param name="element">The element used to display the specified item.</param>
+            <param name="item">The item to display.</param>
+        </member>
+        <member name="T:C1.WPF.Menu.C1RadialColorItemsPresenter">
+            <summary>
+            Used within the template of the <see cref="T:C1.WPF.Menu.C1RadialMenu"/> control to specify where submenu of the C1RadialColorItem should be placed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialColorItemsPresenter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1RadialColorItemsPresenter"/> control.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialColorItemsPresenter.Menu">
+            <summary>
+            Identifies the parent <see cref="T:C1.WPF.Menu.C1RadialMenu" /> control.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialColorItemsPresenter.CurrentItem">
+            <summary>
+            Identifies the parent <see cref="T:C1.WPF.Menu.C1RadialColorItem" /> item.
+            </summary>
+            <remarks>The <see cref="T:C1.WPF.Menu.C1RadialMenu"/> updates this property value every time before opening the <see cref="T:C1.WPF.Menu.C1RadialColorItem"/> submenu.</remarks>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialColorItemsPresenter.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)">
+            <summary>
+            Prepares the specified element to display the specified item.
+            </summary>
+            <param name="element">The element used to display the specified item.</param>
+            <param name="item">The item to display.</param>
+        </member>
+        <member name="T:C1.WPF.Menu.C1RadialBackgroundPresenter">
+            <summary>
+            The supplementary control to use in the <see cref="T:C1.WPF.Menu.C1RadialMenu"/> control template.
+            </summary>
+            <remarks>It wraps Items into ContentControls with specified ItemContainerStyle and propagates item background to the wrapper ContentControl.</remarks>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialBackgroundPresenter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1RadialBackgroundPresenter"/> control.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialBackgroundPresenter.Menu">
+            <summary>
+            Identifies the parent <see cref="T:C1.WPF.Menu.C1RadialMenu" /> control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._value">
+            <summary>
+            Gets or sets the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.Value"/> property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._minimum">
+            <summary>
+            Minimum value for the <see cref="T:C1.WPF.Menu.C1RadialNumericItem"/>.
+            </summary>
+            <remarks>If it is not set, control will use the minimum value from the Items collection.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._maximum">
+            <summary>
+            Maximum value for the <see cref="T:C1.WPF.Menu.C1RadialNumericItem"/>.
+            </summary>
+            <remarks>If it is not set, control will use the maximum value from the Items collection will be used.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._interval">
+            <summary>
+            Value interval to generate items if Items collection is empty.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._gaugeStartAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the radial gauge beginning.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._markStartAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the first mark.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._markEndAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the last mark.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._sliderMargin">
+            <summary>
+            The margin of the radial slider.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._pointerStyle">
+            <summary>
+            Gets or sets the style used to display the pointer in the radial slider.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem._markStyle">
+            <summary>
+            Gets or sets the style used to display the mark in the radial slider.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialNumericItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1RadialNumericItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialNumericItem.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialNumericItem.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.ValueProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.Value"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.Value">
+            <summary>
+            Gets or sets the <see cref="!:Value" /> property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.MinimumProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.Minimum"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.Minimum">
+            <summary>
+            Minimum value for the <see cref="T:C1.WPF.Menu.C1RadialNumericItem" />.
+            </summary>
+            <remarks>If it is not set, control will use the minimum value from the Items collection.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.MaximumProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.Maximum"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.Maximum">
+            <summary>
+            Maximum value for the <see cref="T:C1.WPF.Menu.C1RadialNumericItem" />.
+            </summary>
+            <remarks>If it is not set, control will use the maximum value from the Items collection will be used.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.IntervalProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.Interval"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.Interval">
+            <summary>
+            Value interval to generate items if Items collection is empty.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.GaugeStartAngleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.GaugeStartAngle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.GaugeStartAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the radial gauge beginning.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.MarkStartAngleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.MarkStartAngle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.MarkStartAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the first mark.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.MarkEndAngleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.MarkEndAngle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.MarkEndAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the last mark.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.SliderMarginProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.SliderMargin"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.SliderMargin">
+            <summary>
+            The margin of the radial slider.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.PointerStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.PointerStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.PointerStyle">
+            <summary>
+            Gets or sets the style used to display the pointer in the radial slider.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialNumericItem.MarkStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialNumericItem.MarkStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialNumericItem.MarkStyle">
+            <summary>
+            Gets or sets the style used to display the mark in the radial slider.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.C1RadialPanel">
+            <summary>
+            Positions child elements in a circle, from the StartAngle to the EndAngle in the clockwise direction.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialPanel.SetExplicitAngles">
+            <summary>
+            Gets or sets the <see cref="T:System.Boolean"/> value determining whether the panel should set Angle attached property on children elements.
+            The default value is False.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel._startAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the first child element.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel._endAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the last child element.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel._rotateChildren">
+            <summary>
+            Gets or sets a value that specifies whether the panel should apply RotateTransform to the child elements.
+            </summary>
+            <remarks>Set this property to false if you want to keep children orientation.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel.ArcRelativeRadiusProperty">
+            <summary>
+            This attached property specifies the relative radius which should be used to count 
+            the ArcSegmentDefinition attached property for the specified element.
+            The default value is 1.0. 
+            </summary>
+            <remarks>
+            The actual arc radius will be counted as <see cref="T:C1.WPF.Menu.C1RadialPanel"/> radius multiplied by ArcRelativeRadius property value.
+            If this property is set on the parent ItemsControl, C1RadialPanel will honor it at counting ArcSegmentDefinition for individual items.
+            </remarks>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.GetArcRelativeRadius(System.Windows.DependencyObject)">
+            <summary>
+            Gets the relative arc radius value.
+            </summary>
+            <param name="obj">The element which contains the attached property.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.SetArcRelativeRadius(System.Windows.DependencyObject,System.Double)">
+            <summary>
+            Sets the relative arc radius value.
+            </summary>
+            <param name="obj">The element which contains the attached property.</param>
+            <param name="value"></param>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel.ArcThicknessProperty">
+            <summary>
+            This attached property specifies the arc thickness which can be used in the element control template.
+            </summary>
+            <remarks>
+            If this property is set on the parent ItemsControl, C1RadialPanel will set it on individual items 
+            and honor it at counting ArcSegmentDefinition for individual items.
+            </remarks>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.GetArcThickness(System.Windows.DependencyObject)">
+            <summary>
+            Gets the arc thickness value.
+            </summary>
+            <param name="obj">The element which contains the attached property.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.SetArcThickness(System.Windows.DependencyObject,System.Double)">
+            <summary>
+            Sets the arc thickness value.
+            </summary>
+            <param name="obj">The element which contains the attached property.</param>
+            <param name="value"></param>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel.ArcSegmentDefinitionProperty">
+            <summary>
+            This attached property holds the <see cref="T:C1.WPF.Menu.ArcSegmentDef"/> object which can be used in the element control template.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.GetArcSegmentDefinition(System.Windows.DependencyObject)">
+            <summary>
+            Gets the <see cref="T:C1.WPF.Menu.ArcSegmentDef"/> value.
+            </summary>
+            <param name="obj">The element which contains the attached property.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.SetArcSegmentDefinition(System.Windows.DependencyObject,C1.WPF.Menu.ArcSegmentDef)">
+            <summary>
+            Sets the <see cref="T:C1.WPF.Menu.ArcSegmentDef"/> value.
+            </summary>
+            <param name="obj">The element which contains the attached property.</param>
+            <param name="value"></param>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel.AngleProperty">
+            <summary>
+            This attached property specifies explicit angle which should be used to arrange element.
+            </summary>
+            <remarks>The <see cref="T:C1.WPF.Menu.C1RadialPanel"/> sets this property automatically on any children which are not derived from the <see cref="T:C1.WPF.Menu.C1RadialMenuItem"/>.</remarks>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.GetAngle(System.Windows.DependencyObject)">
+            <summary>
+            Gets the angle value.
+            </summary>
+            <param name="obj">The element which contains the attached property.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.SetAngle(System.Windows.DependencyObject,System.Double)">
+            <summary>
+            Sets the angle value.
+            </summary>
+            <param name="obj">The element which contains the attached property.</param>
+            <param name="value"></param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1RadialPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Menu.C1RadialPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialPanel.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialPanel.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel.StartAngleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialPanel.StartAngle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialPanel.StartAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the first child element.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel.EndAngleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialPanel.EndAngle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialPanel.EndAngle">
+            <summary>
+            Gets or sets a value that indicates the angle to position the last child element.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialPanel.RotateChildrenProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialPanel.RotateChildren"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialPanel.RotateChildren">
+            <summary>
+            Gets or sets a value that specifies whether the panel should apply RotateTransform to the child elements.
+            </summary>
+            <remarks>Set this property to false if you want to keep children orientation.</remarks>
+        </member>
+        <member name="T:C1.WPF.Menu.C1RadialSlider">
+            <summary>
+            Used within the template of the <see cref="T:C1.WPF.Menu.C1RadialMenu"/> control to display radial slider for selecting numeric values.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialSlider._pointerPanel">
+            <summary>
+            Control for draw pointers and value elements
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialSlider.PointerStyle">
+            <summary>
+            Gets or sets the style to draw pointer.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialSlider.PointerStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialSlider.PointerStyle"/> dependency property.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialSlider.CircularBrush">
+            <summary>
+            Gets the circular brush which can be used in the control template to represent radial gauge.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialSlider.CircularBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialSlider.CircularBrush"/> dependency property.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialSlider.Menu">
+            <summary>
+            Identifies the parent <see cref="T:C1.WPF.Menu.C1RadialMenu" /> control.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialSlider.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)">
+            <summary>
+            Prepares the specified element to display the specified item.
+            </summary>
+            <param name="element">The element used to display the specified item.</param>
+            <param name="item">The item to display.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialSlider.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1RadialSlider"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialSlider.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Menu.C1RadialSlider"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialSlider.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialSlider.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialSlider.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1RadialSlider.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1RadialSlider.PointerPanelProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1RadialSlider.PointerPanel"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1RadialSlider.PointerPanel">
+            <summary>
+            Control for draw pointers and value elements
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.AngleConverter">
+            <summary>
+            Multiplies supplied double value by the parameter value.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.AngleConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Multiplies supplied double value by the parameter value.
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.Menu.AngleConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Does nothing.
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:C1.WPF.Menu.DoubleToThicknessConverter">
+            <summary>
+            Converts double value to the thickness with uniform length on each side.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.DoubleToThicknessConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Converts double value to the thickness with uniform length on each side.
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.Menu.DoubleToThicknessConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Does nothing.
+            </summary>
+            <param name="value"></param>
+            <param name="targetType"></param>
+            <param name="parameter"></param>
+            <param name="culture"></param>
+            <returns></returns>
+        </member>
+        <member name="T:C1.WPF.Menu.ArcSegmentDef">
+            <summary>
+            Keeps arc segment definition properties which can be used in xaml to draw the ArcSegment.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.ArcSegmentDef.Size">
+            <summary>
+            Gets or sets the x-radius and y-radius of the arc as a Size structure.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.ArcSegmentDef.StartPoint">
+            <summary>
+            Gets or sets the start point of the elliptical arc.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.ArcSegmentDef.EndPoint">
+            <summary>
+            Gets or sets the endpoint of the elliptical arc.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.ArcSegmentDef.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.ExpandButtonTagConverter">
+            <summary>
+            When clear style,ExpandButton tag will be null, it can not converter to double
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.C1ContextMenu">
+            <summary>
+            The C1ContextMenu control represents a menu that can be displayed when the user clicks the right mouse button over a control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1ContextMenu._popupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1ContextMenu.Closing">
+            <summary>
+            Occurs when the <see cref="T:C1.WPF.Menu.C1ContextMenu"/> is closing.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1ContextMenu.Opening">
+            <summary>
+            Occurs when the <see cref="T:C1.WPF.Menu.C1ContextMenu"/> is opening.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1ContextMenu.Opened">
+            <summary>
+            Occurs when the <see cref="T:C1.WPF.Menu.C1ContextMenu"/> opens.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1ContextMenu.Closed">
+            <summary>
+            Occurs when the <see cref="T:C1.WPF.Menu.C1ContextMenu"/> closes.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1ContextMenu.Offset">
+            <summary>
+            Gets
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1ContextMenu.PlacementTarget">
+            <summary>
+            Gets the element to which the displayed menu is relative to.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1ContextMenu.IsOpen">
+            <summary>
+            Gets whether the menu is open.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenu.OnOpening(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the <see cref="E:Opening"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.ComponentModel.CancelEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenu.OnOpened(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:Opened"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenu.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the <see cref="E:Closing"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.ComponentModel.CancelEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenu.OnClosed(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:Closed"/> event.
+            </summary>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenu.Show(System.Windows.FrameworkElement,System.Nullable{System.Windows.Point})">
+            <summary>
+            Displays the context menu at the specified position. 
+            </summary>
+            <param name="placementTarget">Specifies the control to which the context menu
+            is associated.</param>
+            <param name="offset">The offset coordinates where the context menu will be displayed.
+            These coordinates are relative to the control specified in the control parameter.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenu.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1ContextMenu"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenu.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenu.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1ContextMenu.PopupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1ContextMenu.PopupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1ContextMenu.PopupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.IC1ContextMenu">
+            <summary>
+            Defines the context menu interface.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.IC1ContextMenu.Show(System.Windows.FrameworkElement,System.Windows.Point)">
+            <summary>
+            Displays the context menu at the specified position. 
+            </summary>
+            <param name="placementTarget">Specifies the control to which the context menu
+            is associated.</param>
+            <param name="offset">The offset coordinates where the context menu will be displayed.
+            These coordinates are relative to the control specified in the control parameter.</param>
+        </member>
+        <member name="P:C1.WPF.Menu.IC1ContextMenu.PlacementTarget">
+            <summary>
+            Gets or sets the FrameworkElement relative to which the context menu is positioned when it opens. 
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.C1ContextMenuService">
+            <summary>
+            Represents a service that provides static methods to display a context menu. 
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenuService.GetContextMenu(System.Windows.DependencyObject)">
+            <summary>
+            Gets the context menu for a control.
+            </summary>
+            <param name="element">The control from which the context menu is retrieved.</param>
+            <returns>The control's context menu.</returns>
+        </member>
+        <member name="M:C1.WPF.Menu.C1ContextMenuService.SetContextMenu(System.Windows.DependencyObject,C1.WPF.Menu.IC1ContextMenu)">
+            <summary>
+            Sets the context menu for a control.
+            </summary>
+            <param name="element">The Control to which the context menu is attached.</param>
+            <param name="value">The context menu to set.</param>
+        </member>
+        <member name="F:C1.WPF.Menu.C1ContextMenuService.ContextMenuProperty">
+            <summary>
+            Identifies the ContextMenu dependency property. 
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.C1Menu">
+            <summary>
+            Menu control supporting nested items hierarchies.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1Menu.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1Menu.GetPreferedLocations">
+            <inheritdoc/>
+        </member>
+        <member name="T:C1.WPF.Menu.C1MenuGroup">
+            <summary>
+            Control that is used to separate items in menus and toolbar.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuGroup._header">
+            <summary>
+            Gets or sets the header of the group.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuGroup._isIndented">
+            <summary>
+            Gets or sets whether the Indent band is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuGroup._indentBackground">
+            <summary>
+            Gets or sets the brush used to paint the Indent band at the left.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuGroup.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1MenuGroup"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuGroup.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Menu.C1MenuGroup"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuGroup.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuGroup.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuGroup.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuGroup.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuGroup.HeaderProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuGroup.Header"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuGroup.Header">
+            <summary>
+            Gets or sets the header of the group.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuGroup.IsIndentedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuGroup.IsIndented"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuGroup.IsIndented">
+            <summary>
+            Gets or sets whether the Indent band is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuGroup.IndentBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuGroup.IndentBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuGroup.IndentBackground">
+            <summary>
+            Gets or sets the brush used to paint the Indent band at the left.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuGroup.ChangeVisualStateIndented(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Indented visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.C1MenuItem">
+            <summary>
+            Represents a selectable item inside a C1Menu control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._textAlignment">
+            <summary>
+            Gets or sets a value that indicates the horizontal alignment of text content in the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._textDecorations">
+            <summary>
+            Gets or sets a TextDecorationCollection that contains the effects to apply to the text of the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._textWrapping">
+            <summary>
+            Gets or sets a value that indicates how any text should be wrapped in the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._icon">
+            <summary>
+            Gets or sets the icon that appears in a C1MenuItem.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._iconTemplate">
+            <summary>
+            Gets or sets the template of the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._isSubmenuOpen">
+            <summary>
+            Gets or sets a value that indicates whether the submenu of the C1MenuItem is open.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._isSubmenuOpenVisual">
+            <summary>
+            Gets or sets a value that indicates whether the submenu of the <see cref="T:C1.WPF.Menu.C1MenuItem" /> is open. This is used for visual purposes only.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._isCheckable">
+            <summary>
+            Gets or sets a value that indicates whether a <see cref="T:C1.WPF.Menu.C1MenuItem" /> can be checked.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._isChecked">
+            <summary>
+            Gets or sets a value that indicates whether the <see cref="T:C1.WPF.Menu.C1MenuItem" /> is checked.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._isHighlighted">
+            <summary>
+            Gets or sets a value that indicates whether a <see cref="T:C1.WPF.Menu.C1MenuItem" /> is highlighted.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._groupName">
+            <summary>
+            Gets or sets the name that specifies which MenuItems are mutually exclusive (when checkable).
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._subMenuMaxHeight">
+            <summary>
+            Gets or sets a value that indicates the MaxHeight of the SubMenu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._command">
+            <summary>
+            Gets or sets the command to invoke when this button is pressed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._commandParameter">
+            <summary>
+            Gets or sets the parameter to pass to the Command property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._inputGestureText">
+            <summary>
+            Gets or sets the text describing an input gesture that will call the command tied to the specified item.
+            </summary>
+            <remarks>This property does not associate the input gesture with the menu item; it simply adds text to the menu item. The application must handle the user's input to carry out the action.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._hotKey">
+            <summary>
+            Gets or sets the text of the hotkey that will call the command tied to the specified item.
+            </summary>
+            <remarks>This property does not associate the hotkey with the menu item; it simply adds text to the menu item. The application must handle the user's input to carry out the action.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._openIconStyle">
+            <summary>
+            Gets or sets the style of the open icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._popupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._separatorStyle">
+            <summary>
+            Gets or sets the style of the separator items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._groupStyle">
+            <summary>
+            Gets or sets the style of the group items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._menuStyle">
+            <summary>
+            Gets or sets the style aplied to the sub-menus.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._isIndented">
+            <summary>
+            Gets or sets whether the Indent band is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._indentBackground">
+            <summary>
+            Gets or sets the brush used to paint the Indent band at the left.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._openIconTemplate">
+            <summary>
+            Gets or sets the template of the icon used to show this item has a sub-menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._showOpenIcon">
+            <summary>
+            Gets or sets whether the open icon is displayed, provided the sub menu has items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._highlightedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the menu item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._isHighlightSupported">
+            <summary>
+            Gets or sets the <see cref="T:System.Boolean" /> value determining whether menu item should support highlighted state.
+            The default value is True. 
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem._openedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used in a menu item when this item is opened.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.MenuList">
+            <summary>
+            Gets the parent menu list.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.Menu">
+            <summary>
+            Gets the top level menu.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.Level">
+            <summary>
+            Gets the nesting level.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.ParentItem">
+            <summary>
+            Gets the parent menu item.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.HotKeyVisibility">
+            <summary>
+            Gets the visibility of the <see cref="P:C1.WPF.Menu.C1MenuItem.InputGestureText"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.OpenIconVisibility">
+            <summary>
+            Gets the visibility of the open icon.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.HasContent">
+            <summary>
+            Gets whether the menu item has any content.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnAccessKeyPressed(System.Object,System.Windows.Input.AccessKeyPressedEventArgs)">
+            <summary>
+            Add accesskey support for wpf C1Menu
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuItem.Click">
+            <summary>
+            Occurs when the <see cref="T:C1.WPF.Menu.C1MenuItem"/> is clicked. 
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuItem.SubmenuOpened">
+            <summary>
+            Occurs when the state of the <see cref="P:C1.WPF.Menu.C1MenuItem.IsSubmenuOpen"/> property changes to true.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuItem.SubmenuClosed">
+            <summary>
+            Occurs when the state of the <see cref="P:C1.WPF.Menu.C1MenuItem.IsSubmenuOpen"/> property changes to false.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuItem.SubmenuOpening">
+            <summary>
+            Occurs when a submenu is opening.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuItem.SubmenuClosing">
+            <summary>
+            Occurs when a submenu is closing.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuItem.Checked">
+            <summary>
+            Occurs when a <see cref="T:C1.WPF.Menu.C1MenuItem"/> is checked.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuItem.Unchecked">
+            <summary>
+            Occurs when a <see cref="T:C1.WPF.Menu.C1MenuItem"/> is unchecked.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuItem.PropertyChanged">
+            <summary>
+            Occurs when a property changed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnSubmenuOpened(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Responds to an open item action by raising a SubmenuOpened event.
+            </summary>
+            <param name="e">Provides data for <see cref="T:C1.WPF.Core.SourcedEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnSubmenuClosed(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Responds to a closed item action by raising a SubmenuClosed event.
+            </summary>
+            <param name="e">Provides data for <see cref="T:C1.WPF.Core.SourcedEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnClick(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Responds to a click action by raising a Click event.
+            </summary>
+            <param name="e">Provides data for <see cref="T:C1.WPF.Core.SourcedEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnSubmenuClosing(C1.WPF.Core.CancelSourceEventArgs)">
+            <summary>
+            Responds to a close item action by raising a SubmenuClosing event.
+            </summary>
+            <param name="e">Provides data for <see cref="T:C1.WPF.Core.CancelSourceEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnSubmenuOpening(C1.WPF.Core.CancelSourceEventArgs)">
+            <summary>
+            Responds to an open item action by raising a SubmenuOpening event.
+            </summary>
+            <param name="e">Provides data for <see cref="T:C1.WPF.Core.CancelSourceEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnChecked(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Responds to a check item action by raising a Checked event.
+            </summary>
+            <param name="e">Provides data for <see cref="T:C1.WPF.Core.SourcedEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnUnchecked(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Responds to an uncheck item action by raising a Unchecked event.
+            </summary>
+            <param name="e">Provides data for <see cref="T:C1.WPF.Core.SourcedEventArgs"/>.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnPropertyChanged(System.String)">
+            <summary>
+            Called when a property changed.
+            </summary>
+            <param name="propertyName"></param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnTapped(System.Object,C1.WPF.Core.C1TappedEventArgs)">
+            <summary>
+            Called when the view is tapped.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnMouseEnter(System.Object,C1.WPF.Core.C1InputEventArgs)">
+            <summary> 
+            Called when the mouse pointer enters the bounds of the header element.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnMouseLeave(System.Object,C1.WPF.Core.C1InputEventArgs)">
+            <summary>
+            Called when the mouse pointer leaves the bounds of the header element.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the System.Windows.UIElement.MouseRightButtonDown event occurs.
+            </summary>
+            <param name="e">
+            A System.Windows.Input.MouseButtonEventArgs that contains the event data.
+            </param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnMouseClick(System.Object,System.Windows.Input.MouseEventArgs)">
+            <summary>
+            Called when the user clicks the item. 
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            OnPropertyChanged
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.Index">
+            <summary>
+            Gets the index of this <see cref="T:C1MenuItem" /> in its parent items collection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1MenuItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.TextAlignmentProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.TextAlignment"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.TextAlignment">
+            <summary>
+            Gets or sets a value that indicates the horizontal alignment of text content in the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.TextDecorationsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.TextDecorations"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.TextDecorations">
+            <summary>
+            Gets or sets a TextDecorationCollection that contains the effects to apply to the text of the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.TextWrappingProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.TextWrapping"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.TextWrapping">
+            <summary>
+            Gets or sets a value that indicates how any text should be wrapped in the Header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IconProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.Icon"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.Icon">
+            <summary>
+            Gets or sets the icon that appears in a C1MenuItem.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.IconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.IconTemplate">
+            <summary>
+            Gets or sets the template of the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IsSubmenuOpenProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.IsSubmenuOpen"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.IsSubmenuOpen">
+            <summary>
+            Gets or sets a value that indicates whether the submenu of the C1MenuItem is open.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IsSubmenuOpenVisualProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.IsSubmenuOpenVisual"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.IsSubmenuOpenVisual">
+            <summary>
+            Gets or sets a value that indicates whether the submenu of the <see cref="T:C1.WPF.Menu.C1MenuItem" /> is open. This is used for visual purposes only.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IsCheckableProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.IsCheckable"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.IsCheckable">
+            <summary>
+            Gets or sets a value that indicates whether a <see cref="T:C1.WPF.Menu.C1MenuItem" /> can be checked.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IsCheckedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.IsChecked"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.IsChecked">
+            <summary>
+            Gets or sets a value that indicates whether the <see cref="T:C1.WPF.Menu.C1MenuItem" /> is checked.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IsHighlightedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.IsHighlighted"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.IsHighlighted">
+            <summary>
+            Gets or sets a value that indicates whether a <see cref="T:C1.WPF.Menu.C1MenuItem" /> is highlighted.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.GroupNameProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.GroupName"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.GroupName">
+            <summary>
+            Gets or sets the name that specifies which MenuItems are mutually exclusive (when checkable).
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.SubMenuMaxHeightProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.SubMenuMaxHeight"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.SubMenuMaxHeight">
+            <summary>
+            Gets or sets a value that indicates the MaxHeight of the SubMenu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.CommandProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.Command"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.Command">
+            <summary>
+            Gets or sets the command to invoke when this button is pressed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.CommandParameterProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.CommandParameter"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.CommandParameter">
+            <summary>
+            Gets or sets the parameter to pass to the Command property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.InputGestureTextProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.InputGestureText"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.InputGestureText">
+            <summary>
+            Gets or sets the text describing an input gesture that will call the command tied to the specified item.
+            </summary>
+            <remarks>This property does not associate the input gesture with the menu item; it simply adds text to the menu item. The application must handle the user's input to carry out the action.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.HotKeyProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.HotKey"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.HotKey">
+            <summary>
+            Gets or sets the text of the hotkey that will call the command tied to the specified item.
+            </summary>
+            <remarks>This property does not associate the hotkey with the menu item; it simply adds text to the menu item. The application must handle the user's input to carry out the action.</remarks>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.OpenIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.OpenIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.OpenIconStyle">
+            <summary>
+            Gets or sets the style of the open icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.PopupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.PopupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.PopupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.SeparatorStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.SeparatorStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.SeparatorStyle">
+            <summary>
+            Gets or sets the style of the separator items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.GroupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.GroupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.GroupStyle">
+            <summary>
+            Gets or sets the style of the group items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.MenuStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.MenuStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.MenuStyle">
+            <summary>
+            Gets or sets the style aplied to the sub-menus.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IsIndentedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.IsIndented"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.IsIndented">
+            <summary>
+            Gets or sets whether the Indent band is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IndentBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.IndentBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.IndentBackground">
+            <summary>
+            Gets or sets the brush used to paint the Indent band at the left.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.OpenIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.OpenIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.OpenIconTemplate">
+            <summary>
+            Gets or sets the template of the icon used to show this item has a sub-menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.ShowOpenIconProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.ShowOpenIcon"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.ShowOpenIcon">
+            <summary>
+            Gets or sets whether the open icon is displayed, provided the sub menu has items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.HighlightedBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.HighlightedBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.HighlightedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the menu item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.IsHighlightSupportedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.IsHighlightSupported"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.IsHighlightSupported">
+            <summary>
+            Gets or sets the <see cref="T:System.Boolean" /> value determining whether menu item should support highlighted state.
+            The default value is True. 
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuItem.OpenedBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuItem.OpenedBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuItem.OpenedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used in a menu item when this item is opened.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.ChangeVisualStateOpened(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Opened visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.ChangeVisualStateHighlighted(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Highlighted visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuItem.ChangeVisualStateIndented(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Indented visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.C1MenuList">
+            <summary>
+            List of menu items. This list can be set as the content of a dropdown to make a drop down list.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.ParentMenuItem">
+            <summary>
+            Gets the parent menu item.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.Level">
+            <summary>
+            Gets the nesting level.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._menuOpenDelay">
+            <summary>
+            Gets or Sets a value (in milliseconds) for the delay used when opening a submenu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._autoClose">
+            <summary>
+            Gets or sets a value indicating if the menu will auto close when the user clicks outside of it.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._detectBoundaries">
+            <summary>
+            Gets or sets a value indicating if the menu will auto update the position of its sub-menus when they are close to the boundaries of the application.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._orientation">
+            <summary>
+            Gets or sets the direction in which to render the Menu control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._subMenuMaxHeight">
+            <summary>
+            Gets or sets a value that indicates the MaxHeight of the SubMenu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._borderAlignment">
+            <summary>
+            Gets or sets the alignment of the border relative to the control bounds.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._itemStyle">
+            <summary>
+            Style of the items
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._separatorStyle">
+            <summary>
+            Gets or sets the style of the separator items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._groupStyle">
+            <summary>
+            Gets or sets the style of the group items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._popupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._subMenuStyle">
+            <summary>
+            Gets or set the style of the sub-menus.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._openIconTemplate">
+            <summary>
+            Gets or sets the template of the icon used to show this item has a sub-menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._openIconStyle">
+            <summary>
+            Gets or sets the style of the open icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._highlightedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the menu item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList._openedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used in a menu item when this item is opened.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuList.ItemClick">
+            <summary>
+            Occurs when a C1MenuItem is clicked.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuList.ItemOpening">
+            <summary>
+            Occurs when a C1MenuItem is opening.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuList.ItemOpened">
+            <summary>
+            Occurs when a C1MenuItem is opened.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuList.ItemClosing">
+            <summary>
+            Occurs when a C1MenuItem is closing.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuList.ItemClosed">
+            <summary>
+            Occurs when a C1MenuItem is closed.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuList.ItemChecked">
+            <summary>
+            Occurs when a C1MenuItem is checked.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuList.ItemUnchecked">
+            <summary>
+            Occurs when a C1MenuItem is unchecked.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuList.AutoClosing">
+            <summary>
+            Occurs when the Menu is AutoClosing.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Menu.C1MenuList.AutoClosed">
+            <summary>
+            Occurs when the Menu is AutoClosed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnItemClick(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1Menu.ItemClick"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnItemOpening(C1.WPF.Core.CancelSourceEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1Menu.ItemOpening"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnItemOpened(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1Menu.ItemOpened"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnItemClosing(C1.WPF.Core.CancelSourceEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1Menu.ItemClosing"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnItemClosed(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1Menu.ItemClosed"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnItemChecked(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1Menu.ItemChecked"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnItemUnchecked(C1.WPF.Core.SourcedEventArgs)">
+            <summary>
+            Raises the <see cref="E:C1Menu.ItemUnchecked"/> event.
+            </summary>
+            <param name="e">Provides data for the event.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.GetPreferedLocations">
+            <summary>
+            Gets a list of the preferred locations for the menu-items popup's content.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.Close">
+            <summary>
+            Forces closing all opened sub-menus.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnAutoCloseChanged">
+            <summary>
+            Called when the property AutoClose changed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.ShowAutoCloseAreas">
+            <summary>
+            If AutoClose is true the drop down menu will get closed when user: clicks outside of the menu area,
+            resizes the window, minimize ose maximize the window.
+            In WPF drop down menu will be closed even when window location is changed or deactivated.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnAutoClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Raises the AutoClosing event.
+            </summary>
+            <param name="e">Provides data for CancelEventArgs.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnAutoClosed(System.EventArgs)">
+            <summary>
+            Raises the AutoClosed event.
+            </summary>
+            <param name="e">Provides data for EventArgs.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1MenuList"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuList.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.MenuOpenDelayProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.MenuOpenDelay"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.MenuOpenDelay">
+            <summary>
+            Gets or Sets a value (in milliseconds) for the delay used when opening a submenu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.AutoCloseProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.AutoClose"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.AutoClose">
+            <summary>
+            Gets or sets a value indicating if the menu will auto close when the user clicks outside of it.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.DetectBoundariesProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.DetectBoundaries"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.DetectBoundaries">
+            <summary>
+            Gets or sets a value indicating if the menu will auto update the position of its sub-menus when they are close to the boundaries of the application.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.OrientationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.Orientation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.Orientation">
+            <summary>
+            Gets or sets the direction in which to render the Menu control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.SubMenuMaxHeightProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.SubMenuMaxHeight"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.SubMenuMaxHeight">
+            <summary>
+            Gets or sets a value that indicates the MaxHeight of the SubMenu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.BorderAlignmentProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.BorderAlignment"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.BorderAlignment">
+            <summary>
+            Gets or sets the alignment of the border relative to the control bounds.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.ItemStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.ItemStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.ItemStyle">
+            <summary>
+            Style of the items
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.SeparatorStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.SeparatorStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.SeparatorStyle">
+            <summary>
+            Gets or sets the style of the separator items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.GroupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.GroupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.GroupStyle">
+            <summary>
+            Gets or sets the style of the group items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.PopupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.PopupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.PopupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.SubMenuStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.SubMenuStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.SubMenuStyle">
+            <summary>
+            Gets or set the style of the sub-menus.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.OpenIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.OpenIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.OpenIconTemplate">
+            <summary>
+            Gets or sets the template of the icon used to show this item has a sub-menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.OpenIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.OpenIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.OpenIconStyle">
+            <summary>
+            Gets or sets the style of the open icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.HighlightedBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.HighlightedBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.HighlightedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the menu item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuList.OpenedBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuList.OpenedBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuList.OpenedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used in a menu item when this item is opened.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.C1MenuScrollViewer">
+            <summary>
+            C1MenuScrollViewer
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.MoveUpCommand">
+            <summary>
+            Command to scroll up.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.MoveDownCommand">
+            <summary>
+            Command to scroll down.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.MoveRightCommand">
+            <summary>
+            Command to scroll right.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.MoveLeftCommand">
+            <summary>
+            Command to scroll left.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.MoveTopCommand">
+            <summary>
+            Command to scroll to the top.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.MoveBottomCommand">
+            <summary>
+            Command to scroll to the bottom.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.MoveRightEndCommand">
+            <summary>
+            Command to scroll totally to the right.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.MoveLeftEndCommand">
+            <summary>
+            Command to scroll totally to the left.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._extentHeight">
+            <summary>
+            Gets a value that contains the vertical size of the extent. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._extentWidth">
+            <summary>
+            Gets a value that contains the horizontal size of the extent. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._horizontalOffset">
+            <summary>
+            Gets a value that contains the horizontal offset of the scrolled content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._scrollableHeight">
+            <summary>
+            Gets a value that represents the vertical size of the content element that can be scrolled.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._scrollableWidth">
+            <summary>
+            Gets a value that represents the horizontal size of the content element that can be scrolled.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._verticalOffset">
+            <summary>
+            Gets a value that contains the vertical offset of the scrolled content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._viewportHeight">
+            <summary>
+            Gets a value that contains the vertical size of the content's viewport.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._viewportWidth">
+            <summary>
+            Gets a value that contains the horizontal size of the content's viewport.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._canScrollUp">
+            <summary>
+            Gets a value that indicates whether the vertical scroll isn't in the top position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._canScrollRight">
+            <summary>
+            Gets a value that indicates whether the vertical scroll isn't in the right-most position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._canScrollLeft">
+            <summary>
+            Gets a value that indicates whether the vertical scroll isn't in the left-most position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._canScrollDown">
+            <summary>
+            Gets a value that indicates whether the vertical scroll isn't in the bottom position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._horizontalSmallChange">
+            <summary>
+            Gets or sets the value to be added to or subtracted from the horizontal offset value when the scroll is moved.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._verticalSmallChange">
+            <summary>
+            Gets or sets the value to be added to or subtracted from the vertical offset value when the scroll is moved.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._verticalScrollBarVisibility">
+            <summary>
+            Gets or sets a value that indicates whether a vertical commands should be displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._horizontalScrollBarVisibility">
+            <summary>
+            Gets or sets a value that indicates whether a horizontal commands should be displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer._scrollMode">
+            <summary>
+            Specifies when the scroll event should be raised.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollToVerticalOffset(System.Double)">
+            <summary>
+            Scrolls to vertical offset.
+            </summary>
+            <param name="offset">The offset.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollToHorizontalOffset(System.Double)">
+            <summary>
+            Scrolls to horizontal offset.
+            </summary>
+            <param name="offset">The offset.</param>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollUp">
+            <summary>
+            Scrolls the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content upward by <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.VerticalSmallChange"/> pixels.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollDown">
+            <summary>
+            Scrolls the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content downward by <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.VerticalSmallChange"/> pixels.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollRight">
+            <summary>
+            Scrolls the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content to the right by <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.HorizontalSmallChange"/> pixels.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollLeft">
+            <summary>
+            Scrolls the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content to the left by <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.HorizontalSmallChange"/> pixels.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollToHome">
+            <summary>
+            Scrolls vertically to the beginning of the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollToEnd">
+            <summary>
+            Scrolls vertically to the end of the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollToTop">
+            <summary>
+            Scrolls vertically to the beginning of the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollToBottom">
+            <summary>
+            Scrolls vertically to the end of the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollToRightEnd">
+            <summary>
+            Scrolls horizontally to the end of the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.ScrollToLeftEnd">
+            <summary>
+            Scrolls horizontally to the beginning of the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> content.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Menu.C1MenuScrollViewer"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuScrollViewer.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.ExtentHeightProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.ExtentHeight"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.ExtentHeight">
+            <summary>
+            Gets a value that contains the vertical size of the extent. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.ExtentWidthProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.ExtentWidth"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.ExtentWidth">
+            <summary>
+            Gets a value that contains the horizontal size of the extent. This is a dependency property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.HorizontalOffsetProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.HorizontalOffset"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.HorizontalOffset">
+            <summary>
+            Gets a value that contains the horizontal offset of the scrolled content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.ScrollableHeightProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.ScrollableHeight"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.ScrollableHeight">
+            <summary>
+            Gets a value that represents the vertical size of the content element that can be scrolled.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.ScrollableWidthProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.ScrollableWidth"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.ScrollableWidth">
+            <summary>
+            Gets a value that represents the horizontal size of the content element that can be scrolled.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.VerticalOffsetProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.VerticalOffset"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.VerticalOffset">
+            <summary>
+            Gets a value that contains the vertical offset of the scrolled content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.ViewportHeightProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.ViewportHeight"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.ViewportHeight">
+            <summary>
+            Gets a value that contains the vertical size of the content's viewport.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.ViewportWidthProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.ViewportWidth"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.ViewportWidth">
+            <summary>
+            Gets a value that contains the horizontal size of the content's viewport.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.CanScrollUpProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.CanScrollUp"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.CanScrollUp">
+            <summary>
+            Gets a value that indicates whether the vertical scroll isn't in the top position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.CanScrollRightProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.CanScrollRight"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.CanScrollRight">
+            <summary>
+            Gets a value that indicates whether the vertical scroll isn't in the right-most position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.CanScrollLeftProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.CanScrollLeft"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.CanScrollLeft">
+            <summary>
+            Gets a value that indicates whether the vertical scroll isn't in the left-most position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.CanScrollDownProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.CanScrollDown"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.CanScrollDown">
+            <summary>
+            Gets a value that indicates whether the vertical scroll isn't in the bottom position.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.HorizontalSmallChangeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.HorizontalSmallChange"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.HorizontalSmallChange">
+            <summary>
+            Gets or sets the value to be added to or subtracted from the horizontal offset value when the scroll is moved.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.VerticalSmallChangeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.VerticalSmallChange"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.VerticalSmallChange">
+            <summary>
+            Gets or sets the value to be added to or subtracted from the vertical offset value when the scroll is moved.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.VerticalScrollBarVisibilityProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.VerticalScrollBarVisibility"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.VerticalScrollBarVisibility">
+            <summary>
+            Gets or sets a value that indicates whether a vertical commands should be displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.HorizontalScrollBarVisibilityProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.HorizontalScrollBarVisibility"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.HorizontalScrollBarVisibility">
+            <summary>
+            Gets or sets a value that indicates whether a horizontal commands should be displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuScrollViewer.ScrollModeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuScrollViewer.ScrollMode"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuScrollViewer.ScrollMode">
+            <summary>
+            Specifies when the scroll event should be raised.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.OpacityConverter">
+            <summary>
+            Converter used to convert <see cref="T:System.Boolean"/> values into opacity values.
+            true = 1, false = 0.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.OpacityConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the source data before passing it to the target for display in the UI.
+            </summary>
+            <param name="value">The source data being passed to the target.</param>
+            <param name="targetType">The <see cref="T:System.Type"/> of data expected by the target dependency property.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the target dependency property.
+            </returns>
+        </member>
+        <member name="M:C1.WPF.Menu.OpacityConverter.ConvertBack(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
+            <summary>
+            Modifies the target data before passing it to the source object.  This method is called only in <see cref="F:System.Windows.Data.BindingMode.TwoWay"/> bindings.
+            </summary>
+            <param name="value">The target data being passed to the source.</param>
+            <param name="targetType">The <see cref="T:System.Type"/> of data expected by the source object.</param>
+            <param name="parameter">An optional parameter to be used in the converter logic.</param>
+            <param name="culture">The culture of the conversion.</param>
+            <returns>
+            The value to be passed to the source object.
+            </returns>
+        </member>
+        <member name="T:C1.WPF.Menu.C1MenuSeparator">
+            <summary>
+            Control that is used to separate items in menus and toolbar.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuSeparator._orientation">
+            <summary>
+            Gets or sets the direction of the separator.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuSeparator._isIndented">
+            <summary>
+            Gets or sets whether the Indent band is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuSeparator._indentBackground">
+            <summary>
+            Gets or sets the brush used to paint the Indent band at the left.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuSeparator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1MenuSeparator"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuSeparator.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Menu.C1MenuSeparator"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuSeparator.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuSeparator.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuSeparator.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuSeparator.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuSeparator.IsFocused">
+            <summary>
+            Gets whether the control is focused.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuSeparator.OrientationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuSeparator.Orientation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuSeparator.Orientation">
+            <summary>
+            Gets or sets the direction of the separator.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuSeparator.IsIndentedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuSeparator.IsIndented"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuSeparator.IsIndented">
+            <summary>
+            Gets or sets whether the Indent band is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1MenuSeparator.IndentBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1MenuSeparator.IndentBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1MenuSeparator.IndentBackground">
+            <summary>
+            Gets or sets the brush used to paint the Indent band at the left.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuSeparator.ChangeVisualStateCommon(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Common visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1MenuSeparator.ChangeVisualStateIndented(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Indented visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Menu.C1TilesMenuItem">
+            <summary>
+            Menu-item with a list of selectable items inside.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1TilesMenuItem._tileWidth">
+            <summary>
+            Gets or sets the width of the tiles.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1TilesMenuItem._tileHeight">
+            <summary>
+            Gets or sets the height of the tiles.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1TilesMenuItem._tileViewItemsSource">
+            <summary>
+            Gets or sets the source where the tiles are created from.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1TilesMenuItem._tileTemplate">
+            <summary>
+            Gets or sets the template of the tiles.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1TilesMenuItem.HasContent">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1TilesMenuItem.OnTapped(System.Object,C1.WPF.Core.C1TappedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1TilesMenuItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Menu.C1TilesMenuItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Menu.C1TilesMenuItem.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Menu.C1TilesMenuItem.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Menu.C1TilesMenuItem.TileWidthProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1TilesMenuItem.TileWidth"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1TilesMenuItem.TileWidth">
+            <summary>
+            Gets or sets the width of the tiles.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1TilesMenuItem.TileHeightProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1TilesMenuItem.TileHeight"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1TilesMenuItem.TileHeight">
+            <summary>
+            Gets or sets the height of the tiles.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1TilesMenuItem.TileViewItemsSourceProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1TilesMenuItem.TileViewItemsSource"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1TilesMenuItem.TileViewItemsSource">
+            <summary>
+            Gets or sets the source where the tiles are created from.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Menu.C1TilesMenuItem.TileTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Menu.C1TilesMenuItem.TileTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Menu.C1TilesMenuItem.TileTemplate">
+            <summary>
+            Gets or sets the template of the tiles.
+            </summary>
+        </member>
+    </members>
+</doc>

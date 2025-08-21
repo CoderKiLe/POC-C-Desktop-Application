@@ -1,0 +1,20 @@
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\bin\Debug\net9.0-windows\POC Resources WPF.exe
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\bin\Debug\net9.0-windows\POC Resources WPF.deps.json
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\bin\Debug\net9.0-windows\POC Resources WPF.runtimeconfig.json
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\bin\Debug\net9.0-windows\POC Resources WPF.dll
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\bin\Debug\net9.0-windows\POC Resources WPF.pdb
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\MainWindow.g.cs
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\App.g.cs
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF_MarkupCompile.cache
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF_MarkupCompile.lref
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\MainWindow.baml
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF.g.resources
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF.AssemblyInfoInputs.cache
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF.AssemblyInfo.cs
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF.csproj.CoreCompileInputs.cache
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF.dll
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\refint\POC Resources WPF.dll
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF.pdb
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\POC Resources WPF.genruntimeconfig.cache
+K:\POC - WPF and Winforms\WPF\POC Resources WPF\POC Resources WPF\obj\Debug\net9.0-windows\ref\POC Resources WPF.dll

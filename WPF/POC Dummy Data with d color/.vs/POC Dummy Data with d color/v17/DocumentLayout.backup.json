@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\POC and My Samples\\POC\\WPF\\POC Dummy Data with d color\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43E51583-4809-4D3E-A9A3-C44094C53911}|POC Dummy Data with d color\\POC Dummy Data with d color.csproj|k:\\poc and my samples\\poc\\wpf\\poc dummy data with d color\\poc dummy data with d color\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{43E51583-4809-4D3E-A9A3-C44094C53911}|POC Dummy Data with d color\\POC Dummy Data with d color.csproj|solutionrelative:poc dummy data with d color\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43E51583-4809-4D3E-A9A3-C44094C53911}|POC Dummy Data with d color\\POC Dummy Data with d color.csproj|k:\\poc and my samples\\poc\\wpf\\poc dummy data with d color\\poc dummy data with d color\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43E51583-4809-4D3E-A9A3-C44094C53911}|POC Dummy Data with d color\\POC Dummy Data with d color.csproj|solutionrelative:poc dummy data with d color\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC Dummy Data with d color\\POC Dummy Data with d color\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "POC Dummy Data with d color\\MainWindow.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC Dummy Data with d color\\POC Dummy Data with d color\\MainWindow.xaml",
+              "RelativeToolTip": "POC Dummy Data with d color\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-04T06:46:18.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC Dummy Data with d color\\POC Dummy Data with d color\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "POC Dummy Data with d color\\MainWindow.xaml.cs",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC Dummy Data with d color\\POC Dummy Data with d color\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "POC Dummy Data with d color\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T06:46:15.847Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

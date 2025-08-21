@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\POC and My Samples\\POC\\WPF\\POC WPF D Reference\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{855C6F89-C2C0-478C-9A8E-4E0F49362DA6}|POC WPF D Reference\\POC WPF D Reference.csproj|k:\\poc and my samples\\poc\\wpf\\poc wpf d reference\\poc wpf d reference\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{855C6F89-C2C0-478C-9A8E-4E0F49362DA6}|POC WPF D Reference\\POC WPF D Reference.csproj|solutionrelative:poc wpf d reference\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{855C6F89-C2C0-478C-9A8E-4E0F49362DA6}|POC WPF D Reference\\POC WPF D Reference.csproj|k:\\poc and my samples\\poc\\wpf\\poc wpf d reference\\poc wpf d reference\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{855C6F89-C2C0-478C-9A8E-4E0F49362DA6}|POC WPF D Reference\\POC WPF D Reference.csproj|solutionrelative:poc wpf d reference\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC WPF D Reference\\POC WPF D Reference\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "POC WPF D Reference\\MainWindow.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC WPF D Reference\\POC WPF D Reference\\MainWindow.xaml",
+              "RelativeToolTip": "POC WPF D Reference\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-14T08:41:09.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC WPF D Reference\\POC WPF D Reference\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "POC WPF D Reference\\MainWindow.xaml.cs",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC WPF D Reference\\POC WPF D Reference\\MainWindow.xaml.cs",
+              "RelativeToolTip": "POC WPF D Reference\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwC4AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T08:41:06.53Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

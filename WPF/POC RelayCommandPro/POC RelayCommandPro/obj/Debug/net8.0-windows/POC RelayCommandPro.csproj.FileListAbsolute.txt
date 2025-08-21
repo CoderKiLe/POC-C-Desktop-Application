@@ -1,0 +1,21 @@
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\bin\Debug\net8.0-windows\POC RelayCommandPro.exe
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\bin\Debug\net8.0-windows\POC RelayCommandPro.deps.json
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\bin\Debug\net8.0-windows\POC RelayCommandPro.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\bin\Debug\net8.0-windows\POC RelayCommandPro.dll
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\bin\Debug\net8.0-windows\POC RelayCommandPro.pdb
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\App.g.cs
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro_MarkupCompile.lref
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\MainWindow.baml
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro.g.resources
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro.dll
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\refint\POC RelayCommandPro.dll
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro.pdb
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\POC RelayCommandPro.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\ref\POC RelayCommandPro.dll
+K:\POC and My Samples\POC\WPF\POC RelayCommandPro\POC RelayCommandPro\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

@@ -1,0 +1,21 @@
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\App.g.cs
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button_MarkupCompile.lref
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button.dll
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\refint\POC RelayCommand Button.dll
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button.pdb
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\bin\Debug\net8.0-windows\POC RelayCommand Button.exe
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\bin\Debug\net8.0-windows\POC RelayCommand Button.deps.json
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\bin\Debug\net8.0-windows\POC RelayCommand Button.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\bin\Debug\net8.0-windows\POC RelayCommand Button.dll
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\bin\Debug\net8.0-windows\POC RelayCommand Button.pdb
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\MainWindow.baml
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button.g.resources
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\POC RelayCommand Button.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC RelayCommand Button\POC RelayCommand Button\obj\Debug\net8.0-windows\ref\POC RelayCommand Button.dll

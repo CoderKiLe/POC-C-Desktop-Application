@@ -1,0 +1,24 @@
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\bin\Debug\net8.0-windows\POC ICommand Tutorial Mastery.exe
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\bin\Debug\net8.0-windows\POC ICommand Tutorial Mastery.deps.json
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\bin\Debug\net8.0-windows\POC ICommand Tutorial Mastery.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\bin\Debug\net8.0-windows\POC ICommand Tutorial Mastery.dll
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\bin\Debug\net8.0-windows\POC ICommand Tutorial Mastery.pdb
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\App.g.cs
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery_MarkupCompile.lref
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\MainWindow.baml
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery.g.resources
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery.dll
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\refint\POC ICommand Tutorial Mastery.dll
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery.pdb
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\ref\POC ICommand Tutorial Mastery.dll
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICommand Tutorial Mastery.csproj.AssemblyReference.cache
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\POC ICom.F869E1E6.Up2Date
+K:\POC and My Samples\POC\WPF\POC ICommand Tutorial Mastery\POC ICommand Tutorial Mastery\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

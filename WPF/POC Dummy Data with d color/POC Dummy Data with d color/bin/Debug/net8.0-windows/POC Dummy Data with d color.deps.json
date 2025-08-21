@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "POC Dummy Data with d color/1.0.0": {
+        "runtime": {
+          "POC Dummy Data with d color.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "POC Dummy Data with d color/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

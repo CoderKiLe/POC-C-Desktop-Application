@@ -1,0 +1,79 @@
+[
+  {
+    "Name": "Products",
+    "Level": 0,
+    "SubItems": [
+      {
+        "Name": "Install",
+        "ActionName": "Install",
+        "Level": 1
+      },
+      {
+        "Name": "Build Repository",
+        "ActionName": "Builds",
+        "Level": 1
+      }
+      ,
+      {
+        "Name": "Apps & Tools",
+        "ActionName": "AppsAndTools",
+        "Level": 1
+      }
+    ]
+  },
+  {
+    "Name": "Activities",
+    "ActionName": "Activities",
+    "Level": 0
+  },
+  {
+    "Name": "License",
+    "Level": 0,
+    "SubItems": [
+      {
+        "Name": "Activate",
+        "ActionName": "ActivateLicense",
+        "Level": 1
+      },
+      {
+        "Name": "Deactivate",
+        "ActionName": "DeActivateLicense",
+        "Level": 1
+      }
+    ]
+  },
+  {
+    "Name": "Support",
+    "Level": 0,
+    "SubItems": [
+      {
+        "Name": "Submit Ticket",
+        "ActionName": "TicketSupport",
+        "Level": 1,
+        "LaunchExe": "https://developer.mescius.com/login?return_url=/my-account/my-support"
+      },
+      {
+        "Name": "Phone Support",
+        "ActionName": "PhoneSupport",
+        "Level": 1,
+        "LaunchExe": "https://developer.mescius.com/contact"
+      },
+      {
+        "Name": "Forums",
+        "ActionName": "Forums",
+        "Level": 1,
+        "LaunchExe": "https://developer.mescius.com/forums/channel-componentone"
+      }
+    ]
+  },
+  {
+    "Name": "Samples Explorer",
+    "ActionName": "SamplesExplorer",
+    "Level": 0
+  },
+  {
+    "Name": "Demo Explorer",
+    "ActionName": "DemoExplorer",
+    "Level": 0
+  }
+]

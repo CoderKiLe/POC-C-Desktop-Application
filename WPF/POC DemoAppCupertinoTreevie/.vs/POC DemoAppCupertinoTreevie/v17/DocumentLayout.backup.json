@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99DA9C44-18E1-4E58-95AD-6D8CD87C0C65}|CupertinoForms\\CupertinoForms.csproj|k:\\poc and my samples\\poc\\wpf\\poc demoappcupertinotreevie\\cupertinoforms\\themes\\views\\cupertinowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99DA9C44-18E1-4E58-95AD-6D8CD87C0C65}|CupertinoForms\\CupertinoForms.csproj|solutionrelative:cupertinoforms\\themes\\views\\cupertinowindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DA9C44-18E1-4E58-95AD-6D8CD87C0C65}|CupertinoForms\\CupertinoForms.csproj|k:\\poc and my samples\\poc\\wpf\\poc demoappcupertinotreevie\\cupertinoforms\\ui\\views\\cupertinowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99DA9C44-18E1-4E58-95AD-6D8CD87C0C65}|CupertinoForms\\CupertinoForms.csproj|solutionrelative:cupertinoforms\\ui\\views\\cupertinowindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99DA9C44-18E1-4E58-95AD-6D8CD87C0C65}|CupertinoForms\\CupertinoForms.csproj|k:\\poc and my samples\\poc\\wpf\\poc demoappcupertinotreevie\\cupertinoforms\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{99DA9C44-18E1-4E58-95AD-6D8CD87C0C65}|CupertinoForms\\CupertinoForms.csproj|solutionrelative:cupertinoforms\\themes\\generic.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681A759F-BC25-4966-AEF5-C0BD04747F18}|POC DemoAppCupertinoTreevie\\POC DemoAppCupertinoTreevie.csproj|k:\\poc and my samples\\poc\\wpf\\poc demoappcupertinotreevie\\poc demoappcupertinotreevie\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681A759F-BC25-4966-AEF5-C0BD04747F18}|POC DemoAppCupertinoTreevie\\POC DemoAppCupertinoTreevie.csproj|solutionrelative:poc demoappcupertinotreevie\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681A759F-BC25-4966-AEF5-C0BD04747F18}|POC DemoAppCupertinoTreevie\\POC DemoAppCupertinoTreevie.csproj|k:\\poc and my samples\\poc\\wpf\\poc demoappcupertinotreevie\\poc demoappcupertinotreevie\\starter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681A759F-BC25-4966-AEF5-C0BD04747F18}|POC DemoAppCupertinoTreevie\\POC DemoAppCupertinoTreevie.csproj|solutionrelative:poc demoappcupertinotreevie\\starter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Generic.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\CupertinoForms\\Themes\\Generic.xaml",
+              "RelativeDocumentMoniker": "CupertinoForms\\Themes\\Generic.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\CupertinoForms\\Themes\\Generic.xaml",
+              "RelativeToolTip": "CupertinoForms\\Themes\\Generic.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-07T03:35:16.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CupertinoWindow.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\CupertinoForms\\Themes\\Views\\CupertinoWindow.xaml",
+              "RelativeDocumentMoniker": "CupertinoForms\\Themes\\Views\\CupertinoWindow.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\CupertinoForms\\Themes\\Views\\CupertinoWindow.xaml",
+              "RelativeToolTip": "CupertinoForms\\Themes\\Views\\CupertinoWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-07T03:34:06.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CupertinoWindow.cs",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\CupertinoForms\\UI\\Views\\CupertinoWindow.cs",
+              "RelativeDocumentMoniker": "CupertinoForms\\UI\\Views\\CupertinoWindow.cs",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\CupertinoForms\\UI\\Views\\CupertinoWindow.cs",
+              "RelativeToolTip": "CupertinoForms\\UI\\Views\\CupertinoWindow.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T03:32:54.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Starter.cs",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\POC DemoAppCupertinoTreevie\\Starter.cs",
+              "RelativeDocumentMoniker": "POC DemoAppCupertinoTreevie\\Starter.cs",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\POC DemoAppCupertinoTreevie\\Starter.cs",
+              "RelativeToolTip": "POC DemoAppCupertinoTreevie\\Starter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T03:24:52.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.cs",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\POC DemoAppCupertinoTreevie\\App.cs",
+              "RelativeDocumentMoniker": "POC DemoAppCupertinoTreevie\\App.cs",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC DemoAppCupertinoTreevie\\POC DemoAppCupertinoTreevie\\App.cs",
+              "RelativeToolTip": "POC DemoAppCupertinoTreevie\\App.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T03:22:41.573Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

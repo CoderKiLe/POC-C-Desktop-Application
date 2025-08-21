@@ -1,0 +1,1761 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C1.WPF.Ribbon</name>
+    </assembly>
+    <members>
+        <member name="T:C1.WPF.Ribbon.C1Ribbon">
+            <summary>
+            Simplified Ribbon Toolbar
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon._isMinimized">
+            <summary>
+            Gets or sets whether the ribbon is minimized and show all the tools in a single line.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon._minimizedButtonStyle">
+            <summary>
+            Gets or sets the minimized button style.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon._minimizedIconStyle">
+            <summary>
+            Gets or sets the minimized icon style.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon._minimizedIconTemplate">
+            <summary>
+            Gets or sets the minimized icon template.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon._maximizedIconTemplate">
+            <summary>
+            Gets or sets the maximized icon template.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon._popupStyle">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Style"/> applied to the menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon._theme">
+            <summary>
+            Gets or sets a <see cref="T:System.Windows.ResourceDictionary"/> object containing C1Ribbon theme resources.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1Ribbon.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1Ribbon"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1Ribbon.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1Ribbon.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon.IsMinimizedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Ribbon.IsMinimized"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Ribbon.IsMinimized">
+            <summary>
+            Gets or sets whether the ribbon is minimized and show all the tools in a single line.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon.MinimizedButtonStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Ribbon.MinimizedButtonStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Ribbon.MinimizedButtonStyle">
+            <summary>
+            Gets or sets the minimized button style.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon.MinimizedIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Ribbon.MinimizedIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Ribbon.MinimizedIconStyle">
+            <summary>
+            Gets or sets the minimized icon style.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon.MinimizedIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Ribbon.MinimizedIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Ribbon.MinimizedIconTemplate">
+            <summary>
+            Gets or sets the minimized icon template.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon.MaximizedIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Ribbon.MaximizedIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Ribbon.MaximizedIconTemplate">
+            <summary>
+            Gets or sets the maximized icon template.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon.PopupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Ribbon.PopupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Ribbon.PopupStyle">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Style" /> applied to the menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Ribbon.ThemeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Ribbon.Theme"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Ribbon.Theme">
+            <summary>
+            Gets or sets a <see cref="T:System.Windows.ResourceDictionary" /> object containing C1Ribbon theme resources.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.C1ToolSeparator">
+            <summary>
+            This class is used to separate tools in <see cref="T:C1.WPF.Ribbon.C1Ribbon"/> or <see cref="T:C1.WPF.Ribbon.C1ToolStrip"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolSeparator._orientation">
+            <summary>
+            Gets or sets the orientation of the separator.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolSeparator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1ToolSeparator"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolSeparator.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Ribbon.C1ToolSeparator"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolSeparator.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolSeparator.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolSeparator.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolSeparator.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolSeparator.OrientationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolSeparator.Orientation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolSeparator.Orientation">
+            <summary>
+            Gets or sets the orientation of the separator.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolSeparator.ChangeVisualStateOrientation(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Orientation visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.C1ToolStrip">
+            <summary>
+            C1ToolStrip control represents a strip that contains one or more controls.
+            </summary>
+            <remarks>C1ToolStrip can be used alone or as content of toolbar group.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._theme">
+            <summary>
+            Gets or sets a <see cref="T:System.Windows.ResourceDictionary"/> object containing C1ToolStrip theme resources.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._overflow">
+            <summary>
+            Gets or sets the value that indicates how to handle the items  which do not fit to the available space.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._orientation">
+            <summary>
+            Gets or sets the orientation of the toolbar strip.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._toolIconSize">
+            <summary>
+            Gets or sets the size of the tool icons.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._overflowDropDownStyle">
+            <summary>
+            Gets or sets the style of the overflow drop-down.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._toolStyle">
+            <summary>
+            Gets or sets the style of the tools.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._groupCornerRadius">
+            <summary>
+            Gets or sets the corner-radius applied to a group of tools between two separators.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._editableToolStyle">
+            <summary>
+            Gets or sets the style applied to editable tools.
+            </summary>
+            <remarks>The editable tools need to keep the borders even if the rest of the tools don't use it.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._toolOrientation">
+            <summary>
+            Gets or sets the orientation inside every of the tools.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._toolLabelVisibility">
+            <summary>
+            Gets or sets the visibility of the label of the tools.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip._popupStyle">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Style"/> applied to the menu.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.OverflowItems">
+            <summary>
+            Gets the collection of items that does not fit inline and will be shown in the overflow menu.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolStrip.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1ToolStrip"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolStrip.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Ribbon.C1ToolStrip"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolStrip.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolStrip.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToolStrip.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.ThemeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.Theme"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.Theme">
+            <summary>
+            Gets or sets a <see cref="T:System.Windows.ResourceDictionary" /> object containing C1ToolStrip theme resources.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.OverflowProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.Overflow"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.Overflow">
+            <summary>
+            Gets or sets the value that indicates how to handle the items  which do not fit to the available space.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.OrientationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.Orientation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.Orientation">
+            <summary>
+            Gets or sets the orientation of the toolbar strip.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.ToolIconSizeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.ToolIconSize"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.ToolIconSize">
+            <summary>
+            Gets or sets the size of the tool icons.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.OverflowDropDownStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.OverflowDropDownStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.OverflowDropDownStyle">
+            <summary>
+            Gets or sets the style of the overflow drop-down.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.ToolStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.ToolStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.ToolStyle">
+            <summary>
+            Gets or sets the style of the tools.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.GroupCornerRadiusProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.GroupCornerRadius"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.GroupCornerRadius">
+            <summary>
+            Gets or sets the corner-radius applied to a group of tools between two separators.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.EditableToolStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.EditableToolStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.EditableToolStyle">
+            <summary>
+            Gets or sets the style applied to editable tools.
+            </summary>
+            <remarks>The editable tools need to keep the borders even if the rest of the tools don't use it.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.ToolOrientationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.ToolOrientation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.ToolOrientation">
+            <summary>
+            Gets or sets the orientation inside every of the tools.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.ToolLabelVisibilityProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.ToolLabelVisibility"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.ToolLabelVisibility">
+            <summary>
+            Gets or sets the visibility of the label of the tools.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToolStrip.PopupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToolStrip.PopupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToolStrip.PopupStyle">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Style" /> applied to the menu.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.ToolStripPanel">
+            <summary>
+            This is the main panel that show the visible (non-overflow) items.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.ToolStripPanel.NeedsOverflow">
+            <summary>
+            Gets true if not all the items were laid out.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.ToolStripPanel.ShownItemsCount">
+            <summary>
+            Gets the number of displayed items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.ToolStripPanel._orientation">
+            <summary>
+            Gets or sets the orientation of the panel.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.ToolStripPanel._maxToolCount">
+            <summary>
+            Gets or Sets the maximum number of tools that can be shown inline. The rest will be shown in the overflow menu.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.ToolStripPanel.CleanUpItems(System.Int32,System.Int32)">
+             <summary> 
+            Clean up the child elements that do not need to be displayed
+             </summary> 
+             <param name="firstVisibleChildIndex">the first child element index to be displayed </param> 
+             <param name="lastVisibleChildIndex"> Last displayed child element index </param> 
+        </member>
+        <member name="M:C1.WPF.Ribbon.ToolStripPanel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.ToolStripPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.ToolStripPanel.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Ribbon.ToolStripPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.ToolStripPanel.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Ribbon.ToolStripPanel.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.ToolStripPanel.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.ToolStripPanel.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.ToolStripPanel.OrientationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.ToolStripPanel.Orientation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.ToolStripPanel.Orientation">
+            <summary>
+            Gets or sets the orientation of the panel.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.ToolStripPanel.MaxToolCountProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.ToolStripPanel.MaxToolCount"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.ToolStripPanel.MaxToolCount">
+            <summary>
+            Gets or Sets the maximum number of tools that can be shown inline. The rest will be shown in the overflow menu.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.ToolStripOverflowItemsCollection">
+            <summary>
+            Collection of items that will not be shown inline.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.ToolStripOverflowItemsCollection.CollectionChanged">
+            <summary>
+            Notifies when the collection changes.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.ToolStripOverflow">
+            <summary>
+            Enumeration containing available values for overflow handling in <see cref="T:C1.WPF.Ribbon.C1ToolStrip"/> elements.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.ToolStripOverflow.None">
+            <summary>
+            Overflow is not handled.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.ToolStripOverflow.Menu">
+            <summary>
+            Shows menu.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.Localization.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.Localization.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.Localization.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.Localization.Resources.OverflowDropDown">
+            <summary>
+              Looks up a localized string similar to More Options.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonGroup">
+            <summary>
+            Represents a group of tools.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.GroupSizeDefinitions">
+            <summary>
+            Gets or sets the collection of group size definitions for the toolbar group.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._header">
+            <summary>
+            Gets or sets the header of the group.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._showDialogLauncher">
+            <summary>
+            Gets or sets whether a dialog launcher button is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._toolStripStyle">
+            <summary>
+            Gets or sets the style of the tool-strip.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._dialogLauncherButtonStyle">
+            <summary>
+            Gets or sets the style applied to the button that opens the dialog.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._dialogLauncherIconTemplate">
+            <summary>
+            Gets or sets the template of the dialog launcher icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._dialogLauncherIconStyle">
+            <summary>
+            Gets or sets the style of the dialog launcher icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._toolStyle">
+            <summary>
+            Gets or sets the style of the tools.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._editableToolStyle">
+            <summary>
+            Gets or sets the style applied to editable tools.
+            </summary>
+            <remarks>The editable tools need to keep the borders even if the rest of the tools don't use it.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._mouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._pressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._popupStyle">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Style"/> applied to the menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup._focusBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the focused control.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.RibbonGroup.DialogLauncherClick">
+            <summary>
+            Fires when dialog launcher is clicked.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.RibbonGroup.PropertyChanged">
+            <summary>
+            Raised when a property changed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroup.OnPropertyChanged(System.String)">
+            <summary>
+            Called when a property changed.
+            </summary>
+            <param name="propertyName">The name of the property that changed.</param>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroup.OnItemsChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Invoked when Items property changed.
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroup.TryCloseDropDownButton">
+            <summary>
+            Try to close the DropDownButton of this ToolbarGroup
+            </summary>
+            <returns>True if successfully closed. False otherwise</returns>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroup.PrepareContainerForItemOverride(System.Windows.DependencyObject,System.Object)">
+            <summary>
+            Prepares item container.
+            </summary>
+            <param name="element"></param>
+            <param name="item"></param>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.WidthConstraint">
+            <summary>
+            Gets the width constraint set by the <see cref="T:C1.WPF.Ribbon.C1Ribbon"/> control.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.IsCollapsed">
+            <summary>
+            Gets whether the group is collapsed.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.FullSizeVisibility">
+            <summary>
+            Gets the visibility of the FullSize part.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.CollapsedSizeVisibility">
+            <summary>
+            Gets the visibility of the collapsed part.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroup.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.RibbonGroup"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroup.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Ribbon.RibbonGroup"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroup.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroup.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroup.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.HeaderProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.Header"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.Header">
+            <summary>
+            Gets or sets the header of the group.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.ShowDialogLauncherProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.ShowDialogLauncher"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.ShowDialogLauncher">
+            <summary>
+            Gets or sets whether a dialog launcher button is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.ToolStripStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.ToolStripStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.ToolStripStyle">
+            <summary>
+            Gets or sets the style of the tool-strip.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.DialogLauncherButtonStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.DialogLauncherButtonStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.DialogLauncherButtonStyle">
+            <summary>
+            Gets or sets the style applied to the button that opens the dialog.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.DialogLauncherIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.DialogLauncherIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.DialogLauncherIconTemplate">
+            <summary>
+            Gets or sets the template of the dialog launcher icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.DialogLauncherIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.DialogLauncherIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.DialogLauncherIconStyle">
+            <summary>
+            Gets or sets the style of the dialog launcher icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.ToolStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.ToolStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.ToolStyle">
+            <summary>
+            Gets or sets the style of the tools.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.EditableToolStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.EditableToolStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.EditableToolStyle">
+            <summary>
+            Gets or sets the style applied to editable tools.
+            </summary>
+            <remarks>The editable tools need to keep the borders even if the rest of the tools don't use it.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.MouseOverBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.MouseOverBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.MouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.PressedBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.PressedBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.PressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.PopupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.PopupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.PopupStyle">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Style" /> applied to the menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroup.FocusBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroup.FocusBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroup.FocusBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the focused control.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonGroupWidthConstraint">
+            <summary>
+            Represents a constraint imposed by the <see cref="T:C1.WPF.Ribbon.C1Ribbon"/> over the <see cref="T:C1.WPF.Ribbon.RibbonGroup"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroupWidthConstraint.Full">
+            <summary>
+            There is enough space.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroupWidthConstraint.Reduced">
+            <summary>
+            When it is possible every tool will reduce its space. For example, avoiding showing the labels.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroupWidthConstraint.Collapsed">
+            <summary>
+            The group is collapsed.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonGroupPanel">
+            <summary>
+            Represents a panel that is used for element layout in RibbonGroup
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroupPanel._isMinimized">
+            <summary>
+            Gets or sets whether the ribbon group is collapsed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroupPanel._widthConstraint">
+            <summary>
+            Gets or sets a width constraint used by the ribon to control the size of the tools.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroupPanel.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Keep the base behavior and calculate new Size in case simplified toolbar
+            </summary>
+            <param name="availableSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroupPanel.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Arrange all the item in a group inline when the toolbar is collapsed
+            </summary>
+            <param name="finalSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroupPanel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.RibbonGroupPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroupPanel.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.Ribbon.RibbonGroupPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroupPanel.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroupPanel.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroupPanel.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonGroupPanel.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroupPanel.IsMinimizedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroupPanel.IsMinimized"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroupPanel.IsMinimized">
+            <summary>
+            Gets or sets whether the ribbon group is collapsed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonGroupPanel.WidthConstraintProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonGroupPanel.WidthConstraint"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroupPanel.WidthConstraint">
+            <summary>
+            Gets or sets a width constraint used by the ribon to control the size of the tools.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonGroupSizeDefinition">
+            <summary>
+            Represents the definition of tool sizes in ribbon group.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonGroupSizeDefinition.ToolSizes">
+            <summary>
+            Gets or sets the collection of tool sizes.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonToolSizeDefinitionCollection">
+            <summary>
+            Collection of <see cref="T:C1.WPF.Ribbon.RibbonToolSizeDefinition"/>.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonToolSizeDefinition">
+            <summary>
+            Specifies information about the size and visibility of the label of a tool.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonToolSizeDefinition.Size">
+            <summary>
+            Gets or sets the size of the tool.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonToolSizeDefinition.IsLabelVisible">
+            <summary>
+            Gets or sets whether the label is displayed or not.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonToolSize">
+            <summary>
+            Gets or sets whether the tool is rendered large or small.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonToolSize.Large">
+            <summary>
+            The tool is rendered with a large icon and the label below the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonToolSize.Small">
+            <summary>
+            The tool is rendered with a small icon and the text at the right of the icon.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonGroupSizeDefinitionCollection">
+            <summary>
+            Collection of  <see cref="T:C1.WPF.Ribbon.RibbonGroupSizeDefinition"/>.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonPanel">
+            <summary>
+            Panel that is used for element layout in <see cref="T:C1.WPF.Ribbon.C1Ribbon"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonPanel.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Called when measuring a control.
+            </summary>
+            <param name="availableSize"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonPanel.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Called when arranging a control.
+            </summary>
+            <param name="finalSize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonTabItem">
+            <summary>
+            TabItem type for simplified toolbar
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonTabItem.TabShape">
+            <summary>
+            Gets the visual form of the control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonTabItem._groups">
+            <summary>
+            ToolbarGroup for showing Controls
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonTabItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.RibbonTabItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonTabItem.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonTabItem.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.RibbonTabItem.GroupsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.RibbonTabItem.Groups"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.RibbonTabItem.Groups">
+            <summary>
+            ToolbarGroup for showing Controls
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.C1ButtonTool">
+            <summary>
+            Control tool that represents a button that performs an action.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ButtonTool._command">
+            <summary>
+            Gets or sets the command that can be bound to the tool.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ButtonTool._commandParameter">
+            <summary>
+            Gets or sets command parameter.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ButtonTool._commandTarget">
+            <summary>
+            Gets or sets command target.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.C1ButtonTool.Click">
+            <summary>
+            Occurs when the tool is clicked, either through the menu or the control itself.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ButtonTool.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1ButtonTool"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ButtonTool.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ButtonTool.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ButtonTool.CommandProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ButtonTool.Command"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ButtonTool.Command">
+            <summary>
+            Gets or sets the command that can be bound to the tool.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ButtonTool.CommandParameterProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ButtonTool.CommandParameter"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ButtonTool.CommandParameter">
+            <summary>
+            Gets or sets command parameter.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ButtonTool.CommandTargetProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ButtonTool.CommandTarget"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ButtonTool.CommandTarget">
+            <summary>
+            Gets or sets command target.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.C1ContentControlTool">
+            <summary>
+            Tools that allows showing an arbitrary content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ContentControlTool._content">
+            <summary>
+            Gets or sets the content displayed in this tool.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ContentControlTool.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1ContentControlTool"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ContentControlTool.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ContentControlTool.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ContentControlTool.ContentProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ContentControlTool.Content"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ContentControlTool.Content">
+            <summary>
+            Gets or sets the content displayed in this tool.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.C1DropDownTool">
+            <summary>
+            This control represents a drop-down button, with a <see cref="P:C1.WPF.Ribbon.C1DropDownTool.Content"/> element. 
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1DropDownTool._content">
+            <summary>
+            Gets or sets the popup content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1DropDownTool._contentTemplate">
+            <summary>
+            Gets or sets the DataTemplate used to create the popup content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1DropDownTool._isDropDownOpen">
+            <summary>
+            Gets or sets whether the drop-down is opened.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1DropDownTool._popupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.C1DropDownTool.IsDropDownOpenChanged">
+            <summary>
+            Occurs when the drop-down is open or closed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1DropDownTool.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Invoked on keyboard key down over C1DropDownTool.
+            This method overrides UIElement.OnKeyDown and will close the C1DropDownTool menu based on keyboard input.
+            This prevents focus from getting out of the dropdown if TAB or arrow keys are pressed.
+            This applies only when the dropdown is open.
+            </summary>
+            <param name="e">Keyboard key associated with the event.</param>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1DropDownTool.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1DropDownTool"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1DropDownTool.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1DropDownTool.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1DropDownTool.InitializeUI">
+            <summary>
+            Invoked during a call of ApplyTemplate() method.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1DropDownTool.ContentProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1DropDownTool.Content"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1DropDownTool.Content">
+            <summary>
+            Gets or sets the popup content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1DropDownTool.ContentTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1DropDownTool.ContentTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1DropDownTool.ContentTemplate">
+            <summary>
+            Gets or sets the DataTemplate used to create the popup content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1DropDownTool.IsDropDownOpenProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1DropDownTool.IsDropDownOpen"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1DropDownTool.IsDropDownOpen">
+            <summary>
+            Gets or sets whether the drop-down is opened.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1DropDownTool.PopupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1DropDownTool.PopupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1DropDownTool.PopupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.C1MenuTool">
+            <summary>
+            This tools groups a set of <see cref="P:C1.WPF.Ribbon.C1MenuTool.Tools"/> and display them as a drop-down menu.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1MenuTool.Tools">
+            <summary>
+            Gets the collection of sub-tools this tool will display as a menu.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1MenuTool.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1MenuTool"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1MenuTool.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1MenuTool.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="T:C1.WPF.Ribbon.MenuToolCollection">
+            <summary>
+            Collection of tools of <see cref="T:C1.WPF.Ribbon.C1MenuTool"/>.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.C1SelectTool">
+            <summary>
+            Tool that offers a list of values that can be selected.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool._itemsSource">
+            <summary>
+            Gets or sets the items displayed in the list.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool._itemConverter">
+            <summary>
+            Gets or sets the item converter.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool._selectedItem">
+            <summary>
+            Gets or sets the selected item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool._selectedIndex">
+            <summary>
+            Gets or sets the index of the selected item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool._itemTemplate">
+            <summary>
+            Gets or sets the template of the items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool._popupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.C1SelectTool.SelectedItemChanged">
+            <summary>
+            Occurs when the selected item changed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1SelectTool.OnEditCompleted">
+            <summary>
+            Called when the user ended editing.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1SelectTool.InitializeItemConverter">
+            <summary>
+            Initialize ItemConverter
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1SelectTool.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1SelectTool"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1SelectTool.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1SelectTool.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool.ItemsSourceProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1SelectTool.ItemsSource"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1SelectTool.ItemsSource">
+            <summary>
+            Gets or sets the items displayed in the list.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool.ItemConverterProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1SelectTool.ItemConverter"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1SelectTool.ItemConverter">
+            <summary>
+            Gets or sets the item converter.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool.SelectedItemProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1SelectTool.SelectedItem"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1SelectTool.SelectedItem">
+            <summary>
+            Gets or sets the selected item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool.SelectedIndexProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1SelectTool.SelectedIndex"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1SelectTool.SelectedIndex">
+            <summary>
+            Gets or sets the index of the selected item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool.ItemTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1SelectTool.ItemTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1SelectTool.ItemTemplate">
+            <summary>
+            Gets or sets the template of the items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1SelectTool.PopupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1SelectTool.PopupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1SelectTool.PopupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.C1ToggleButtonTool">
+            <summary>
+            Control that represents a toggle button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToggleButtonTool._command">
+            <summary>
+            Gets or sets the command that can be bound to the tool.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToggleButtonTool._commandParameter">
+            <summary>
+            Gets or sets command parameter.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToggleButtonTool._commandTarget">
+            <summary>
+            Gets or sets command target.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToggleButtonTool._isChecked">
+            <summary>
+            Gets or sets whether the button is checked.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.C1ToggleButtonTool.Click">
+            <summary>
+            Occurs when the tool is clicked, either through the menu or the control itself.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.C1ToggleButtonTool.Checked">
+            <summary>
+            Occurs when a System.Windows.Controls.Primitives.ToggleButton is checked.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.C1ToggleButtonTool.Unchecked">
+            <summary>
+            Occurs when a System.Windows.Controls.Primitives.ToggleButton is unchecked.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToggleButtonTool.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1ToggleButtonTool"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToggleButtonTool.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1ToggleButtonTool.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToggleButtonTool.CommandProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToggleButtonTool.Command"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToggleButtonTool.Command">
+            <summary>
+            Gets or sets the command that can be bound to the tool.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToggleButtonTool.CommandParameterProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToggleButtonTool.CommandParameter"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToggleButtonTool.CommandParameter">
+            <summary>
+            Gets or sets command parameter.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToggleButtonTool.CommandTargetProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToggleButtonTool.CommandTarget"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToggleButtonTool.CommandTarget">
+            <summary>
+            Gets or sets command target.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1ToggleButtonTool.IsCheckedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1ToggleButtonTool.IsChecked"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1ToggleButtonTool.IsChecked">
+            <summary>
+            Gets or sets whether the button is checked.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.C1Tool">
+            <summary>
+            C1Tool represents the base abstract class for different tools like <see cref="T:C1.WPF.Ribbon.C1ButtonTool"/>, <see cref="T:C1.WPF.Ribbon.C1ToggleButtonTool"/>, <see cref="T:C1.WPF.Ribbon.C1DropDownTool"/>, <see cref="T:C1.WPF.Ribbon.C1ContentControlTool"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.IsEditable">
+            <summary>
+            Gets whether the tool is editable and can get the keyboard focus to enter text.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._smallIconTemplate">
+            <summary>
+            Gets or sets the template used when the icon size is smaller or equals to 12 pixels.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._iconTemplate">
+            <summary>
+            Gets or sets the template of the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._largeIconTemplate">
+            <summary>
+            Gets or sets the template used when the icon size is greater or equals to 24 pixels.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._label">
+            <summary>
+            Gets or sets the text that will shown inside the tool and in the menus.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._description">
+            <summary>
+            Gets or sets a more descriptive text that will be shown in tooltips.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._hotKey">
+            <summary>
+            Gets or sets the hotkey text that will be displayed in tooltips and overflow menus.
+            </summary>
+            <remarks>This feature doesn't implement the hotkey action, it only shows the text.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._labelVisibility">
+            <summary>
+            Gets or sets the visibility of the label.
+            </summary>
+            <remarks>When the tool is used inside C1Ribbon, this control will handle this property.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._iconSize">
+            <summary>
+            Gets or sets the size of the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._orientation">
+            <summary>
+            Gets or sets the orientation of the tool element. When is Horizontal, the label will be drawn at the right of the icon, and when it is vertical, the label will be displayed at the bottom of the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._borderAlignment">
+            <summary>
+            Gets or sets the alignment of the border.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._mouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._pressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._focusBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the focused control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool._allowMerging">
+            <summary>
+            Gets or sets a value indicating whether the tool can be merged with adjacent tools which also has this property set to 'true' when they are placed on <see cref="T:C1.WPF.Ribbon.C1ToolStrip"/>.
+            </summary>
+            <example>
+            This shows how to use AllowMerging property in xaml.
+            <code>
+            &lt;c1:C1ToolStrip&gt;
+               &lt;c1:C1FontFamilyTool AllowMerging="True"/&gt;
+               &lt;c1:C1FontSizeTool AllowMerging="True"/&gt;
+               &lt;c1:C1ToolSeparator/&gt;
+               &lt;c1:C1IncreaseFontSizeTool/&gt;
+               &lt;c1:C1DecreaseFontSizeTool/&gt;
+            &lt;/c1:C1ToolStrip&gt;
+            </code>
+            </example>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.TemplateSettings">
+            <summary>
+            Gets the settings that can be bound in the template of the control.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1Tool.Execute(System.Object)">
+            <summary>
+            Called when the tool is executed.
+            </summary>
+            <param name="parameter">Execution parameter.</param>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1Tool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1Tool.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.C1Tool"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1Tool.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1Tool.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.SmallIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.SmallIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.SmallIconTemplate">
+            <summary>
+            Gets or sets the template used when the icon size is smaller or equals to 12 pixels.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.IconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.IconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.IconTemplate">
+            <summary>
+            Gets or sets the template of the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.LargeIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.LargeIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.LargeIconTemplate">
+            <summary>
+            Gets or sets the template used when the icon size is greater or equals to 24 pixels.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.LabelProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.Label"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.Label">
+            <summary>
+            Gets or sets the text that will shown inside the tool and in the menus.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.DescriptionProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.Description"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.Description">
+            <summary>
+            Gets or sets a more descriptive text that will be shown in tooltips.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.HotKeyProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.HotKey"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.HotKey">
+            <summary>
+            Gets or sets the hotkey text that will be displayed in tooltips and overflow menus.
+            </summary>
+            <remarks>This feature doesn't implement the hotkey action, it only shows the text.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.LabelVisibilityProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.LabelVisibility"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.LabelVisibility">
+            <summary>
+            Gets or sets the visibility of the label.
+            </summary>
+            <remarks>When the tool is used inside C1Ribbon, this control will handle this property.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.IconSizeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.IconSize"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.IconSize">
+            <summary>
+            Gets or sets the size of the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.OrientationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.Orientation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.Orientation">
+            <summary>
+            Gets or sets the orientation of the tool element. When is Horizontal, the label will be drawn at the right of the icon, and when it is vertical, the label will be displayed at the bottom of the icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.BorderAlignmentProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.BorderAlignment"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.BorderAlignment">
+            <summary>
+            Gets or sets the alignment of the border.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.MouseOverBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.MouseOverBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.MouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.PressedBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.PressedBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.PressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.FocusBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.FocusBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.FocusBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the focused control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.C1Tool.AllowMergingProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.Ribbon.C1Tool.AllowMerging"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.C1Tool.AllowMerging">
+            <summary>
+            Gets or sets a value indicating whether the tool can be merged with adjacent tools which also has this property set to 'true' when they are placed on <see cref="T:C1.WPF.Ribbon.C1ToolStrip" />.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.C1Tool.ChangeVisualStateOrientation(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Orientation visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.ToolLabelVisibility">
+            <summary>
+            Specifies the visibility of the label of a tool.
+            </summary>
+            <remarks><see cref="F:C1.WPF.Ribbon.ToolLabelVisibility.Inherited"/> value allows <see cref="T:C1.WPF.Ribbon.C1Ribbon"/> and <see cref="T:C1.WPF.Ribbon.C1ToolStrip"/> to set a specific value.</remarks>
+        </member>
+        <member name="F:C1.WPF.Ribbon.ToolLabelVisibility.Inherited">
+            <summary>
+            The visibility will be determined by the parent <see cref="T:C1.WPF.Ribbon.C1Ribbon"/> or <see cref="T:C1.WPF.Ribbon.C1ToolStrip"/> control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.ToolLabelVisibility.Visible">
+            <summary>
+            The label is visible.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.Ribbon.ToolLabelVisibility.Collapsed">
+            <summary>
+            The label is not visible.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.ToolTemplateSettings">
+            <summary>
+            Expose computed properties to be used inside the template of the tools.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.ToolTemplateSettings.IconTemplate">
+            <summary>
+            Gets the effective icon template.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.ToolTemplateSettings.Label">
+            <summary>
+            Gets the effective label string.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.ToolTemplateSettings.LabelVisibility">
+            <summary>
+            Gets the effective label visibility.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.Ribbon.ToolTemplateSettings.PropertyChanged">
+            <summary>
+            Occurs when property changed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.ToolTemplateSettings.OnPropertyChanged(System.String)">
+            <summary>
+            Called when a property changed.
+            </summary>
+            <param name="propertyName">Property name.</param>
+        </member>
+        <member name="T:C1.WPF.Ribbon.ToolMenuList">
+            <summary>
+            List of tools displayed as a <see cref="T:C1.WPF.Menu.C1MenuList"/>.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.ToolMenuItem">
+            <summary>
+            Menu item used in <see cref="T:C1.WPF.Ribbon.C1MenuTool"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.ToolMenuItem.Tool">
+            <summary>
+            Gets the tool associated to the menu.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.DropDownToolMenuItem">
+            <summary>
+            Drop-down menu item used in <see cref="T:C1.WPF.Ribbon.C1MenuTool"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.DropDownToolMenuItem.Content">
+            <summary>
+            Gets or sets the content of the drop-down menu.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.Ribbon.DropDownToolMenuItem.ContentTemplate">
+            <summary>
+            Gets or sets the content template of the drop-down menu.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.Ribbon.RibbonResources">
+            <summary>
+            This class gives access to localized resources from xaml.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.Ribbon.RibbonResources.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.Ribbon.RibbonResources"/> class.
+            </summary>
+        </member>
+    </members>
+</doc>

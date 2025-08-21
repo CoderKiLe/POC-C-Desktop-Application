@@ -1,0 +1,1584 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C1.WPF.TabControl</name>
+    </assembly>
+    <members>
+        <member name="T:C1.WPF.TabControl.C1TabControl">
+            <summary>
+            Represents a control that contains multiple items that share the same space on the screen.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._showSingleTab">
+            <summary>
+            Gets or sets a value that determines whether the tab strip is shown when the control has only one child.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabStripPlacement">
+            <summary>
+            Gets or sets the location of the panel with the tabs relative to the whole control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabStripOverlap">
+            <summary>
+            Gets or sets the length of the overlap between <see cref="T:C1.WPF.TabControl.C1TabItem"/>s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabStripOverlapDirection">
+            <summary>
+            Gets or sets the Z-Index arrangement of the <see cref="T:C1.WPF.TabControl.C1TabItem"/>s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabItemShape">
+            <summary>
+            Gets or sets the geometric shape of the tabs.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabItemClose">
+            <summary>
+            Gets or sets the location of the Close button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabStripMenuVisibility">
+            <summary>
+            Gets or sets the visibility of the menu listing the items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._canUserReorder">
+            <summary>
+            Whether the user is allowed to drag and drop and reorder C1TabItems from this C1TabControl.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._updateSourceCollection">
+            <summary>
+            Gets or sets whether changes in the order of the items are written to Items or ItemsSource.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabStripHorizontalAlignment">
+            <summary>
+            Gets or sets the horizontal alignment of the group of <see cref="T:C1.WPF.TabControl.C1TabItem"/>s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabStripVerticalAlignment">
+            <summary>
+            Gets or sets the vertical alignment of the group of <see cref="T:C1.WPF.TabControl.C1TabItem"/>s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._contentTemplate">
+            <summary>
+            Gets or sets the DataTemplate to apply to any TabItem that does not have a ContentTemplate property defined.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._unselectedContentMode">
+            <summary>
+            Gets or sets what is done with the content of unselected items.
+            </summary>
+            <remarks>The default is Default, which removes from the visual tree the content of unselected items. Changing the property to retain the content of unselected items improves performance at the cost of memory.</remarks>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._indicatorBrush">
+            <summary>
+            Brush for Indicator
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabItemRotation">
+            <summary>
+            Gets or sets angle of rotation of tab item content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._indicatorPlacement">
+            <summary>
+            Gets or sets the location of the panel with the tabs relative to the indicator.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._indicatorVisibility">
+            <summary>
+            Gets or sets the visibility of the indicator.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._indicatorSize">
+            <summary>
+            Gets or sets the indicator size.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabStripDropDownIconTemplate">
+            <summary>
+            Gets or sets icon template of the tab strip drop down.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabStripDropDownIconStyle">
+            <summary>
+            Gets or sets icon style of the tab strip drop down.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._nextIconTemplate">
+            <summary>
+            Gets or sets icon template of the next button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._nextIconStyle">
+            <summary>
+            Gets or sets icon style of the next button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._previousIconTemplate">
+            <summary>
+            Gets or sets icon template of the previous button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._previousIconStyle">
+            <summary>
+            Gets or sets icon style of the previous button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._nextButtonStyle">
+            <summary>
+            Gets or sets the style of the next button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._previousButtonStyle">
+            <summary>
+            Gets or sets the style of the previous button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabStripDropDownStyle">
+            <summary>
+            Gets or sets the style of the tab-strip drop-down which show the hidden tabs in a menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._closeIconStyle">
+            <summary>
+            Gets or sets the style of the close icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._closeIconTemplate">
+            <summary>
+            Gets or sets the template of the close icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._closeButtonStyle">
+            <summary>
+            Gets or sets the style of the close button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._tabHeaderStyle">
+            <summary>
+            Gets or sets the style of the tab header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._selectedTabHeaderStyle">
+            <summary>
+            Gets or sets the style of the selected tab header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._popupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._mouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._pressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.TabControl.C1TabControl.TabItemClosed">
+            <summary>
+            Occurs when a <see cref="T:C1.WPF.TabControl.C1TabItem"/> is closed.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.TabControl.C1TabControl.TabItemClosing">
+            <summary>
+            Occurs before a <see cref="T:C1.WPF.TabControl.C1TabItem"/> is closed.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.TabControl.C1TabControl.ItemsChanged">
+            <summary>
+            Called when the value of the System.Windows.Controls.ItemsControl.Items property changes.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.TabControl.C1TabControl.PropertyChanged">
+            <summary>
+            Called when a property changed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.OnPropertyChanged(System.String)">
+            <summary>
+            Called when a property changes.
+            </summary>
+            <param name="propertyName">The name of the property.</param>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.BeginUpdate">
+            <summary>
+            Maintains performance while items are added to the TabControl one at a time
+            by preventing the control from updating until the <see cref="M:C1.WPF.TabControl.C1TabControl.EndUpdate"/>
+            method is called.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.EndUpdate">
+            <summary>
+            Resumes updating the TabControl after updates are suspended by the
+            <see cref="M:C1.WPF.TabControl.C1TabControl.BeginUpdate"/> method.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.OnItemsChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <summary>
+            Called when the value of the <see cref="P:Items"/> property changes.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.TabControl.C1TabControl.VisibleItemsChanged">
+            <summary>
+            Occurs when the visible items change.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.VisibleItems">
+            <summary>
+            A read-only collection that contains all visible items in the <see cref="T:C1.WPF.TabControl.C1TabControl"/>
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.ContentTemplateSelector">
+            <summary>
+            Gets or sets a custom logic for choosing the template used to display the content of the control
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.ContentTemplateSelectorProperty">
+            <summary>
+            Identifies the ContentTemplateSelectorProperty dependency property.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.IsEventWithinTabItemHeader(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            This method checks if the event originated from is inside a C1TabItem header
+            by examining the OriginalSource of the KeyEventArgs.
+            </summary>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.SelectedItem">
+            <summary>
+            Gets or sets the selected item or returns null if the selection is empty.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.SelectedItemProperty">
+            <summary>
+            Identifies the
+            <see cref="P:System.Windows.Controls.TabControl.SelectedItem" />
+            dependency property.
+            </summary>
+            <value>
+            The identifier for the
+            <see cref="P:System.Windows.Controls.TabControl.SelectedItem" />
+            dependency property.
+            </value>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.OnSelectedItemChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            SelectedItem property changed handler.
+            </summary>
+            <param name="d">TabControl that changed its SelectedItem.</param>
+            <param name="e">The DependencyPropertyChangedEventArgs.</param>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl._selectedIndex">
+            <summary>
+            Gets or sets the index of the currently selected
+            <see cref="T:System.Windows.Controls.TabItem" />.
+            </summary>
+            <value>
+            The index of the currently selected
+            <see cref="T:System.Windows.Controls.TabItem" />, or -1 if a
+            <see cref="T:System.Windows.Controls.TabItem" /> is not selected.
+            </value>
+        </member>
+        <member name="E:C1.WPF.TabControl.C1TabControl.SelectionChanged">
+            <summary>
+            Occurs when selection changed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.ScrollIntoView(System.Object)">
+            <summary>
+            Causes the object to scroll into view. 
+            </summary>
+            <param name="item">Object to scroll.</param>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.SelectedContent">
+            <summary>
+            Gets the content of the currently selected
+            <see cref="T:System.Windows.Controls.TabItem" />.
+            </summary>
+            <value>
+            The content of the currently selected
+            <see cref="T:System.Windows.Controls.TabItem" />. The default is
+            null.
+            </value>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.SelectedContentProperty">
+            <summary>
+            Identifies the
+            <see cref="P:System.Windows.Controls.TabControl.SelectedContent" />
+            dependency property.
+            </summary>
+            <value>
+            The identifier for the
+            <see cref="P:System.Windows.Controls.TabControl.SelectedContent" />
+            dependency property.
+            </value>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.ActualSelectedTabHeaderStyle">
+            <summary>
+            Gets the actual style that will be applied to the row-header cells when they are selected.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.TabControl.C1TabControl"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.IsFocused">
+            <summary>
+            Gets whether the control is focused.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.ShowSingleTabProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.ShowSingleTab"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.ShowSingleTab">
+            <summary>
+            Gets or sets a value that determines whether the tab strip is shown when the control has only one child.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabStripPlacementProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabStripPlacement"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabStripPlacement">
+            <summary>
+            Gets or sets the location of the panel with the tabs relative to the whole control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabStripOverlapProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabStripOverlap"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabStripOverlap">
+            <summary>
+            Gets or sets the length of the overlap between <see cref="T:C1.WPF.TabControl.C1TabItem" />s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabStripOverlapDirectionProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabStripOverlapDirection"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabStripOverlapDirection">
+            <summary>
+            Gets or sets the Z-Index arrangement of the <see cref="T:C1.WPF.TabControl.C1TabItem" />s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabItemShapeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabItemShape"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabItemShape">
+            <summary>
+            Gets or sets the geometric shape of the tabs.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabItemCloseProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabItemClose"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabItemClose">
+            <summary>
+            Gets or sets the location of the Close button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabStripMenuVisibilityProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabStripMenuVisibility"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabStripMenuVisibility">
+            <summary>
+            Gets or sets the visibility of the menu listing the items.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.CanUserReorderProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.CanUserReorder"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.CanUserReorder">
+            <summary>
+            Whether the user is allowed to drag and drop and reorder C1TabItems from this C1TabControl.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.UpdateSourceCollectionProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.UpdateSourceCollection"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.UpdateSourceCollection">
+            <summary>
+            Gets or sets whether changes in the order of the items are written to Items or ItemsSource.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabStripHorizontalAlignmentProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabStripHorizontalAlignment"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabStripHorizontalAlignment">
+            <summary>
+            Gets or sets the horizontal alignment of the group of <see cref="T:C1.WPF.TabControl.C1TabItem" />s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabStripVerticalAlignmentProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabStripVerticalAlignment"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabStripVerticalAlignment">
+            <summary>
+            Gets or sets the vertical alignment of the group of <see cref="T:C1.WPF.TabControl.C1TabItem" />s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.ContentTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.ContentTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.ContentTemplate">
+            <summary>
+            Gets or sets the DataTemplate to apply to any TabItem that does not have a ContentTemplate property defined.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.UnselectedContentModeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.UnselectedContentMode"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.UnselectedContentMode">
+            <summary>
+            Gets or sets what is done with the content of unselected items.
+            </summary>
+            <remarks>The default is Default, which removes from the visual tree the content of unselected items. Changing the property to retain the content of unselected items improves performance at the cost of memory.</remarks>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.IndicatorBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.IndicatorBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.IndicatorBrush">
+            <summary>
+            Brush for Indicator
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabItemRotationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabItemRotation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabItemRotation">
+            <summary>
+            Gets or sets angle of rotation of tab item content.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.IndicatorPlacementProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.IndicatorPlacement"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.IndicatorPlacement">
+            <summary>
+            Gets or sets the location of the panel with the tabs relative to the indicator.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.IndicatorVisibilityProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.IndicatorVisibility"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.IndicatorVisibility">
+            <summary>
+            Gets or sets the visibility of the indicator.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.IndicatorSizeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.IndicatorSize"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.IndicatorSize">
+            <summary>
+            Gets or sets the indicator size.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabStripDropDownIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabStripDropDownIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabStripDropDownIconTemplate">
+            <summary>
+            Gets or sets icon template of the tab strip drop down.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabStripDropDownIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabStripDropDownIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabStripDropDownIconStyle">
+            <summary>
+            Gets or sets icon style of the tab strip drop down.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.NextIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.NextIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.NextIconTemplate">
+            <summary>
+            Gets or sets icon template of the next button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.NextIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.NextIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.NextIconStyle">
+            <summary>
+            Gets or sets icon style of the next button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.PreviousIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.PreviousIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.PreviousIconTemplate">
+            <summary>
+            Gets or sets icon template of the previous button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.PreviousIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.PreviousIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.PreviousIconStyle">
+            <summary>
+            Gets or sets icon style of the previous button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.NextButtonStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.NextButtonStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.NextButtonStyle">
+            <summary>
+            Gets or sets the style of the next button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.PreviousButtonStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.PreviousButtonStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.PreviousButtonStyle">
+            <summary>
+            Gets or sets the style of the previous button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabStripDropDownStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabStripDropDownStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabStripDropDownStyle">
+            <summary>
+            Gets or sets the style of the tab-strip drop-down which show the hidden tabs in a menu.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.CloseIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.CloseIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.CloseIconStyle">
+            <summary>
+            Gets or sets the style of the close icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.CloseIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.CloseIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.CloseIconTemplate">
+            <summary>
+            Gets or sets the template of the close icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.CloseButtonStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.CloseButtonStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.CloseButtonStyle">
+            <summary>
+            Gets or sets the style of the close button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.TabHeaderStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.TabHeaderStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.TabHeaderStyle">
+            <summary>
+            Gets or sets the style of the tab header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.SelectedTabHeaderStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.SelectedTabHeaderStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.SelectedTabHeaderStyle">
+            <summary>
+            Gets or sets the style of the selected tab header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.PopupStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.PopupStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.PopupStyle">
+            <summary>
+            Gets or sets the style of the popup.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.MouseOverBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.MouseOverBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.MouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.PressedBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.PressedBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.PressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabControl.SelectedIndexProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabControl.SelectedIndex"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabControl.SelectedIndex">
+            <summary>
+            Gets or sets the index of the currently selected
+            <see cref="T:System.Windows.Controls.TabItem" />.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.ChangeVisualStateCommon(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Common visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.ChangeVisualStateTabStripPlacement(System.Boolean)">
+            <summary>
+            Updates the current visual state of the TabStripPlacement visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabControl.ChangeVisualStateShape(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Shape visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.CancelSourceEventArgs">
+            <summary>
+            Provides data for a cancelable event.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.CancelSourceEventArgs.Source">
+            <summary>
+            Gets or sets the source of the event.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.UnselectedContentMode">
+            <summary>
+            Determines how <see cref="T:C1.WPF.TabControl.C1TabControl"/> retains the content of <see cref="T:C1.WPF.TabControl.C1TabItem"/>s never or no longer selected.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.UnselectedContentMode.Default">
+            <summary>
+            Specifies the default behavior.
+            </summary>
+            <remarks>
+            If the C1TabControl.UnselectedContentMode property is set to Default, the behavior is the same as with OutsideVisualTree setting.
+            If the C1TabItem.UnselectedContentMode property is set to Default, the actual TabItem behavior will be inherited from the parent C1TabControl.
+            </remarks>
+        </member>
+        <member name="F:C1.WPF.TabControl.UnselectedContentMode.OutsideVisualTree">
+            <summary>
+            The visual tree only contains the content of the selected item.
+            The content of unselected items is not in the visual tree.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.UnselectedContentMode.Collapsed">
+            <summary>
+            The content of an item is grafted into the visual tree when first selected.
+            When an item is unselected, the content is kept in visual tree with collapsed visibility.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.C1TabItem">
+            <summary>
+            Represents a selectable item in a <see cref="T:C1.WPF.TabControl.C1TabControl"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._tabShape">
+            <summary>
+            Gets or sets the visual form of the control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._canUserClose">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to dismiss this <see cref="T:C1.WPF.TabControl.C1TabItem"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._isSelectable">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to select this <see cref="T:C1.WPF.TabControl.C1TabItem"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._canUserPin">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to pin or unpin this <see cref="T:C1.WPF.TabControl.C1TabItem"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._unselectedContentMode">
+            <summary>
+            Gets or sets what is done with the content of unselected items.
+            </summary>
+            <remarks>The default is Default, which removes from the visual tree the content of unselected items. Changing the property to retain the content of unselected items improves performance at the cost of memory.</remarks>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._closeIconStyle">
+            <summary>
+            Gets or sets the style of the close icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._closeIconTemplate">
+            <summary>
+            Gets or sets the template of the close icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._closeButtonStyle">
+            <summary>
+            Gets or sets the style of the close button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._pinIconStyle">
+            <summary>
+            Gets or sets the style of the pin icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._pinIconTemplate">
+            <summary>
+            Gets or sets the template of the pin icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._pinButtonStyle">
+            <summary>
+            Gets or sets the style of the pin button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._unpinIconStyle">
+            <summary>
+            Gets or sets the style of the unpin icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._unpinIconTemplate">
+            <summary>
+            Gets or sets the template of the unpin icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._unpinButtonStyle">
+            <summary>
+            Gets or sets the style of the unpin button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._tabHeaderStyle">
+            <summary>
+            Gets or sets the style of the tab header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._selectedTabHeaderStyle">
+            <summary>
+            Gets or sets the style of the selected tab header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._mouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem._pressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.Header">
+            <summary>
+            Gets or sets the item that labels the control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.HeaderProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.Header"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.HeaderTemplateSelector">
+            <summary>
+            Gets or sets a data template selector that provides custom logic for choosing the template used to display the header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.HeaderTemplateSelectorProperty">
+            <summary>
+            Identifies the HeaderTemplateSelector dependency property.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.HeaderTemplate">
+            <summary>
+            Gets or sets a data template that is used to display the contents of the control's <see cref="P:C1.WPF.TabControl.C1TabItem.Header"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.HeaderTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.HeaderTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.IsSelected">
+            <summary>
+            Gets or sets a value indicating whether the
+            <see cref="T:System.Windows.Controls.TabItem" /> is currently
+            selected.
+            </summary>
+            <value>
+            True if the <see cref="T:System.Windows.Controls.TabItem" /> is
+            selected; otherwise, false.
+            </value>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.IsSelectedProperty">
+            <summary>
+            Identifies the
+            <see cref="P:System.Windows.Controls.TabItem.IsSelected" />
+            dependency property.
+            </summary>
+            <value>
+            The identifier for the
+            <see cref="P:System.Windows.Controls.TabItem.IsSelected" />
+            dependency property.
+            </value>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.OnIsSelectedChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            IsSelected changed handler.
+            </summary>
+            <param name="d">TabItem that changed IsSelected.</param>
+            <param name="e">The DependencyPropertyChangedEventArgs.</param>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.OnStyleChanged(System.Windows.Style,System.Windows.Style)">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.OnContentTemplateChanged(System.Windows.DataTemplate,System.Windows.DataTemplate)">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.OnContentChanged(System.Object,System.Object)">
+            <summary>
+            Called when the value of the <see cref="P:Content"/> property changes.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Provides class handling for the <see cref="E:KeyDown"/> event that occurs when the user presses a key while this control has focus.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            Called before the <see cref="E:MouseLeftButtonDown"/> event occurs.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.OnSelected(System.Windows.RoutedEventArgs)">
+            <summary>
+            Called to indicate that the
+            <see cref="P:System.Windows.Controls.TabItem.IsSelected" /> property
+            has changed to true.
+            </summary>
+            <param name="e">
+            A <see cref="T:System.Windows.RoutedEventArgs" /> that contains the
+            event data.
+            </param>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.OnUnselected(System.Windows.RoutedEventArgs)">
+            <summary>
+            Called to indicate that the
+            <see cref="P:System.Windows.Controls.TabItem.IsSelected" /> property
+            has changed to false.
+            </summary>
+            <param name="e">
+            A <see cref="T:System.Windows.RoutedEventArgs" /> that contains the
+            event data.
+            </param>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.TabControl.C1TabItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.TabControl.C1TabItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.IsFocused">
+            <summary>
+            Gets whether the control is focused.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.TabShapeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.TabShape"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.TabShape">
+            <summary>
+            Gets or sets the visual form of the control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.CanUserCloseProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.CanUserClose"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.CanUserClose">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to dismiss this <see cref="T:C1.WPF.TabControl.C1TabItem" />.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.IsSelectableProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.IsSelectable"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.IsSelectable">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to select this <see cref="T:C1.WPF.TabControl.C1TabItem" />.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.ActualPinModeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.ActualPinMode"/> dependency property. 
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.CanUserPinProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.CanUserPin"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.CanUserPin">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to pin or unpin this <see cref="T:C1.WPF.TabControl.C1TabItem" />.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.UnselectedContentModeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.UnselectedContentMode"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.UnselectedContentMode">
+            <summary>
+            Gets or sets what is done with the content of unselected items.
+            </summary>
+            <remarks>The default is Default, which removes from the visual tree the content of unselected items. Changing the property to retain the content of unselected items improves performance at the cost of memory.</remarks>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.CloseIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.CloseIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.CloseIconStyle">
+            <summary>
+            Gets or sets the style of the close icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.CloseIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.CloseIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.CloseIconTemplate">
+            <summary>
+            Gets or sets the template of the close icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.CloseButtonStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.CloseButtonStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.CloseButtonStyle">
+            <summary>
+            Gets or sets the style of the close button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.PinIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.PinIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.PinIconStyle">
+            <summary>
+            Gets or sets the style of the pin icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.PinIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.PinIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.PinIconTemplate">
+            <summary>
+            Gets or sets the template of the pin icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.PinButtonStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.PinButtonStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.PinButtonStyle">
+            <summary>
+            Gets or sets the style of the pin button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.UnpinIconStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.UnpinIconStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.UnpinIconStyle">
+            <summary>
+            Gets or sets the style of the unpin icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.UnpinIconTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.UnpinIconTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.UnpinIconTemplate">
+            <summary>
+            Gets or sets the template of the unpin icon.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.UnpinButtonStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.UnpinButtonStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.UnpinButtonStyle">
+            <summary>
+            Gets or sets the style of the unpin button.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.TabHeaderStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.TabHeaderStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.TabHeaderStyle">
+            <summary>
+            Gets or sets the style of the tab header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.SelectedTabHeaderStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.SelectedTabHeaderStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.SelectedTabHeaderStyle">
+            <summary>
+            Gets or sets the style of the selected tab header.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.MouseOverBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.MouseOverBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.MouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItem.PressedBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItem.PressedBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItem.PressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.ChangeVisualStateCommon(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Common visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItem.ChangeVisualStatePinMode(System.Boolean)">
+            <summary>
+            Updates the current visual state of the PinMode visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.PinMode">
+            <summary>
+            Possible states of pin status for a <see cref="T:C1.WPF.TabControl.C1TabItem"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.PinMode.Unpinned">
+            <summary>
+            The <see cref="T:C1.WPF.TabControl.C1TabItem"/> is scrollable <see cref="T:C1.WPF.TabControl.C1TabItem"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.PinMode.Pinned">
+            <summary>
+            The <see cref="T:C1.WPF.TabControl.C1TabItem"/> is unscrollable and fixed <see cref="T:C1.WPF.TabControl.C1TabItem"/>.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.C1TabItemBorder">
+            <summary>
+            Control containing the header of a <see cref="T:C1.WPF.TabControl.C1TabItem"/>.
+            Supports different appearances, defined by the <see cref="P:C1.WPF.TabControl.C1TabItemBorder.Shape"/> property.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemBorder._shape">
+            <summary>
+            Gets or sets the geometric shape of the tab.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItemBorder.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.TabControl.C1TabItemBorder"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItemBorder.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItemBorder.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemBorder.ShapeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItemBorder.Shape"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItemBorder.Shape">
+            <summary>
+            Gets or sets the geometric shape of the tab.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItemBorder.ChangeVisualStateShape(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Shape visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.C1TabItemBorderClipConverter">
+            <summary>
+            Converter used to clip off the bottom part of ribbon borders.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.C1SlopedBorderAdjustConverter">
+            <summary>
+            Converter used to adjust a path so that it renders its stroke inside and not to both side of its position.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.C1TabItemPresenter">
+            <summary>
+            Internal element used in both <see cref="T:C1.WPF.TabControl.C1TabItem"/> and C1DockTabItem to avoid repetition.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemPresenter._tabShape">
+            <summary>
+            Gets or sets the visual form of the control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemPresenter._tabStripPlacement">
+            <summary>
+            Gets or sets the location of the panel with the tabs relative to the whole control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemPresenter._mouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemPresenter._pressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItemPresenter.RotationAngle">
+            <summary>
+            Gets or sets the rotation angle.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemPresenter.RotationAngleProperty">
+            <summary>
+            Defines the <see cref="P:C1.WPF.TabControl.C1TabItemPresenter.RotationAngle"/> dependency property.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItemPresenter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.TabControl.C1TabItemPresenter"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItemPresenter.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItemPresenter.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItemPresenter.IsFocused">
+            <summary>
+            Gets whether the control is focused.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemPresenter.TabShapeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItemPresenter.TabShape"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItemPresenter.TabShape">
+            <summary>
+            Gets or sets the visual form of the control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemPresenter.TabStripPlacementProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItemPresenter.TabStripPlacement"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItemPresenter.TabStripPlacement">
+            <summary>
+            Gets or sets the location of the panel with the tabs relative to the whole control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemPresenter.MouseOverBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItemPresenter.MouseOverBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItemPresenter.MouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemPresenter.PressedBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabItemPresenter.PressedBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabItemPresenter.PressedBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to paint a button when it is pressed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItemPresenter.ChangeVisualStateCommon(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Common visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabItemPresenter.ChangeVisualStateTabStripPlacement(System.Boolean)">
+            <summary>
+            Updates the current visual state of the TabStripPlacement visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.C1TabPanel">
+            <summary>
+            Internal element used in the control template of <see cref="T:C1.WPF.TabControl.C1TabControl"/>s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabPanel._orientation">
+            <summary>
+            Gets or sets a value that indicates the dimension by which child elements are stacked.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabPanel.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the "Arrange" pass of layout.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabPanel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.TabControl.C1TabPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabPanel.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.TabControl.C1TabPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabPanel.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabPanel.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabPanel.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.TabControl.C1TabPanel.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabPanel.OrientationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabPanel.Orientation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.C1TabPanel.Orientation">
+            <summary>
+            Gets or sets a value that indicates the dimension by which child elements are stacked.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabPanel.OverlapProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabPanel.Overlap"/> dependency property. 
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabPanel.OverlapDirectionProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.TabControl.C1TabPanel.OverlapDirection"/> dependency property. 
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.C1TabPanelOverlapDirection">
+            <summary>
+            Z-Index arrangement of the items in the <see cref="T:C1.WPF.TabControl.C1TabPanel"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabPanelOverlapDirection.Right">
+            <summary>
+            Right-most is in the back.
+            Selected is in front.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabPanelOverlapDirection.Left">
+            <summary>
+            Left-most is in the back.
+            Selected is in front.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabPanelOverlapDirection.RightLeftFromSelected">
+            <summary>
+            Left-most is in the back, right-most is in the back,
+            selected is in front.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.C1TabItemShape">
+            <summary>
+            Supported shapes for the <see cref="T:C1.WPF.TabControl.C1TabItem"/>
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemShape.Rectangle">
+            <summary>
+            Squared tab shape.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemShape.Rounded">
+            <summary>
+            Rounded tab shape.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemShape.Sloped">
+            <summary>
+            Sloped tab shape.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemShape.Ribbon">
+            <summary>
+            S-shaped tab.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.C1TabItemCloseOptions">
+            <summary>
+            Close button options for the <see cref="T:C1.WPF.TabControl.C1TabControl"/>
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemCloseOptions.None">
+            <summary>
+            Close button is not shown for the <see cref="T:C1.WPF.TabControl.C1TabItem"/>s.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemCloseOptions.InEachTab">
+            <summary>
+            A close button is shown in each <see cref="T:C1.WPF.TabControl.C1TabItem"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.TabControl.C1TabItemCloseOptions.GlobalClose">
+            <summary>
+            A unique close button is shown, and the selected <see cref="T:C1.WPF.TabControl.C1TabItem"/>
+            is closed when it's pressed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.Ranking.OnAdded(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Silverlight first inserts all n elements in ItemsControl.Items and then calls OnItemsChanged n times with Action=Add.
+            This is a problem because rankFromIndex may return -1 for existing items.
+            So we add all items on the first add and then ignore the following.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.Resources.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.Cancel">
+            <summary>
+              Looks up a localized string similar to Cancel.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.Close">
+            <summary>
+              Looks up a localized string similar to Close.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.CloseGlobal">
+            <summary>
+              Looks up a localized string similar to Close Selected Item.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.Menu">
+            <summary>
+              Looks up a localized string similar to Menu.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.Next">
+            <summary>
+              Looks up a localized string similar to Next.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.No">
+            <summary>
+              Looks up a localized string similar to No.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.OK">
+            <summary>
+              Looks up a localized string similar to OK.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.Pin">
+            <summary>
+              Looks up a localized string similar to Pin.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.Previous">
+            <summary>
+              Looks up a localized string similar to Previous.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.UnPin">
+            <summary>
+              Looks up a localized string similar to UnPin.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.TabControl.Resources.Resources.Yes">
+            <summary>
+              Looks up a localized string similar to Yes.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.TabControlResources">
+            <summary>
+            This class gives access to localized resources from xaml.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.TabControlResources.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.TabControl.TabControlResources"/> class.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.TabControl.Automation.TabControlAutomationPeer">
+            <summary>
+            Automation peer for <see cref="T:C1.WPF.TabControl.C1TabControl"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.TabControl.Automation.TabControlAutomationPeer.#ctor(C1.WPF.TabControl.C1TabControl)">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.TabControl.Automation.TabControlAutomationPeer"/> class.
+            </summary>
+            <param name="owner">The FrameworkElement associated with this <see cref="T:C1.WPF.TabControl.Automation.TabControlAutomationPeer"/>.</param>
+        </member>
+        <member name="M:C1.WPF.TabControl.Automation.TabControlAutomationPeer.GetClassNameCore">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.TabControl.Automation.TabControlAutomationPeer.GetAutomationControlTypeCore">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

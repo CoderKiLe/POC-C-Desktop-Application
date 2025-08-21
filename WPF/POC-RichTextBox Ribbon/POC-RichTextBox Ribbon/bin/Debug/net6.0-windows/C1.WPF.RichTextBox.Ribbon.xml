@@ -1,0 +1,3359 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C1.WPF.RichTextBox.Ribbon</name>
+    </assembly>
+    <members>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon">
+            <summary>
+            Ribbon for <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> control.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon._richTextBox">
+            <summary>
+            Gets or sets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> associated with this <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon"/>.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon.MessageBoxShowing">
+            <summary>
+            Occurs when showing message box
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon.OnMessageBoxShowing(System.String,System.Windows.MessageBoxImage,System.Windows.UIElement)">
+            <summary>
+            Raises the <see cref="E:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon.MessageBoxShowing"/> event.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon.RichTextBoxProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon.RichTextBox"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon.RichTextBox">
+            <summary>
+            Gets or sets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox" /> associated with this <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon" />.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip">
+            <summary>
+            ToolStrip for <see cref="P:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip.RichTextBox"/> control.
+            </summary>
+            <remarks>The inner tools will be automatically bound to the assigned <see cref="P:RichTextBox"/>.</remarks>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip._richTextBox">
+            <summary>
+            Gets or sets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> associated with this <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip.RichTextBoxProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip.RichTextBox"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip.RichTextBox">
+            <summary>
+            Gets or sets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox" /> associated with this <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxToolStrip" />.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.LengthUnitConverter">
+            <summary>
+            Converts <see cref="T:C1.WPF.RichTextBox.Documents.C1LengthUnitType"/> to text.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.FindAndReplace">
+            <summary>
+            Control for finding and replacing text from the toolbar.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.FindAndReplace.OnPreviewKeyDown(System.Windows.Input.KeyEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.FindAndReplace._richTextBox">
+            <summary>
+            Gets or sets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> associated with this tool.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.FindAndReplace._dropDown">
+            <summary>
+            Gets or sets the dropdown of this tool.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.FindAndReplace.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.FindAndReplace"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.FindAndReplace.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.FindAndReplace"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.FindAndReplace.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.FindAndReplace.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.FindAndReplace.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.FindAndReplace.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.FindAndReplace.RichTextBoxProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.FindAndReplace.RichTextBox"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.FindAndReplace.RichTextBox">
+            <summary>
+            Gets or sets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox" /> associated with this tool.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.FindAndReplace.DropDownProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.FindAndReplace.DropDown"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.FindAndReplace.DropDown">
+            <summary>
+            Gets or sets the dropdown of this tool.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog">
+            <summary>
+            Contents of the dialog used in <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertHyperlinkTool"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog._text">
+            <summary>
+            Gets or sets the content of the text field.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog._url">
+            <summary>
+            Gets or sets the content of the url field.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog._targetName">
+            <summary>
+            Gets or sets the name of a target window or frame.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.Completed">
+            <summary>
+            Event fired when the OK button is clicked.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.TextProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.Text"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.Text">
+            <summary>
+            Gets or sets the content of the text field.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.UrlProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.Url"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.Url">
+            <summary>
+            Gets or sets the content of the url field.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.TargetNameProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.TargetName"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.HyperlinkDialog.TargetName">
+            <summary>
+            Gets or sets the name of a target window or frame.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.ImageDialog">
+            <summary>
+            Contents of the dialog used in <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog._url">
+            <summary>
+            Gets or sets the content of the url field.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog._stream">
+            <summary>
+            Gets or sets an array of bytes with image data.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog._filename">
+            <summary>
+            Gets or sets the name of the selected file.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog._canUserInsertUrl">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to insert linked images via an internet address.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog._canUserInsertFile">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to insert an image from data in a local file.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.RichTextBox.Ribbon.ImageDialog.FileSelected">
+            <summary>
+            Event fired when the file OK button is clicked.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.RichTextBox.Ribbon.ImageDialog.UrlSelected">
+            <summary>
+            Event fired when the Url OK button is clicked.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.ImageDialog.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.ImageDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.ImageDialog.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.ImageDialog"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.ImageDialog.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.ImageDialog.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.ImageDialog.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog.UrlProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.Url"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.Url">
+            <summary>
+            Gets or sets the content of the url field.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog.StreamProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.Stream"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.Stream">
+            <summary>
+            Gets or sets an array of bytes with image data.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog.FilenameProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.Filename"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.Filename">
+            <summary>
+            Gets or sets the name of the selected file.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog.CanUserInsertUrlProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.CanUserInsertUrl"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.CanUserInsertUrl">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to insert linked images via an internet address.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.ImageDialog.CanUserInsertFileProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.CanUserInsertFile"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.ImageDialog.CanUserInsertFile">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to insert an image from data in a local file.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.InsertTableGrid">
+            <summary>
+            A helper control for <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid._cellSize">
+            <summary>
+            Gets or sets the size of cell in the dropdown.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid._columns">
+            <summary>
+            Gets or sets the initial number of columns in the cell grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid._rows">
+            <summary>
+            Gets or sets the initial number of rows in the cell grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid._insertTableCommand">
+            <summary>
+            Gets or sets the command that is executed when user selects the range of cells to be inserted.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid._convertTextCommand">
+            <summary>
+            Gets or sets the command that is executed when a user chooses the converte text hyperlink.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.InsertTableGrid"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.InsertTableGrid"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.CellSizeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.CellSize"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.CellSize">
+            <summary>
+            Gets or sets the size of cell in the dropdown.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.ColumnsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.Columns"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.Columns">
+            <summary>
+            Gets or sets the initial number of columns in the cell grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.RowsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.Rows"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.Rows">
+            <summary>
+            Gets or sets the initial number of rows in the cell grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.InsertTableCommandProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.InsertTableCommand"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.InsertTableCommand">
+            <summary>
+            Gets or sets the command that is executed when user selects the range of cells to be inserted.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.ConvertTextCommandProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.ConvertTextCommand"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGrid.ConvertTextCommand">
+            <summary>
+            Gets or sets the command that is executed when a user chooses the converte text hyperlink.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel">
+            <summary>
+            A helper panel for <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel._cellSize">
+            <summary>
+            Gets or sets the size of cell in the dropdown.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel._columns">
+            <summary>
+            Gets or sets the initial number of columns in the cell grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel._rows">
+            <summary>
+            Gets or sets the initial number of rows in the cell grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel._cellTemplate">
+            <summary>
+            Gets or sets the template for each cell in the grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel._selectedCellTemplate">
+            <summary>
+            Gets or sets the template for each selected cell in the grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel._minRows">
+            <summary>
+            Gets or sets the mininum number of rows in the grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel._minColumns">
+            <summary>
+            Gets or sets the minimum number of columns in the grid.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.Finalize">
+            <summary>
+            Finalizes this instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.IsDisposed">
+            <summary>
+            Gets whether this instance is disposed.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.CellSizeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.CellSize"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.CellSize">
+            <summary>
+            Gets or sets the size of cell in the dropdown.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.ColumnsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.Columns"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.Columns">
+            <summary>
+            Gets or sets the initial number of columns in the cell grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.RowsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.Rows"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.Rows">
+            <summary>
+            Gets or sets the initial number of rows in the cell grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.CellTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.CellTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.CellTemplate">
+            <summary>
+            Gets or sets the template for each cell in the grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.SelectedCellTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.SelectedCellTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.SelectedCellTemplate">
+            <summary>
+            Gets or sets the template for each selected cell in the grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.MinRowsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.MinRows"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.MinRows">
+            <summary>
+            Gets or sets the mininum number of rows in the grid.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.MinColumnsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.MinColumns"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.InsertTableGridPanel.MinColumns">
+            <summary>
+            Gets or sets the minimum number of columns in the grid.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.Resources.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Cell_Title">
+            <summary>
+              Looks up a localized string similar to Cell.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Aqua_ToolTip">
+            <summary>
+              Looks up a localized string similar to Aqua.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Black_ToolTip">
+            <summary>
+              Looks up a localized string similar to Black.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Blue_ToolTip">
+            <summary>
+              Looks up a localized string similar to Blue.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Brown_ToolTip">
+            <summary>
+              Looks up a localized string similar to Brown.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_DarkBlue_ToolTip">
+            <summary>
+              Looks up a localized string similar to Dark Blue.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_DarkGreen_ToolTip">
+            <summary>
+              Looks up a localized string similar to Dark Green.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_DarkPurple_ToolTip">
+            <summary>
+              Looks up a localized string similar to Dark Purple.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_DarkRed_ToolTip">
+            <summary>
+              Looks up a localized string similar to Dark Red.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_EightyGray_ToolTip">
+            <summary>
+              Looks up a localized string similar to Gray-80%.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_FifteenGray_ToolTip">
+            <summary>
+              Looks up a localized string similar to Gray-15%.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_FiftyGray_ToolTip">
+            <summary>
+              Looks up a localized string similar to Gray-50%.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_FortyGray_ToolTip">
+            <summary>
+              Looks up a localized string similar to Gray-40%.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Gold_ToolTip">
+            <summary>
+              Looks up a localized string similar to Gold.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Green_ToolTip">
+            <summary>
+              Looks up a localized string similar to Green.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_LightGreen_ToolTip">
+            <summary>
+              Looks up a localized string similar to Light Green.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_LightYellow_ToolTip">
+            <summary>
+              Looks up a localized string similar to Light Yellow.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Lime_ToolTip">
+            <summary>
+              Looks up a localized string similar to Lime.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Orange_ToolTip">
+            <summary>
+              Looks up a localized string similar to Orange.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Pink_ToolTip">
+            <summary>
+              Looks up a localized string similar to Pink.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Plum_ToolTip">
+            <summary>
+              Looks up a localized string similar to Plum.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Purple_ToolTip">
+            <summary>
+              Looks up a localized string similar to Purple.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Red_ToolTip">
+            <summary>
+              Looks up a localized string similar to Red.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Rose_ToolTip">
+            <summary>
+              Looks up a localized string similar to Rose.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_SeventyFiveGray_ToolTip">
+            <summary>
+              Looks up a localized string similar to Gray-75%.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_SkyBlue_ToolTip">
+            <summary>
+              Looks up a localized string similar to Sky Blue.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_SlateBlue_ToolTip">
+            <summary>
+              Looks up a localized string similar to Slate Blue.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Turquoise_ToolTip">
+            <summary>
+              Looks up a localized string similar to Turquoise.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_TwentyFiveGray_ToolTip">
+            <summary>
+              Looks up a localized string similar to Gray-25%.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_White_ToolTip">
+            <summary>
+              Looks up a localized string similar to White.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Color_Yellow_ToolTip">
+            <summary>
+              Looks up a localized string similar to Yellow.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.ColumnWidthDes">
+            <summary>
+              Looks up a localized string similar to Change column width.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Edit_Title">
+            <summary>
+              Looks up a localized string similar to Edit.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.FindTool_BtnFindNext">
+            <summary>
+              Looks up a localized string similar to Find Next.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.FindTool_BtnReplace">
+            <summary>
+              Looks up a localized string similar to Replace.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.FindTool_BtnReplaceAll">
+            <summary>
+              Looks up a localized string similar to Replace All.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.FindTool_LblFind">
+            <summary>
+              Looks up a localized string similar to Find:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.FindTool_LblReplace">
+            <summary>
+              Looks up a localized string similar to Replace:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_Bold">
+            <summary>
+              Looks up a localized string similar to Bold.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_BoldInitial">
+            <summary>
+              Looks up a localized string similar to B.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_ChangeCase">
+            <summary>
+              Looks up a localized string similar to Change Case.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_ChangeCase_CapitalizeEachWord">
+            <summary>
+              Looks up a localized string similar to Capitalize Each Word.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_ChangeCase_LowerCase">
+            <summary>
+              Looks up a localized string similar to lowercase.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_ChangeCase_ToggleCase">
+            <summary>
+              Looks up a localized string similar to tOGGLE cASE.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_ChangeCase_UpperCase">
+            <summary>
+              Looks up a localized string similar to UPPERCASE.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_Font">
+            <summary>
+              Looks up a localized string similar to Font.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_FontColor">
+            <summary>
+              Looks up a localized string similar to Font Color.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_FontSize">
+            <summary>
+              Looks up a localized string similar to Font Size.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_GrowFont">
+            <summary>
+              Looks up a localized string similar to Grow Font.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_Italic">
+            <summary>
+              Looks up a localized string similar to Italic.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_ItalicInitial">
+            <summary>
+              Looks up a localized string similar to I.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_ShrinkFont">
+            <summary>
+              Looks up a localized string similar to Shrink Font.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_Strikethrough">
+            <summary>
+              Looks up a localized string similar to Strikethrough.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_StrikethroughInitial">
+            <summary>
+              Looks up a localized string similar to abc.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_Subscript">
+            <summary>
+              Looks up a localized string similar to Subscript.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_Superscript">
+            <summary>
+              Looks up a localized string similar to Superscript.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_TextHighlightColor">
+            <summary>
+              Looks up a localized string similar to Text Highlight Color.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_Title">
+            <summary>
+              Looks up a localized string similar to Font.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_Underline">
+            <summary>
+              Looks up a localized string similar to Underline.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Font_UnderlineInitial">
+            <summary>
+              Looks up a localized string similar to U.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.FormatPainter">
+            <summary>
+              Looks up a localized string similar to Format Painter.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.HomeTab_Header">
+            <summary>
+              Looks up a localized string similar to Home.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_ImageDialog_File">
+            <summary>
+              Looks up a localized string similar to Choose Picture….
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_ImageDialog_Url">
+            <summary>
+              Looks up a localized string similar to Insert Picture.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertHyperlink">
+            <summary>
+              Looks up a localized string similar to Insert Hyperlink.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertHyperlink_Button">
+            <summary>
+              Looks up a localized string similar to Insert Hyperlink.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertHyperlink_InvalidURL">
+            <summary>
+              Looks up a localized string similar to The URL &quot;{0}&quot; is invalid.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertHyperlink_TargetLabel">
+            <summary>
+              Looks up a localized string similar to Target:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertHyperlink_TextLabel">
+            <summary>
+              Looks up a localized string similar to Text:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertHyperlink_URLLabel">
+            <summary>
+              Looks up a localized string similar to URL:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertImage">
+            <summary>
+              Looks up a localized string similar to Insert Image.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertImage_FileFilter">
+            <summary>
+              Looks up a localized string similar to Image Files (*.PNG;*.JPG)|*.PNG;*.JPG|All files (*.*)|*.*.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertImage_InvalidURL">
+            <summary>
+              Looks up a localized string similar to The URL &quot;{0}&quot; is invalid.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertImage_NotLoaded">
+            <summary>
+              Looks up a localized string similar to Image from &quot;{0}&quot; could not be loaded..
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertImage_UploadMessage">
+            <summary>
+              Looks up a localized string similar to Choose an Image to Upload:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertImage_UploadTab">
+            <summary>
+              Looks up a localized string similar to Upload.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertImage_UrlMessage">
+            <summary>
+              Looks up a localized string similar to Enter the URL where the image is located:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertImage_UrlTab">
+            <summary>
+              Looks up a localized string similar to URL.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertSymbol">
+            <summary>
+              Looks up a localized string similar to Insert Symbol.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertTable_Button">
+            <summary>
+              Looks up a localized string similar to Insert Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertTable_ColumnLabel">
+            <summary>
+              Looks up a localized string similar to Number of Columns:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_InsertTable_RowLabel">
+            <summary>
+              Looks up a localized string similar to Number of Rows:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_RemoveHyperlink">
+            <summary>
+              Looks up a localized string similar to Remove Hyperlink.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Insert_Title">
+            <summary>
+              Looks up a localized string similar to Insert.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Line_Number">
+            <summary>
+              Looks up a localized string similar to Line Numbers.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.LineNumberMode_Continuous">
+            <summary>
+              Looks up a localized string similar to Continuous.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.LineNumberMode_None">
+            <summary>
+              Looks up a localized string similar to None.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.LineNumberMode_RestartEachPage">
+            <summary>
+              Looks up a localized string similar to Restart Each Page.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.LineSpacing">
+            <summary>
+              Looks up a localized string similar to Line Spacing.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.List_Header">
+            <summary>
+              Looks up a localized string similar to List.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Merge_Title">
+            <summary>
+              Looks up a localized string similar to Merge.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_AlignTextCenter">
+            <summary>
+              Looks up a localized string similar to Align Text Center.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_AlignTextLeft">
+            <summary>
+              Looks up a localized string similar to Align Text Left.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_AlignTextRight">
+            <summary>
+              Looks up a localized string similar to Align Text Right.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_BorderColor">
+            <summary>
+              Looks up a localized string similar to Border Color.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_BorderThickness">
+            <summary>
+              Looks up a localized string similar to Border Thickness.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_Bullets">
+            <summary>
+              Looks up a localized string similar to Bullets.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_Justify">
+            <summary>
+              Looks up a localized string similar to Justify.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_Margin">
+            <summary>
+              Looks up a localized string similar to Margin.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_Numbering">
+            <summary>
+              Looks up a localized string similar to Numbering.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_Padding">
+            <summary>
+              Looks up a localized string similar to Padding.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_ParagraphColor">
+            <summary>
+              Looks up a localized string similar to Paragraph Color.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_TextWrapping">
+            <summary>
+              Looks up a localized string similar to Text Wrapping.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Paragraph_Title">
+            <summary>
+              Looks up a localized string similar to Paragraph.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.RowHeightDes">
+            <summary>
+              Looks up a localized string similar to Change row height.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.RowsAndColumns_Title">
+            <summary>
+              Looks up a localized string similar to Rows &amp; Columns.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Selected_Document">
+            <summary>
+              Looks up a localized string similar to &lt;&lt;Selection in Document&gt;&gt;.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Table_Title">
+            <summary>
+              Looks up a localized string similar to Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.TablesTab_Header">
+            <summary>
+              Looks up a localized string similar to Tables.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.TableWidthDes">
+            <summary>
+              Looks up a localized string similar to Change table width.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.ThicknessPicker_Bottom">
+            <summary>
+              Looks up a localized string similar to Bottom:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.ThicknessPicker_Left">
+            <summary>
+              Looks up a localized string similar to Left:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.ThicknessPicker_Right">
+            <summary>
+              Looks up a localized string similar to Right:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.ThicknessPicker_Top">
+            <summary>
+              Looks up a localized string similar to Top:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool">
+            <summary>
+              Looks up a localized string similar to Borders.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_AllBorders">
+            <summary>
+              Looks up a localized string similar to All Borders.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_BottomBorder">
+            <summary>
+              Looks up a localized string similar to Bottom Border.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_Color">
+            <summary>
+              Looks up a localized string similar to Color.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_InsideBorders">
+            <summary>
+              Looks up a localized string similar to Inside Borders.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_InsideHorizontalBorders">
+            <summary>
+              Looks up a localized string similar to Inside Horizontal Border.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_InsideVerticalBorders">
+            <summary>
+              Looks up a localized string similar to Inside Vertical Border.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_LeftBorder">
+            <summary>
+              Looks up a localized string similar to Left Border.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_NoBorder">
+            <summary>
+              Looks up a localized string similar to No Border.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_OutsideBorders">
+            <summary>
+              Looks up a localized string similar to Outside Borders.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_RightBorder">
+            <summary>
+              Looks up a localized string similar to Right Border.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_TopBorder">
+            <summary>
+              Looks up a localized string similar to Top Border.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BorderTool_Weight">
+            <summary>
+              Looks up a localized string similar to Weight.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BottomAlign">
+            <summary>
+              Looks up a localized string similar to Align Bottom.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_BottomAlignMenuTool_Header">
+            <summary>
+              Looks up a localized string similar to Bottom.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_CenterAlign_Header">
+            <summary>
+              Looks up a localized string similar to Center.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_ClearFormatting_Header">
+            <summary>
+              Looks up a localized string similar to Clear Format.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_ClearFormatting_ToolTip">
+            <summary>
+              Looks up a localized string similar to Clear Text Formatting.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_ColumnWidth_Header">
+            <summary>
+              Looks up a localized string similar to Width:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Copy">
+            <summary>
+              Looks up a localized string similar to Copy.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Cut">
+            <summary>
+              Looks up a localized string similar to Cut.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DecreaseFontSize_Header">
+            <summary>
+              Looks up a localized string similar to Decrease.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DecreaseFontSize_ToolTip">
+            <summary>
+              Looks up a localized string similar to Decrease Font.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Delete">
+            <summary>
+              Looks up a localized string similar to Delete.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DeleteTable">
+            <summary>
+              Looks up a localized string similar to Delete Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DeleteTable_Cells">
+            <summary>
+              Looks up a localized string similar to Delete Table Cells.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DeleteTable_Columns">
+            <summary>
+              Looks up a localized string similar to Delete Table Columns.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DeleteTable_DeleteCells">
+            <summary>
+              Looks up a localized string similar to Delete Cells.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DeleteTable_DeleteColumns">
+            <summary>
+              Looks up a localized string similar to Delete Columns.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DeleteTable_DeleteRows">
+            <summary>
+              Looks up a localized string similar to Delete Rows.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DeleteTable_DeleteTable">
+            <summary>
+              Looks up a localized string similar to Delete Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DeleteTable_Rows">
+            <summary>
+              Looks up a localized string similar to Delete Table Rows.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_DeleteTable_Table">
+            <summary>
+              Looks up a localized string similar to Delete This Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Error">
+            <summary>
+              Looks up a localized string similar to Error.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_FillColor_Header">
+            <summary>
+              Looks up a localized string similar to Fill.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_FillColor_ToolTip">
+            <summary>
+              Looks up a localized string similar to Fill Color.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_FindAndReplace">
+            <summary>
+              Looks up a localized string similar to Find and Replace.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_FindAndReplace_NotFound">
+            <summary>
+              Looks up a localized string similar to The following specified text was not found:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_FindAndReplace_ReachStart">
+            <summary>
+              Looks up a localized string similar to Find reached the starting point of the search..
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Gridlines">
+            <summary>
+              Looks up a localized string similar to Gridlines.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_IncreaseFontSize_Header">
+            <summary>
+              Looks up a localized string similar to Increase.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_IncreaseFontSize_ToolTip">
+            <summary>
+              Looks up a localized string similar to Increase Font.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertAbove">
+            <summary>
+              Looks up a localized string similar to Insert Above.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertBelow">
+            <summary>
+              Looks up a localized string similar to Insert Below.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertColumnsLeft">
+            <summary>
+              Looks up a localized string similar to Insert Columns to the Left.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertColumnsRight">
+            <summary>
+              Looks up a localized string similar to Insert Columns to the Right.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertHyperlink_Header">
+            <summary>
+              Looks up a localized string similar to Hyperlink.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertImage_Header">
+            <summary>
+              Looks up a localized string similar to Picture.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertImage_ToolTip">
+            <summary>
+              Looks up a localized string similar to Insert Picture.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertLeft">
+            <summary>
+              Looks up a localized string similar to Insert Left.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertRight">
+            <summary>
+              Looks up a localized string similar to Insert Right.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertRowsAbove">
+            <summary>
+              Looks up a localized string similar to Insert Rows Above.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertRowsBelow">
+            <summary>
+              Looks up a localized string similar to Insert Rows Below.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertTable">
+            <summary>
+              Looks up a localized string similar to Insert Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_InsertTable_ConvertText">
+            <summary>
+              Looks up a localized string similar to Convert Text to Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_LeftAlign_Header">
+            <summary>
+              Looks up a localized string similar to Left.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_LeftAlign_ToolTip">
+            <summary>
+              Looks up a localized string similar to Align Left.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_MergeCells">
+            <summary>
+              Looks up a localized string similar to Merge Cells.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Numbering_ToolTip">
+            <summary>
+              Looks up a localized string similar to Numbered List.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Paste">
+            <summary>
+              Looks up a localized string similar to Paste.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Picture">
+            <summary>
+              Looks up a localized string similar to Picture.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Redo">
+            <summary>
+              Looks up a localized string similar to Redo.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Redo_Header">
+            <summary>
+              Looks up a localized string similar to Redo.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_RemoveHyperlink_Header">
+            <summary>
+              Looks up a localized string similar to Remove.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_RightAlign_Header">
+            <summary>
+              Looks up a localized string similar to Right.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_RightAlign_ToolTip">
+            <summary>
+              Looks up a localized string similar to Align Right.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_RowHeight_Header">
+            <summary>
+              Looks up a localized string similar to Height:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Select">
+            <summary>
+              Looks up a localized string similar to Select.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectAll_Header">
+            <summary>
+              Looks up a localized string similar to Select All.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable">
+            <summary>
+              Looks up a localized string similar to Select Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_Cells_Header">
+            <summary>
+              Looks up a localized string similar to Select Cells.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_Cells_ToolTip">
+            <summary>
+              Looks up a localized string similar to Select Table Cells.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_Columns_Header">
+            <summary>
+              Looks up a localized string similar to Select Columns.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_Columns_ToolTip">
+            <summary>
+              Looks up a localized string similar to Select Table Columns.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_Rows_Header">
+            <summary>
+              Looks up a localized string similar to Select Rows.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_Rows_ToolTip">
+            <summary>
+              Looks up a localized string similar to Select Table Rows.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_SelectCell">
+            <summary>
+              Looks up a localized string similar to Select Cell.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_SelectColumn">
+            <summary>
+              Looks up a localized string similar to Select Column.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_SelectRow">
+            <summary>
+              Looks up a localized string similar to Select Row.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_SelectTable">
+            <summary>
+              Looks up a localized string similar to Select Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_Table_Header">
+            <summary>
+              Looks up a localized string similar to Select Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SelectTable_Table_ToolTip">
+            <summary>
+              Looks up a localized string similar to Select This Table.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_ShowGridlines">
+            <summary>
+              Looks up a localized string similar to Show Gridlines.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SpellCheck">
+            <summary>
+              Looks up a localized string similar to Spell Check.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SpellCheck_NoErrors">
+            <summary>
+              Looks up a localized string similar to No spelling errors found..
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SpellCheck_NotConfigured">
+            <summary>
+              Looks up a localized string similar to Spell checking is not configured..
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Spelling">
+            <summary>
+              Looks up a localized string similar to Spelling.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_SplitCell">
+            <summary>
+              Looks up a localized string similar to Split Cell.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Strikethrough_Header">
+            <summary>
+              Looks up a localized string similar to Strike.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Subscript_ToolTip">
+            <summary>
+              Looks up a localized string similar to Subscript.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Superscript_ToolTip">
+            <summary>
+              Looks up a localized string similar to Superscript.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_TableWidth_Header">
+            <summary>
+              Looks up a localized string similar to Width:.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_TextHighlight_Header">
+            <summary>
+              Looks up a localized string similar to Highlight.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_TextHighlight_ToolTip">
+            <summary>
+              Looks up a localized string similar to Text Highlight Color.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Title">
+            <summary>
+              Looks up a localized string similar to Tools.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_TopAlign">
+            <summary>
+              Looks up a localized string similar to Align Top.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_TopAlign_Header">
+            <summary>
+              Looks up a localized string similar to Top.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Undo">
+            <summary>
+              Looks up a localized string similar to Undo.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Unmerge">
+            <summary>
+              Looks up a localized string similar to Unmerge.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_UnmergeCell">
+            <summary>
+              Looks up a localized string similar to Unmerge Cell.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_VerticalCenterAlign">
+            <summary>
+              Looks up a localized string similar to Align Center.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_Zoom100PercentTool">
+            <summary>
+              Looks up a localized string similar to 100%.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_ZoomIn">
+            <summary>
+              Looks up a localized string similar to Zoom In.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.Tools_ZoomOut">
+            <summary>
+              Looks up a localized string similar to Zoom Out.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.View_DocumentViews">
+            <summary>
+              Looks up a localized string similar to Views.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.View_Draft">
+            <summary>
+              Looks up a localized string similar to Draft.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.View_FitWidth">
+            <summary>
+              Looks up a localized string similar to Fit Width.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.View_OnePage">
+            <summary>
+              Looks up a localized string similar to One Page.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.View_PrintLayout">
+            <summary>
+              Looks up a localized string similar to Print Layout.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.View_TwoPages">
+            <summary>
+              Looks up a localized string similar to Two Pages.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.View_Zoom">
+            <summary>
+              Looks up a localized string similar to Zoom.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.Resources.Resources.ViewTab_Header">
+            <summary>
+              Looks up a localized string similar to View.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1BoldTool">
+            <summary>
+            Ribbon button that makes text bold in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BoldTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1BoldTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BoldTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1BorderMenuTool">
+            <summary>
+            Control for editing borders in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BorderMenuTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1BorderMenuTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BorderMenuTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1BorderMenuTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.BorderToolBase">
+            <summary>
+            Base class for Border tools.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.BorderToolBase.Brush">
+            <summary>
+            Gets or sets the border brush.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.BorderToolBase.Thickness">
+            <summary>
+            Gets or sets the thickness of the border.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1BottomBorderTool">
+            <summary>
+            Tool that sets the bottom border.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BottomBorderTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1BottomBorderTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BottomBorderTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1TopBorderTool">
+            <summary>
+            Tool that sets the top border.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TopBorderTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1TopBorderTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TopBorderTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1LeftBorderTool">
+            <summary>
+            Tool that sets the left border.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LeftBorderTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1LeftBorderTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LeftBorderTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1RightBorderTool">
+            <summary>
+            Tool that sets the right border.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RightBorderTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RightBorderTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RightBorderTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1NoneBorderTool">
+            <summary>
+            Tool that sets none border.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1NoneBorderTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1NoneBorderTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1NoneBorderTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1AllBordersTool">
+            <summary>
+            Tool that sets all the borders.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1AllBordersTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1AllBordersTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1AllBordersTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1OutsideBordersTool">
+            <summary>
+            Tool that sets outside borders.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1OutsideBordersTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1OutsideBordersTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1OutsideBordersTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsideBordersTool">
+            <summary>
+            Tool that sets inside borders.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsideBordersTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsideBordersTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsideBordersTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsideHorizontalBordersTool">
+            <summary>
+            Tool that sets the inside horizontal borders.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsideHorizontalBordersTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsideHorizontalBordersTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsideHorizontalBordersTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsideVerticalBordersTool">
+            <summary>
+            Tool that sets the inside vertical borders.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsideVerticalBordersTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsideVerticalBordersTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsideVerticalBordersTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1BulletsTool">
+            <summary>
+            Ribbon button that creates bullet lists in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BulletsTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1BulletsTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BulletsTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1CenterAlignTool">
+            <summary>
+            Ribbon button that aligns text to the center in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1CenterAlignTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1CenterAlignTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1CenterAlignTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1ChangeCaseTool">
+            <summary>
+            Ribbon dropdown that modifies the case of text in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ChangeCaseTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1ChangeCaseTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ChangeCaseTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1ChangeCaseTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1LowerCaseTool">
+            <summary>
+            Tool that lowers the case of the selection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LowerCaseTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1LowerCaseTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LowerCaseTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1UpperCaseTool">
+            <summary>
+            Tool that uppers the case of the selection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1UpperCaseTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1UpperCaseTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1UpperCaseTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1CapitalizeEachWordTool">
+            <summary>
+            Tool that capitalizes each word of the selection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1CapitalizeEachWordTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1CapitalizeEachWordTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1CapitalizeEachWordTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1ToggleCaseTool">
+            <summary>
+            Tool that toggles the case of the selection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ToggleCaseTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1ToggleCaseTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ToggleCaseTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1CopyTool">
+            <summary>
+            Ribbon button that copies text into the clipboard from a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1CopyTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1CopyTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1CopyTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1CutTool">
+            <summary>
+            Ribbon button that cuts text into the clipboard from a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1CutTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1CutTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1CutTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1DecreaseFontSizeTool">
+            <summary>
+            Ribbon button that decreases the font size in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DecreaseFontSizeTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1DecreaseFontSizeTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DecreaseFontSizeTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool">
+            <summary>
+            Control for finding and replacing text in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool.ViewModel">
+            <summary>
+            View model of the <see cref="T:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool.ViewModel.DropDown">
+            <summary>
+            Gets or sets the associated drop-down tool.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool.ViewModel.RichTextBox">
+            <summary>
+            Gets or sets the associated rich-text-box tool.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FindAndReplaceTool.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            Invoked on keyboard key down over  FindAndReplace.
+            This will avoid calls to C1DropDownTool.OnKeyDown to prevent focus getting
+            out of FindAndReplaceTool TextBox and Buttons.
+            </summary>
+            <param name="e">Keyboard key associated with the event.</param>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1FontColorTool">
+            <summary>
+            Control that modifies the foreground color in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+            <summary>
+            Font Color Control that modifies the foreground color in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FontColorTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1FontColorTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FontColorTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1FontFamilyTool">
+            <summary>
+            Control that modifies the font family in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FontFamilyTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1FontFamilyTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FontFamilyTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1FontFamilyTool.DefaultFont">
+            <summary>
+            Gets or sets the default font.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1FontSizeTool">
+            <summary>
+            Control that modifies the font size in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FontSizeTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1FontSizeTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FontSizeTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1FormatPainterTool">
+            <summary>
+            Ribbon item that copies format in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FormatPainterTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1FormatPainterTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FormatPainterTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1FormatPainterTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1IncreaseFontSizeTool">
+            <summary>
+            Ribbon button that increases the font size in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1IncreaseFontSizeTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1IncreaseFontSizeTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1IncreaseFontSizeTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsertHyperlinkTool">
+            <summary>
+            Ribbon button that inserts hyperlinks in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertHyperlinkTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertHyperlinkTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertHyperlinkTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool">
+            <summary>
+            Ribbon item that inserts images in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool.CanUserInsertUrl">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to insert linked images via an internet address.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool.CanUserInsertUrlProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool.CanUserInsertUrl"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool.CanUserInsertFile">
+            <summary>
+            Gets or sets a value indicating whether the user is allowed to insert an image from data in a local file.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool.CanUserInsertFileProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.C1InsertImageTool.CanUserInsertFile"/> dependency property. 
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsertSymbolTool">
+            <summary>
+            Ribbon dropdown that inserts character symbols in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertSymbolTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertSymbolTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertSymbolTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertSymbolTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1ItalicTool">
+            <summary>
+            Ribbon button that makes text italic in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ItalicTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1ItalicTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ItalicTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1JustifyTool">
+            <summary>
+            Ribbon button that justifies text in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1JustifyTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1JustifyTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1JustifyTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1LeftAlignTool">
+            <summary>
+            Ribbon button that aligns text to the left in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LeftAlignTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1LeftAlignTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LeftAlignTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1LineSpacingTool">
+            <summary>
+            Control that modifies the font size in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LineSpacingTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1LineSpacingTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LineSpacingTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1MarginTool">
+            <summary>
+            Control that modifies the margin of blocks in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1MarginTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1MarginTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1MarginTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1NumberingTool">
+            <summary>
+            Ribbon button that creates numbered lists in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1NumberingTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1NumberingTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1NumberingTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1PaddingTool">
+            <summary>
+            Control that modifies padding of blocks in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1PaddingTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1PaddingTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1PaddingTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1ParagraphColorTool">
+            <summary>
+            Control that modifies the background of paragraphs in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ParagraphColorTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1ParagraphColorTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ParagraphColorTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1PasteTool">
+            <summary>
+            Ribbon button that pastes text from the clipboard to a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1PasteTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1PasteTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1PasteTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1RedoTool">
+            <summary>
+            Ribbon button that redoes actions in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RedoTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RedoTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RedoTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1RemoveHyperlinkTool">
+            <summary>
+            Ribbon button that removes hyperlinks from a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RemoveHyperlinkTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RemoveHyperlinkTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RemoveHyperlinkTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxListTool">
+            <summary>
+            Base class for ribbon buttons that create lists in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.RichTextBoxListTool.MarkerStyle">
+            <summary>
+            Gets or sets the <see cref="T:C1.WPF.RichTextBox.Documents.TextMarkerStyle"/> for the created lists.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1RightAlignTool">
+            <summary>
+            Ribbon button that aligns text to the right in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RightAlignTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RightAlignTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RightAlignTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1SpellCheckTool">
+            <summary>
+            Ribbon button that opens a spell checker dialog in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SpellCheckTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1SpellCheckTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SpellCheckTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.C1SpellCheckTool.SpellCheckerProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.C1SpellCheckTool.SpellChecker"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1SpellCheckTool.SpellChecker">
+            <summary>
+            Gets or sets the <see cref="T:C1.WPF.SpellChecker.C1SpellChecker" />.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1StrikethroughTool">
+            <summary>
+            Ribbon button that strikes though  text in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1StrikethroughTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1StrikethroughTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1StrikethroughTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1SubscriptTool">
+            <summary>
+            Ribbon button that vertically aligns text as subscript in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SubscriptTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1SubscriptTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SubscriptTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1SuperscriptTool">
+            <summary>
+            Ribbon button that vertically aligns text as superscript in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SuperscriptTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1SuperscriptTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SuperscriptTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1TextHighlightTool">
+            <summary>
+            Control that highlights text in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TextHighlightTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1TextHighlightTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TextHighlightTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1TextWrappingTool">
+            <summary>
+            Ribbon button that toggles text wrapping in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TextWrappingTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1TextWrappingTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TextWrappingTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1ThicknessTool">
+            <summary>
+            Abstract base class for controls that modify thickness in <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ThicknessTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1ThicknessTool"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1ThicknessTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1ThicknessTool.Thickness">
+            <summary>
+            Thickness
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1UnderlineTool">
+            <summary>
+            Ribbon button that underlines text in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1UnderlineTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1UnderlineTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1UnderlineTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1UndoTool">
+            <summary>
+            Ribbon button that undoes actions in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1UndoTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1UndoTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1UndoTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.IUpdateableTool">
+            <summary>
+            Tools that need to be updated when the associated <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> changes implement this interface.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.IUpdateableTool.Update">
+            <summary>
+            Method called when the tool should update its state.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxButtonTool">
+            <summary>
+            Abstract base class for <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon"/> button tools.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.RichTextBoxButtonTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxButtonTool"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.RichTextBoxButtonTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxColorTool">
+            <summary>
+            Abstract base class for simplified color tools in a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.RichTextBoxColorTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxColorTool"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.RichTextBoxColorTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxMenuTool">
+            <summary>
+            Abstract base class for <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon"/> menu tools.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.RichTextBoxMenuTool.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.RichTextBoxMenuTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxSelectTool`1">
+            <summary>
+            Abstract base class for combo tools in a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon"/>.
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.RichTextBoxSelectTool`1.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxSelectTool`1"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.RichTextBoxSelectTool`1.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxToggleButtonTool`1">
+            <summary>
+            Abstract base class for toggle buttons in <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon"/>.
+            </summary>
+            <typeparam name="T">The type of values toggled by the button.</typeparam>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.RichTextBoxToggleButtonTool`1.IsAlignTool">
+            <summary>
+            Gets or sets whether this is an align tool.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.RichTextBoxToggleButtonTool`1.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxTool">
+            <summary>
+            Helper class for tools in <see cref="T:C1RichTextBoxRibbon"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.RichTextBoxTool.SetRichTextBox(System.Windows.DependencyObject,C1.WPF.RichTextBox.C1RichTextBox)">
+            <summary>
+            Sets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> associated to the tool.
+            </summary>
+            <param name="obj">The tool</param>
+            <param name="richTextBox">The rich textbox.</param>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1BottomAlignTool">
+            <summary>
+            Ribbon button that aligns the content of a table cell to the bottom in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BottomAlignTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1BottomAlignTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1BottomAlignTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1ColumnWidthTool">
+            <summary>
+            Control for editing the width of table columns in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ColumnWidthTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1ColumnWidthTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ColumnWidthTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1DeleteTableMenuTool">
+            <summary>
+            Ribbon drop down for deleting rows, columns and cells from a table in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteTableMenuTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1DeleteTableMenuTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteTableMenuTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1DeleteTableMenuTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1DeleteCellTool">
+            <summary>
+            Tool that deletes a cell of a table.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteCellTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1DeleteCellTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteCellTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1DeleteColumnTool">
+            <summary>
+            Tool that deletes columns of a table.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteColumnTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1DeleteColumnTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteColumnTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1DeleteRowTool">
+            <summary>
+            Tool that deletes rows of a table.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteRowTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1DeleteRowTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteRowTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1DeleteTableTool">
+            <summary>
+            Tool that deletes a table.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteTableTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1DeleteTableTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DeleteTableTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsertColumnsLeftTool">
+            <summary>
+            Ribbon button for inserting table columns in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertColumnsLeftTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertColumnsLeftTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertColumnsLeftTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsertColumnsRightTool">
+            <summary>
+            Ribbon button for inserting table columns in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertColumnsRightTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertColumnsRightTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertColumnsRightTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsertRowsAboveTool">
+            <summary>
+            Ribbon button for inserting table rows in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertRowsAboveTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertRowsAboveTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertRowsAboveTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsertRowsBelowTool">
+            <summary>
+            Ribbon button for inserting table rows in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertRowsBelowTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertRowsBelowTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertRowsBelowTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool">
+            <summary>
+            Ribbon dropdown for inserting tables in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.ViewModel">
+            <summary>
+            The ViewModel of the <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool"/>.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.ViewModel.InsertTableCommand">
+            <summary>
+            Gets or sets the insert-table command.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.ViewModel.ConvertTextCommand">
+            <summary>
+            Gets or sets the convert-text command.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.ViewModel.Rows">
+            <summary>
+            Gets or sets the number of rows.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.ViewModel.Columns">
+            <summary>
+            Gets or sets the number of columns.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.ViewModel.IsEnabled">
+            <summary>
+            IsEnabled
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.ViewModel.ConvertTextTitle">
+            <summary>
+            ConvertTextTitle
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.ViewModel.SelectedTableTitle">
+            <summary>
+            DefaultTableTitle
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1InsertTableTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.LengthTool">
+            <summary>
+            Abstract base class of tools that edit C1Length.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.LengthTool._length">
+            <summary>
+            Gets or sets the length value.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.LengthTool._headerTemplate">
+            <summary>
+            Gets or sets the header template.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.LengthTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.LengthTool.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.LengthTool"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.LengthTool.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.LengthTool.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.LengthTool.LengthProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.LengthTool.Length"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.LengthTool.Length">
+            <summary>
+            Gets or sets the length value.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.RichTextBox.Ribbon.LengthTool.LengthChanged">
+            <summary> 
+            Event raised when the <see cref="P:C1.WPF.RichTextBox.Ribbon.LengthTool.Length"/> property has changed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.RichTextBox.Ribbon.LengthTool.HeaderTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.RichTextBox.Ribbon.LengthTool.HeaderTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.LengthTool.HeaderTemplate">
+            <summary>
+            Gets or sets the header template.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1MergeCellsTool">
+            <summary>
+            Ribbon button for merging table cells in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1MergeCellsTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1MergeCellsTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1MergeCellsTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1RowHeightTool">
+            <summary>
+            Control for editing the height of table rows in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RowHeightTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RowHeightTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1RowHeightTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1SelectTableMenuTool">
+            <summary>
+            Ribbon dropdown for selecting table cells, rows and columns in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectTableMenuTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1SelectTableMenuTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectTableMenuTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1SelectTableMenuTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1SelectCellTool">
+            <summary>
+            Tool that selects the cells of the table from the current selection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectCellTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1SelectCellTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectCellTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1SelectColumnTool">
+            <summary>
+            Tool that selects the columns of the table from the current selection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectColumnTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1SelectColumnTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectColumnTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1SelectRowTool">
+            <summary>
+            Tool that selects the rows of the table from the current selection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectRowTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1SelectRowTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectRowTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1SelectTableTool">
+            <summary>
+            Tool that selects the columns of the table from the current selection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectTableTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1SelectTableTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1SelectTableTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1ShowGridlinesTool">
+            <summary>
+            Ribbon button that enables table gridlines in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ShowGridlinesTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1ShowGridlinesTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ShowGridlinesTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1TableWidthTool">
+            <summary>
+            Control that modifies the width of a table in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TableWidthTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1TableWidthTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TableWidthTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1TopAlignTool">
+            <summary>
+            Ribbon button that aligns the content of a table cell to the top in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TopAlignTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1TopAlignTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TopAlignTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1UnmergeCellTool">
+            <summary>
+            Ribbon button for unmerging table cells in <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1UnmergeCellTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1UnmergeCellTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1UnmergeCellTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1VerticalCenterAlignTool">
+            <summary>
+            Ribbon button that center aligns the content of a table cell in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1VerticalCenterAlignTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1VerticalCenterAlignTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1VerticalCenterAlignTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1DraftViewTool">
+            <summary>
+            Ribbon button that toggles draft view mode in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DraftViewTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1DraftViewTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1DraftViewTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1FitWidthTool">
+            <summary>
+            Ribbon button that zooms the document so that the width of the page matches the width of the viewport.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FitWidthTool.#ctor">
+            <summary>
+             Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1FitWidthTool"/>.
+             </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1FitWidthTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1LineNumberTool">
+            <summary>
+            Line number tool in a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1RichTextBoxRibbon"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LineNumberTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1LineNumberTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LineNumberTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1LineNumberTool.IsEditable">
+            <summary>
+            Gets whether the tool is editable and can get the keyboard focus to enter text.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LineNumberTool.OnEditCompleted">
+            <summary>
+            Update the value after RichTextBox edited
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LineNumberTool.InitializeItemConverter">
+            <summary>
+            Initialize ItemConverter
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1LineNumberTool.Update">
+            <summary>
+            Update the tool if there is any update from Toolbar and RichTextBox
+            </summary>
+        </member>
+        <member name="P:C1.WPF.RichTextBox.Ribbon.C1LineNumberTool.RichTextBox">
+            <summary>
+            Gets the <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/> this tool edits.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1OnePageTool">
+            <summary>
+            Ribbon button that zooms the document so that an entire page fits in the viewport.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1OnePageTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1OnePageTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1OnePageTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1PrintViewTool">
+            <summary>
+            Ribbon button that toggles print view mode in a <see cref="T:C1.WPF.RichTextBox.C1RichTextBox"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1PrintViewTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1PrintViewTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1PrintViewTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1TwoPagesTool">
+            <summary>
+            Ribbon button that zooms the document so that two pages fit in the viewport.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TwoPagesTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1TwoPagesTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1TwoPagesTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1Zoom100PercentTool">
+            <summary>
+            Ribbon button that zooms the document to 100% of the normal size of viewport.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1Zoom100PercentTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1Zoom100PercentTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1Zoom100PercentTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1ZoomInTool">
+            <summary>
+            Ribbon button that zooms in on the document.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ZoomInTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1ZoomInTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ZoomInTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.C1ZoomOutTool">
+            <summary>
+            Ribbon button that zooms out on the document.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ZoomOutTool.#ctor">
+            <summary>
+            Initializes a new instance of a <see cref="T:C1.WPF.RichTextBox.Ribbon.C1ZoomOutTool"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.C1ZoomOutTool.UpdateLabel">
+            <summary>
+            UpdateLabel
+            </summary>
+        </member>
+        <member name="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxRibbonResources">
+            <summary>
+            This class gives access to localized resources from xaml.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.RichTextBox.Ribbon.RichTextBoxRibbonResources.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.RichTextBox.Ribbon.RichTextBoxRibbonResources"/> class.
+            </summary>
+        </member>
+    </members>
+</doc>

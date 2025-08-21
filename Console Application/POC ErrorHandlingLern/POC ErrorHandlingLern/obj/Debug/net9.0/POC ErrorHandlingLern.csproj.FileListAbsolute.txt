@@ -1,0 +1,14 @@
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\bin\Debug\net9.0\POC ErrorHandlingLern.exe
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\bin\Debug\net9.0\POC ErrorHandlingLern.deps.json
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\bin\Debug\net9.0\POC ErrorHandlingLern.runtimeconfig.json
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\bin\Debug\net9.0\POC ErrorHandlingLern.dll
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\bin\Debug\net9.0\POC ErrorHandlingLern.pdb
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\obj\Debug\net9.0\POC ErrorHandlingLern.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\obj\Debug\net9.0\POC ErrorHandlingLern.AssemblyInfoInputs.cache
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\obj\Debug\net9.0\POC ErrorHandlingLern.AssemblyInfo.cs
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\obj\Debug\net9.0\POC ErrorHandlingLern.csproj.CoreCompileInputs.cache
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\obj\Debug\net9.0\POC ErrorHandlingLern.dll
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\obj\Debug\net9.0\refint\POC ErrorHandlingLern.dll
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\obj\Debug\net9.0\POC ErrorHandlingLern.pdb
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\obj\Debug\net9.0\POC ErrorHandlingLern.genruntimeconfig.cache
+K:\POC - WPF and Winforms\Console Application\POC ErrorHandlingLern\POC ErrorHandlingLern\obj\Debug\net9.0\ref\POC ErrorHandlingLern.dll

@@ -1,0 +1,14 @@
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\obj\Debug\net9.0\POC Routing and Navigation.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\obj\Debug\net9.0\POC Routing and Navigation.AssemblyInfoInputs.cache
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\obj\Debug\net9.0\POC Routing and Navigation.AssemblyInfo.cs
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\obj\Debug\net9.0\POC Routing and Navigation.csproj.CoreCompileInputs.cache
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\bin\Debug\net9.0\POC Routing and Navigation.exe
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\bin\Debug\net9.0\POC Routing and Navigation.deps.json
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\bin\Debug\net9.0\POC Routing and Navigation.runtimeconfig.json
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\bin\Debug\net9.0\POC Routing and Navigation.dll
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\bin\Debug\net9.0\POC Routing and Navigation.pdb
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\obj\Debug\net9.0\POC Routing and Navigation.dll
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\obj\Debug\net9.0\refint\POC Routing and Navigation.dll
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\obj\Debug\net9.0\POC Routing and Navigation.pdb
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\obj\Debug\net9.0\POC Routing and Navigation.genruntimeconfig.cache
+K:\POC - WPF and Winforms\Console Application\POC Routing and Navigation\POC Routing and Navigation\obj\Debug\net9.0\ref\POC Routing and Navigation.dll

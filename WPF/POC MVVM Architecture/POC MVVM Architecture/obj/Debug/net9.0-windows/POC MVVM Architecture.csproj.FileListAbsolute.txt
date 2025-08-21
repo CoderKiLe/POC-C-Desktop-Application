@@ -1,0 +1,20 @@
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\bin\Debug\net9.0-windows\POC MVVM Architecture.exe
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\bin\Debug\net9.0-windows\POC MVVM Architecture.deps.json
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\bin\Debug\net9.0-windows\POC MVVM Architecture.runtimeconfig.json
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\bin\Debug\net9.0-windows\POC MVVM Architecture.dll
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\bin\Debug\net9.0-windows\POC MVVM Architecture.pdb
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\MainWindow.g.cs
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\App.g.cs
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture_MarkupCompile.cache
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture_MarkupCompile.lref
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\MainWindow.baml
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture.g.resources
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture.AssemblyInfoInputs.cache
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture.AssemblyInfo.cs
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture.csproj.CoreCompileInputs.cache
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture.dll
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\refint\POC MVVM Architecture.dll
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture.pdb
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\POC MVVM Architecture.genruntimeconfig.cache
+K:\POC - WPF and Winforms\WPF\POC MVVM Architecture\POC MVVM Architecture\obj\Debug\net9.0-windows\ref\POC MVVM Architecture.dll

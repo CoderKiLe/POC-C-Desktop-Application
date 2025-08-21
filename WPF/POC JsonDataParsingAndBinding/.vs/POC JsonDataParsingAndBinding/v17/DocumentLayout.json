@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\POC and My Samples\\POC\\WPF\\POC JsonDataParsingAndBinding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E210CF-B663-48D3-B673-0B80B8E61DF4}|POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding.csproj|k:\\poc and my samples\\poc\\wpf\\poc jsondataparsingandbinding\\poc jsondataparsingandbinding\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4E210CF-B663-48D3-B673-0B80B8E61DF4}|POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding.csproj|solutionrelative:poc jsondataparsingandbinding\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E210CF-B663-48D3-B673-0B80B8E61DF4}|POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding.csproj|k:\\poc and my samples\\poc\\wpf\\poc jsondataparsingandbinding\\poc jsondataparsingandbinding\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C4E210CF-B663-48D3-B673-0B80B8E61DF4}|POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding.csproj|solutionrelative:poc jsondataparsingandbinding\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4E210CF-B663-48D3-B673-0B80B8E61DF4}|POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding.csproj|k:\\poc and my samples\\poc\\wpf\\poc jsondataparsingandbinding\\poc jsondataparsingandbinding\\featuretreeen.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C4E210CF-B663-48D3-B673-0B80B8E61DF4}|POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding.csproj|solutionrelative:poc jsondataparsingandbinding\\featuretreeen.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "featureTreeEN.json",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding\\featureTreeEN.json",
+              "RelativeDocumentMoniker": "POC JsonDataParsingAndBinding\\featureTreeEN.json",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding\\featureTreeEN.json",
+              "RelativeToolTip": "POC JsonDataParsingAndBinding\\featureTreeEN.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-08T07:41:55.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "POC JsonDataParsingAndBinding\\MainWindow.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding\\MainWindow.xaml",
+              "RelativeToolTip": "POC JsonDataParsingAndBinding\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-08T06:59:10.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "POC JsonDataParsingAndBinding\\MainWindow.xaml.cs",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC JsonDataParsingAndBinding\\POC JsonDataParsingAndBinding\\MainWindow.xaml.cs",
+              "RelativeToolTip": "POC JsonDataParsingAndBinding\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T06:59:07.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

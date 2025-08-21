@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|k:\\poc and my samples\\poc\\wpf\\poc navigationthroughpage\\poc navigationthroughpage\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|solutionrelative:poc navigationthroughpage\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|k:\\poc and my samples\\poc\\wpf\\poc navigationthroughpage\\poc navigationthroughpage\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|solutionrelative:poc navigationthroughpage\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|k:\\poc and my samples\\poc\\wpf\\poc navigationthroughpage\\poc navigationthroughpage\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|solutionrelative:poc navigationthroughpage\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|k:\\poc and my samples\\poc\\wpf\\poc navigationthroughpage\\poc navigationthroughpage\\pages\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|solutionrelative:poc navigationthroughpage\\pages\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|k:\\poc and my samples\\poc\\wpf\\poc navigationthroughpage\\poc navigationthroughpage\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|solutionrelative:poc navigationthroughpage\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|k:\\poc and my samples\\poc\\wpf\\poc navigationthroughpage\\poc navigationthroughpage\\pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|solutionrelative:poc navigationthroughpage\\pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|k:\\poc and my samples\\poc\\wpf\\poc navigationthroughpage\\poc navigationthroughpage\\pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{121CC450-61F5-48A2-A389-61D7583A6F35}|POC NavigationThroughPage\\POC NavigationThroughPage.csproj|solutionrelative:poc navigationthroughpage\\pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "POC NavigationThroughPage\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "POC NavigationThroughPage\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T06:49:44.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Page4.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\Pages\\Page4.xaml",
+              "RelativeDocumentMoniker": "POC NavigationThroughPage\\Pages\\Page4.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\Pages\\Page4.xaml",
+              "RelativeToolTip": "POC NavigationThroughPage\\Pages\\Page4.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-12T06:21:07.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Page3.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\Pages\\Page3.xaml",
+              "RelativeDocumentMoniker": "POC NavigationThroughPage\\Pages\\Page3.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\Pages\\Page3.xaml",
+              "RelativeToolTip": "POC NavigationThroughPage\\Pages\\Page3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-12T06:20:46.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Page2.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\Pages\\Page2.xaml",
+              "RelativeDocumentMoniker": "POC NavigationThroughPage\\Pages\\Page2.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\Pages\\Page2.xaml",
+              "RelativeToolTip": "POC NavigationThroughPage\\Pages\\Page2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-12T06:20:25.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\Pages\\Page1.xaml",
+              "RelativeDocumentMoniker": "POC NavigationThroughPage\\Pages\\Page1.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\Pages\\Page1.xaml",
+              "RelativeToolTip": "POC NavigationThroughPage\\Pages\\Page1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-12T06:20:11.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "POC NavigationThroughPage\\MainWindow.xaml",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\MainWindow.xaml",
+              "RelativeToolTip": "POC NavigationThroughPage\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-12T06:19:07.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "POC NavigationThroughPage\\MainWindow.xaml.cs",
+              "ToolTip": "K:\\POC and My Samples\\POC\\WPF\\POC NavigationThroughPage\\POC NavigationThroughPage\\MainWindow.xaml.cs",
+              "RelativeToolTip": "POC NavigationThroughPage\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-12T06:19:05.178Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

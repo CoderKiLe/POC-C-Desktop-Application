@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)c1.wpf.core\9.0.20251.1102\buildTransitive\net7.0-windows7.0\C1.WPF.Core.targets" Condition="Exists('$(NuGetPackageRoot)c1.wpf.core\9.0.20251.1102\buildTransitive\net7.0-windows7.0\C1.WPF.Core.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.wpf.listview\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.ListView.targets" Condition="Exists('$(NuGetPackageRoot)c1.wpf.listview\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.ListView.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.wpf.input\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.Input.targets" Condition="Exists('$(NuGetPackageRoot)c1.wpf.input\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.Input.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.wpf.menu\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.Menu.targets" Condition="Exists('$(NuGetPackageRoot)c1.wpf.menu\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.Menu.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.wpf.tabcontrol\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.TabControl.targets" Condition="Exists('$(NuGetPackageRoot)c1.wpf.tabcontrol\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.TabControl.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.wpf.spellchecker\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.SpellChecker.targets" Condition="Exists('$(NuGetPackageRoot)c1.wpf.spellchecker\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.SpellChecker.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.wpf.richtextbox\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.RichTextBox.targets" Condition="Exists('$(NuGetPackageRoot)c1.wpf.richtextbox\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.RichTextBox.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.wpf.ribbon\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.Ribbon.targets" Condition="Exists('$(NuGetPackageRoot)c1.wpf.ribbon\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.Ribbon.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.wpf.richtextbox.ribbon\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.RichTextBox.Ribbon.targets" Condition="Exists('$(NuGetPackageRoot)c1.wpf.richtextbox.ribbon\9.0.20251.1102\buildTransitive\net6.0-windows7.0\C1.WPF.RichTextBox.Ribbon.targets')" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,168 @@
+{
+  "Apps": [
+    {
+      "Name": "FlexReport Designer",
+      "Description": "A stand-alone application for designing FlexReport, similar to the report designer in Microsoft Access.",
+      "HelpLink": "https://www.grapecity.com/componentone/docs/win/online-flexreport/flexreport-designer.html",
+      "SHA": "F9E47AAD335C0C56DC68246CFAE882793AF72498C038E19C0F7B8D80A217D4B5",
+      "Image": "/AppIcons/FlexReportDesignerApp.ico",
+      "Icon": "https://prod-cdn.grapecity.com/c1installer/apps/Images/flexdesigner-th.png",
+      "FetchLocation": {
+        "Base": "PgmFls1",
+        "Path": "MESCIUS/ComponentOne/Apps/v4.8",
+        "Exe": "FlexReportDesigner.4.8.exe"
+      },
+      "Directories": [
+        {
+          "Base": "PgmFls1",
+          "Path": "MESCIUS/ComponentOne/Apps/v4.6.2",
+          "Extracts": [
+            {
+              "Url": "https://gcpkg.blob.core.windows.net/c1installer/webinstaller/2025v1/Product/WinForms/v4.6.2/C1FlexDesignerv462.7z",
+              "ExtractVal": "c1flexreportdesigner462.7z"
+            }
+          ]
+        },
+        {
+          "Base": "PgmFls1",
+          "Path": "MESCIUS/ComponentOne/Apps/v4.8",
+          "DetermineSha": true,
+          "Extracts": [
+            {
+              "Url": "https://gcpkg.blob.core.windows.net/c1installer/webinstaller/2025v1/Product/WinForms/v4.8/C1FlexDesignerv48.7z",
+              "ExtractVal": "c1flexreportdesigner48.7z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Theme Designer",
+      "Description": "A stand-alone application for designing ComponentOne Themes.",
+      "HelpLink": "https://www.grapecity.com/componentone/docs/win/online-themes/ThemeDesignerAppOverView.html",
+      "SHA": "6F37A2A17B07E60D94B6C9C6257C47A1D6B2C4017F6E9067E9624B8E948797E6",
+      "Image": "/AppIcons/C1ThemeDesigner.ico",
+      "Icon": "https://prod-cdn.grapecity.com/c1installer/apps/Images/themesDesigner-th.png",
+      "FetchLocation": {
+        "Base": "PgmFls1",
+        "Path": "MESCIUS/ComponentOne/Apps/v4.8",
+        "Exe": "C1ThemeDesigner.4.8.exe"
+      },
+      "Directories": [
+        {
+          "Base": "PgmFls1",
+          "Path": "MESCIUS/ComponentOne/Apps/v4.6.2",
+          "Extracts": [
+            {
+              "Url": "https://prod-cdn.grapecity.com/c1installer/webinstaller/2025v1/Product/WinForms/v4.6.2/C1ThemeDesignerv462.7z",
+              "ExtractVal": "c1themedesigner45.7z"
+            }
+          ]
+        },
+        {
+          "Base": "PgmFls1",
+          "Path": "MESCIUS/ComponentOne/Apps/v4.8",
+          "DetermineSha": true,
+          "Extracts": [
+            {
+              "Url": "https://prod-cdn.grapecity.com/c1installer/webinstaller/2025v1/Product/WinForms/v4.8/C1ThemeDesignerv48.7z",
+              "ExtractVal": "c1themedesigner48.7z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Samples Explorer",
+      "Description": "Browse and launch the Visual Studio samples you've installed locally.",
+      "SHA": "E3092878034567068DE1637F375730D21994431388D71F4EAC2802E6B4331B33",
+      "Image": "/AppIcons/SampleExplorer.ico",
+      "FetchLocation": {
+        "Base": "comnfls",
+        "Path": "ComponentOne Shared/SampleExplorer",
+        "Exe": "SamplesExplorer.exe"
+      },
+      "Directories": [
+        {
+          "Base": "comnfls",
+          "Path": "ComponentOne Shared/SampleExplorer",
+          "Extracts": [
+            {
+              "Url": "https://gcpkg.blob.core.windows.net/c1installer/webinstaller/2024v2/Product/Common/SampleExplorer.7z",
+              "ExtractVal": "SampleExplorer.7z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "Demo Explorer",
+      "Description": "Download and launch the latest ComponentOne demo applications.",
+      "SHA": "B08331E32714F649F757BD5EA5AF10F3C0F3FA993083E9C86DB600EE2ABAA546",
+      "Image": "/AppIcons/DemoExplorer.ico",
+      "FetchLocation": {
+        "Base": "comnfls",
+        "Path": "ComponentOne Shared/DemoExplorer",
+        "Exe": "DemoExplorer.exe"
+      },
+      "Directories": [
+        {
+          "Base": "comnfls",
+          "Path": "ComponentOne Shared/DemoExplorer",
+          "Extracts": [
+            {
+              "Url": "https://gcpkg.blob.core.windows.net/c1installer/webinstaller/2025v1/Product/Common/DemoExplorer.7z",
+              "ExtractVal": "DemoExplorer.7z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "MESCIUS License Manager",
+      "Description": "Activate, deactivate and check the activation status of your ComponentOne serial keys.",
+      "SHA": "69F4CE40268E830B95CF47379A4D92AFA7BFB674F92FF5E62FDFC0C2F9C90FC7",
+      "Image": "/AppIcons/C1_Icon.ico",
+      "FetchLocation": {
+        "Base": "pgmdata",
+        "Path": "GrapeCity/gclm",
+        "Exe": "gclm.exe"
+      },
+      "Directories": [
+        {
+          "Base": "pgmdata",
+          "Path": "GrapeCity/gclm",
+          "Extracts": [
+            {
+              "Url": "https://gcpkg.blob.core.windows.net/c1installer/webinstaller/2024v2/Product/Common/gclm.7z",
+              "ExtractVal": "gclm.7z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "LicenseManager (Legacy)",
+      "Description": "Activate old ComponentOne serial keys (prior to 2020 v2).",
+      "SHA": "F608391D07DA464B10D569FED76E443AA586909D19F1333E0DC43A96C56C5396",
+      "Image": "/AppIcons/C1_Icon.ico",
+      "FetchLocation": {
+        "Base": "comnfls",
+        "Path": "ComponentOne Shared",
+        "Exe": "C1LicenseActivation.exe"
+      },
+      "Directories": [
+        {
+          "Base": "comnfls",
+          "Path": "ComponentOne Shared",
+          "Extracts": [
+            {
+              "Url": "https://gcpkg.blob.core.windows.net/c1installer/webinstaller/2024v2/Product/Common/C1LicenseActivation.7z",
+              "ExtractVal": "C1LicenseActivation.7z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

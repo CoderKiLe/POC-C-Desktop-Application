@@ -1,0 +1,21 @@
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\App.g.cs
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference_MarkupCompile.lref
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\bin\Debug\net8.0-windows\POC WPF D Reference.exe
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\bin\Debug\net8.0-windows\POC WPF D Reference.deps.json
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\bin\Debug\net8.0-windows\POC WPF D Reference.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\bin\Debug\net8.0-windows\POC WPF D Reference.dll
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\bin\Debug\net8.0-windows\POC WPF D Reference.pdb
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\MainWindow.baml
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference.g.resources
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference.dll
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\refint\POC WPF D Reference.dll
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference.pdb
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\POC WPF D Reference.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\ref\POC WPF D Reference.dll
+K:\POC and My Samples\POC\WPF\POC WPF D Reference\POC WPF D Reference\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

@@ -1,0 +1,1431 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>C1.WPF.ListView</name>
+    </assembly>
+    <members>
+        <member name="T:C1.WPF.ListView.C1ListView">
+            <summary>
+            List of items which can be used with heavy templates and preview template to scroll quickly.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.InitializePanel">
+            <summary>
+            Initializes the panel the first time it is loaded.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.SkipSelection">
+            <summary>
+            SkipSelection
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._itemWidth">
+            <summary>
+            Gets or sets the width of each item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._itemHeight">
+            <summary>
+            Gets or sets the height of each item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._previewItemTemplate">
+            <summary>
+            Gets or sets the template used for previewing an item.
+            </summary>
+            <remarks>The use of preview item is due to performance reasons.</remarks>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._orientation">
+            <summary>
+            Gets or sets the orientation in which the list is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._refreshWhileScrolling">
+            <summary>
+            Gets or sets a value indicating whether the viewport must be refreshed while the scroll is running.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._viewportGap">
+            <summary>
+            Gets or sets a coefficient which will determine in each layout pass the size of the viewport. If zero is specified the size of the viewport will be equal to the <see cref="T:C1.WPF.Core.C1ScrollViewer"/> viewport. If 0.5 is specified the size of the viewport will be enlarged to take up half screen more at both sides of the original viewport.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._viewportPreviewGap">
+            <summary>
+            Gets or sets a coefficient which will determine in each layout pass the size of the viewport to render items in preview mode.
+            </summary>
+            <remarks>This coefficient must be greater to ViewportGap to take effect.</remarks>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._zoom">
+            <summary>
+            Gets or set the zoom applied to this list.
+            </summary>
+            <remarks>The zoom will be conditioned to the MinZoom and MaxZoom properties in the following priority order MinZoom&gt;MaxZoom&gt;Zoom</remarks>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._minZoom">
+            <summary>
+            Gets or sets the minimum zoom available.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._maxZoom">
+            <summary>
+            Gets or sets the maximum zoom available.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._zoomMode">
+            <summary>
+            Gets or sets whether the zoom is enabled or disabled.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._verticalScrollBarVisibility">
+            <summary>
+            Gets or sets a value that indicates whether a vertical ScrollBar should be displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._horizontalScrollBarVisibility">
+            <summary>
+            Gets or sets a value that indicates whether a horizontal ScrollBar should be displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._mouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush"/> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._cursorBorderBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the border of the item used as cursor.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._isSwipeEnabled">
+            <summary>
+            Gets or sets a value that indicates whether the view supports discrete input processing for a swipe interaction.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._selectionMode">
+            <summary>
+            Gets or sets the selection behavior. The default is single selection.
+            </summary>
+            <remarks>
+            By default, end-user can select single item. You can change this property value to allow multiple selection or disable selection.
+            Here are the supported selection modes.
+            <list type="table">
+            <item><term>None</term><description>Item selection is disabled.</description></item> 
+            <item><term>Single</term>
+            <description>
+            <list type="bullet">
+            <listheader>
+               <description>With no modifier keys</description>
+             </listheader>
+             <item>A user can select a single item using the space bar, mouse click, or touch tap.</item>
+             <item>A user can deselect an item using a downward swipe gesture.</item>
+            </list>
+            <list type="bullet">
+            <listheader>
+                 <description>While pressing Ctrl</description>
+             </listheader>
+             <item>A user can deselect the item by using the space bar, mouse click, or touch tap.</item>
+             <item>Using the arrow keys, a user can move focus independently of selection.</item>
+            </list>
+            </description>
+            </item>
+            <item><term>Multiple</term>
+            <description>
+            <list type="bullet">
+            <listheader>
+                 <description>With no modifier keys</description>
+             </listheader>
+             <item>A user can select multiple items using the space bar, mouse click, or touch tap to toggle selection on the focused item.</item>
+             <item>Using the arrow keys, a user can move focus independently of selection.</item>
+            </list>
+            </description>
+            </item>
+            <item><term>Extended</term>
+            <description>
+            <list type="bullet">
+            <listheader>
+                 <description>With no modifier keys</description>
+             </listheader>
+             <item>The behavior is the same as Single selection.</item>
+            </list>
+            <list type="bullet">
+            <listheader>
+                 <description>While pressing Ctrl</description>
+             </listheader>
+             <item>A user can select multiple items using the space bar, mouse click, or touch tap to toggle selection on the focused item. </item>
+             <item>Using the arrow keys, a user can move focus independently of selection.</item>
+            </list>
+            <list type="bullet">
+            <listheader>
+                 <description>While pressing Shift</description>
+             </listheader>
+             <item>A user can select multiple contiguous items by clicking or tapping the first item in the selection and then the last item in the selection.</item>
+             <item>Using the arrow keys, a user can create a contiguous selection starting with the item selected when Shift is pressed.</item>
+            </list>
+            </description>
+            </item>
+            </list>
+            </remarks>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._selectedItem">
+            <summary>
+            Gets or set the item which is selected.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._selectedItems">
+            <summary>
+            Gets or set the list of items which are selected.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._showCheckBoxes">
+            <summary>
+            Determines whether control should show checkboxes for each item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._showSelectAll">
+            <summary>
+            Determines whether control should show 'Select All' checkbox.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._captionStyle">
+            <summary>
+            Gets or sets a style used for caption of Select All CheckBox.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._selectAllCaption">
+            <summary>
+            Gets or sets the caption for checkbox when execute SelectAll.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._unSelectAllCaption">
+            <summary>
+            Gets or sets the caption for checkbox when execute UnSelectAll.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._selectedIndex">
+            <summary>
+            Gets or sets the current selected index or returns -1 if there is no selection, or the selection doesn't belong to the Items collection.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView._selectedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it is selected.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.ItemsSourceProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.ItemsSource"/> dependency property. 
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.SelectionChanging">
+            <summary>
+            Occurs when the selection is changing.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.SelectionChanged">
+            <summary>
+            Occurs when the selection changed.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.Panel">
+            <summary>
+            Gets the panel associated with this items control.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.GetPanel">
+            <summary>
+            Gets a ListViewPanel object.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.VerticalOffsetChanged">
+            <summary>
+            Occurs when the vertical offset changed.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.HorizontalOffsetChanged">
+            <summary>
+            Occurs when horizontal offset changed.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.ZoomChanged">
+            <summary>
+            Occurs when the zoom changed.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.ItemContainerLoaded">
+            <summary>
+            Occurs after an item container was loaded.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.ItemContainerUnloading">
+            <summary>
+            Occurs before an item container was unloaded.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.ItemTapping">
+            <summary>
+            Occurs when an item is being tapped.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.ItemTapped">
+            <summary>
+            Occurs when an item is tapped.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.C1ListView.ItemHolding">
+            <summary>
+            Occurs when an item held.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.IsScrolling">
+            <summary>
+            Gets a value indicating whether the list is scrolling.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ScrollViewer">
+            <summary>
+            Gets the scroll viewer template part belonging to this items control.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ActualMinZoom">
+            <summary>
+            Gets the actual minimum zoom.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ActualMaxZoom">
+            <summary>
+            Gets the actual maximum zoom.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.IsZooming">
+            <summary>
+            Gets a value indicating whether this list is zooming.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ItemsSource">
+            <summary>
+            Gets or sets the collection of items.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.Items">
+            <summary>
+            Gets the collection of list view items.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.DataCollection">
+            <summary>
+            Gets the underlying collection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.IsKeyboardNavigation(System.Windows.Input.Key)">
+            <summary>
+            Checks whether control uses specified key for navigation.
+            </summary>
+            <param name="key">The key to check.</param>
+            <returns>Returns true if key is navigation key; Otherwise, False.</returns>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.CanSelectAll">
+            <summary>
+            Gets or sets value determining whether control should allow to select all items in Multiple or Extended selection modes.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.SelectAll">
+            <summary>
+            Select all items.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.UnselectAll">
+            <summary>
+            Unselect all items and update caption.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.BeginUpdate">
+            <summary>
+            Use BeginUpdate/EndUpdate if you need to do multiple changes in Items collection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.EndUpdate">
+            <summary>
+            Use BeginUpdate/EndUpdate if you need to do multiple changes in Items collection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.GetAbsolutePoint(System.Windows.Point)">
+            <summary>
+            Gets a point in layout coordinates from a point in the screen.
+            </summary>
+            <param name="screenPoint">The screen point.</param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.ScrollToVerticalOffset(System.Double)">
+            <summary>
+            Scrolls the content to the specified vertical offset position.
+            </summary>
+            <param name="offset">The target vertical offset position.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.ScrollToHorizontalOffset(System.Double)">
+            <summary>
+            Scrolls the content to the specified horizontal offset position.
+            </summary>
+            <param name="offset">The target horizontal offset position.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.Refresh(System.Int32)">
+            <summary>
+            Refreshes the specified item.
+            </summary>
+            <param name="itemIndex">The index of the item to be refreshed.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnPreviewKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            OnPreviewKeyDown
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnPreviewKeyUp(System.Windows.Input.KeyEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnItemTapped(C1.WPF.ListView.ListViewItemView,C1.WPF.Core.C1TappedEventArgs)">
+            <summary>
+            Called when one of the items is tapped.
+            </summary>
+            <param name="item">The item that was tapped.</param>
+            <param name="e">The <see cref="T:C1.WPF.Core.C1TappedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnItemHolding(System.Object,C1.WPF.Core.C1TappedEventArgs)">
+            <summary>
+            Called when one of the items receive the Hold event.
+            </summary>
+            <param name="sender">The item that receive the hold event.</param>
+            <param name="e">The <see cref="T:C1.WPF.Core.C1TappedEventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.BringIntoView(System.Windows.Rect,System.Boolean,System.Action)">
+            <summary>
+            Brings the specified rectangle area into the view.
+            </summary>
+            <param name="area">The area which will be brought into view.</param>
+            <param name="changeZoomIfNecessary">If true, the zoom will be changed so that the whole area is visible.</param>
+            <param name="completed">The action to be called after the operation is completed.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.BringIndexIntoView(System.Int32,System.Nullable{System.Windows.Rect},System.Boolean,System.Action)">
+            <summary>
+            Brings the specified index into view.
+            </summary>
+            <param name="index">The index of the to bring into view.</param>
+            <param name="subOffset">A sub area inside the item which can be used to scroll to a more specific point.</param>
+            <param name="changeZoomIfNecessary">If true, the zoom will be changed so that the whole area is visible.</param>
+            <param name="completed">Action called when the the animation completed.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnPropertyChanged(System.String)">
+            <summary>
+            Raises the property changed event.
+            </summary>
+            <param name="propertyName">Name of the property that changed.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.ClearSelection">
+            <summary>
+            Clears the selection.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnSelectionChanging(System.Object,C1.WPF.Core.SelectionChangedEventArgs{System.Int32})">
+            <summary>
+            Called when the selection changing.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnSelectionChanged(System.Object,C1.WPF.Core.SelectionChangedEventArgs{System.Int32})">
+            <summary>
+            Called when the selection changed.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">The <see cref="T:System.EventArgs"/> instance containing the event data.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.RemoveLastItem">
+            <summary>
+            Removes the last item.
+            </summary>
+            
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.GetItemOffset(System.Int32)">
+            <summary>
+            Gets offset of item.
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            OnPropertyChanged
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnLostFocus(System.Windows.RoutedEventArgs)">
+            <summary>
+            OnLostFocus
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnGotFocus(System.Windows.RoutedEventArgs)">
+            <summary>
+            OnGotFocus
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.ListView.C1ListView"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.ItemWidthProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.ItemWidth"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ItemWidth">
+            <summary>
+            Gets or sets the width of each item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.ItemHeightProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.ItemHeight"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ItemHeight">
+            <summary>
+            Gets or sets the height of each item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.PreviewItemTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.PreviewItemTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.PreviewItemTemplate">
+            <summary>
+            Gets or sets the template used for previewing an item.
+            </summary>
+            <remarks>The use of preview item is due to performance reasons.</remarks>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.OrientationProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.Orientation"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.Orientation">
+            <summary>
+            Gets or sets the orientation in which the list is displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.RefreshWhileScrollingProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.RefreshWhileScrolling"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.RefreshWhileScrolling">
+            <summary>
+            Gets or sets a value indicating whether the viewport must be refreshed while the scroll is running.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.ViewportGapProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.ViewportGap"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ViewportGap">
+            <summary>
+            Gets or sets a coefficient which will determine in each layout pass the size of the viewport. If zero is specified the size of the viewport will be equal to the <see cref="T:C1.WPF.Core.C1ScrollViewer" /> viewport. If 0.5 is specified the size of the viewport will be enlarged to take up half screen more at both sides of the original viewport.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.ViewportPreviewGapProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.ViewportPreviewGap"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ViewportPreviewGap">
+            <summary>
+            Gets or sets a coefficient which will determine in each layout pass the size of the viewport to render items in preview mode.
+            </summary>
+            <remarks>This coefficient must be greater to ViewportGap to take effect.</remarks>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.ZoomProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.Zoom"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.Zoom">
+            <summary>
+            Gets or set the zoom applied to this list.
+            </summary>
+            <remarks>The zoom will be conditioned to the MinZoom and MaxZoom properties in the following priority order MinZoom&gt;MaxZoom&gt;Zoom</remarks>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.MinZoomProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.MinZoom"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.MinZoom">
+            <summary>
+            Gets or sets the minimum zoom available.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.MaxZoomProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.MaxZoom"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.MaxZoom">
+            <summary>
+            Gets or sets the maximum zoom available.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.ZoomModeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.ZoomMode"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ZoomMode">
+            <summary>
+            Gets or sets whether the zoom is enabled or disabled.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.VerticalScrollBarVisibilityProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.VerticalScrollBarVisibility"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.VerticalScrollBarVisibility">
+            <summary>
+            Gets or sets a value that indicates whether a vertical ScrollBar should be displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.HorizontalScrollBarVisibilityProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.HorizontalScrollBarVisibility"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.HorizontalScrollBarVisibility">
+            <summary>
+            Gets or sets a value that indicates whether a horizontal ScrollBar should be displayed.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.MouseOverBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.MouseOverBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.MouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.CursorBorderBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.CursorBorderBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.CursorBorderBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the border of the item used as cursor.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.IsSwipeEnabledProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.IsSwipeEnabled"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.IsSwipeEnabled">
+            <summary>
+            Gets or sets a value that indicates whether the view supports discrete input processing for a swipe interaction.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.SelectionModeProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.SelectionMode"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.SelectionMode">
+            <summary>
+            Gets or sets the selection behavior. The default is single selection.
+            </summary>
+            <remarks>
+                By default, end-user can select single item. You can change this property value to allow multiple selection or disable selection.
+                Here are the supported selection modes.
+                <list type="table">
+              <item>
+                <term>None</term>
+                <description>Item selection is disabled.</description>
+              </item>
+              <item>
+                <term>Single</term>
+                <description>
+                  <list type="bullet">
+                    <listheader>
+                      <description>With no modifier keys</description>
+                    </listheader>
+                    <item>A user can select a single item using the space bar, mouse click, or touch tap.</item>
+                    <item>A user can deselect an item using a downward swipe gesture.</item>
+                  </list>
+                  <list type="bullet">
+                    <listheader>
+                      <description>While pressing Ctrl</description>
+                    </listheader>
+                    <item>A user can deselect the item by using the space bar, mouse click, or touch tap.</item>
+                    <item>Using the arrow keys, a user can move focus independently of selection.</item>
+                  </list>
+                </description>
+              </item>
+              <item>
+                <term>Multiple</term>
+                <description>
+                  <list type="bullet">
+                    <listheader>
+                      <description>With no modifier keys</description>
+                    </listheader>
+                    <item>A user can select multiple items using the space bar, mouse click, or touch tap to toggle selection on the focused item.</item>
+                    <item>Using the arrow keys, a user can move focus independently of selection.</item>
+                  </list>
+                </description>
+              </item>
+              <item>
+                <term>Extended</term>
+                <description>
+                  <list type="bullet">
+                    <listheader>
+                      <description>With no modifier keys</description>
+                    </listheader>
+                    <item>The behavior is the same as Single selection.</item>
+                  </list>
+                  <list type="bullet">
+                    <listheader>
+                      <description>While pressing Ctrl</description>
+                    </listheader>
+                    <item>A user can select multiple items using the space bar, mouse click, or touch tap to toggle selection on the focused item. </item>
+                    <item>Using the arrow keys, a user can move focus independently of selection.</item>
+                  </list>
+                  <list type="bullet">
+                    <listheader>
+                      <description>While pressing Shift</description>
+                    </listheader>
+                    <item>A user can select multiple contiguous items by clicking or tapping the first item in the selection and then the last item in the selection.</item>
+                    <item>Using the arrow keys, a user can create a contiguous selection starting with the item selected when Shift is pressed.</item>
+                  </list>
+                </description>
+              </item>
+            </list></remarks>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.SelectedItemProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.SelectedItem"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.SelectedItem">
+            <summary>
+            Gets or set the item which is selected.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.SelectedItemsProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.SelectedItems"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.SelectedItems">
+            <summary>
+            Gets or set the list of items which are selected.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.ShowCheckBoxesProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.ShowCheckBoxes"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ShowCheckBoxes">
+            <summary>
+            Determines whether control should show checkboxes for each item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.ShowSelectAllProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.ShowSelectAll"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.ShowSelectAll">
+            <summary>
+            Determines whether control should show 'Select All' checkbox.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.CaptionStyleProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.CaptionStyle"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.CaptionStyle">
+            <summary>
+            Gets or sets a style used for caption of Select All CheckBox.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.SelectAllCaptionProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.SelectAllCaption"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.SelectAllCaption">
+            <summary>
+            Gets or sets the caption for checkbox when execute SelectAll.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.UnSelectAllCaptionProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.UnSelectAllCaption"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.UnSelectAllCaption">
+            <summary>
+            Gets or sets the caption for checkbox when execute UnSelectAll.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.SelectedIndexProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.SelectedIndex"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.SelectedIndex">
+            <summary>
+            Gets or sets the current selected index or returns -1 if there is no selection, or the selection doesn't belong to the Items collection.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListView.SelectedBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.C1ListView.SelectedBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.C1ListView.SelectedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it is selected.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1ListView.ChangeVisualStateShowCaption(System.Boolean)">
+            <summary>
+            Updates the current visual state of the ShowCaption visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.ListView.C1TileListView">
+            <summary>
+            List of items displayed in columns determined by the size of the items.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1TileListView.GetPanel">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.ListView.C1TileListView.IsKeyboardNavigation(System.Windows.Input.Key)">
+            <summary>
+            Checks whether control uses specified key for navigation.
+            </summary>
+            <param name="key">The key to check.</param>
+            <returns>Returns true if key is navigation key; Otherwise, False.</returns>
+        </member>
+        <member name="M:C1.WPF.ListView.C1TileListView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.ListView.C1TileListView"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.C1TileListView.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.ListView.C1TileListView.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="T:C1.WPF.ListView.CaptionEnableConverter">
+            <summary>
+            A <see cref="T:System.Windows.Data.IValueConverter"/> used to converter <see cref="T:C1.WPF.Core.C1SelectionMode"/> to IsEnable property.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.ListView.ListViewItem">
+            <summary>
+            Model class to store settings of an item inside <see cref="T:C1.WPF.ListView.C1ListView"/>.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItem.#ctor">
+            <summary>
+            Initialize a new instance of <see cref="T:C1.WPF.ListView.ListViewItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItem.#ctor(C1.DataCollection.IDataCollection{System.Object},System.Int32)">
+            <summary>
+            Initialize a new instance of <see cref="T:C1.WPF.ListView.ListViewItem"/> class.
+            </summary>
+            <param name="collection">The collection containing the item.</param>
+            <param name="dataIndex">Index of the data inside the collection.</param>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItem.Tag">
+            <summary>
+            Gets or sets an arbitrary object value that can be used to store custom information about this element.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItem.Content">
+            <summary>
+            Gets the content associated with this object.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItem.IsSelected">
+            <summary>
+            Gets or sets the IsSelected property
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItem.IsEnabled">
+            <summary>
+            Gets or sets the IsEnabled property.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItem.State">
+            <summary>
+            Gets or sets the state of the item, which can be Preview or Full.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItem.Level">
+            <summary>
+            Gets or sets the nesting level inside a group. This is zero if no grouping is used.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItem.DataIndex">
+            <summary>
+            Gets the index of the data inside the collection of items.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItem.DataCollection">
+            <summary>
+            Gets the collection to which the bound item belongs to.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItem.Parent">
+            <summary>
+            Gets the parent group item.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItem.IsGenerated">
+            <summary>
+            A flag to determine whether this C1ComboBoxItem is added by user or generated by our own logic.
+            </summary>
+            <remarks>
+                IsGenerated = true means this is generated by our logic, SelectedItem/Value will return this item.Content.
+                IsGenerated = false means this is created by user, selectedItem/Value will return this item.
+            </remarks>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItem.GetActualItem">
+            <summary>
+            Gets the actual value for this object depends on flag IsGenerated.
+            If customer added object to C1ComboBox.Items, then this method will return the object.
+            If customer added C1ComboBoxItem to C1Combo.Items, then this method will return C1ComboBoxItem.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="E:C1.WPF.ListView.ListViewItem.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItem.OnPropertyChanged(System.String)">
+            <summary>
+            Raises the <see cref="E:C1.WPF.ListView.ListViewItem.PropertyChanged"/> event. 
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItem.OnPropertyChanged(System.ComponentModel.PropertyChangedEventArgs)">
+            <summary>
+            Raises the custom <see cref="E:C1.WPF.ListView.ListViewItem.PropertyChanged"/> event. 
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItem.SetField``1(``0@,``0,System.String)">
+            <summary>
+            Compares two values of property and raises an <see cref="E:C1.WPF.ListView.ListViewItem.PropertyChanged"/> event if they are different.
+            </summary>
+            <typeparam name="T">Type of property.</typeparam>
+            <param name="field">The previous value of property.</param>
+            <param name="value">The new value of property.</param>
+            <param name="propertyName">The name of property.</param>
+            <returns>true - if values are different.</returns>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItem.ToString">
+            <summary>
+            <inheritdoc/>
+            </summary>
+            <returns><inheritdoc/></returns>
+        </member>
+        <member name="T:C1.WPF.ListView.ListViewGroupItem">
+            <summary>
+            Grouped ListViewItem
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewGroupItem._group">
+            <summary>
+            Represents the group collection
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewGroupItem.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.ListView.ListViewGroupItem"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewGroupItem.#ctor(C1.DataCollection.IDataCollectionGroup{System.Object,System.Object},System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.ListView.ListViewGroupItem"/> class.
+            </summary>
+            <param name="group">The group item.</param>
+            <param name="dataIndex">The index of the group inside the collection of groups.</param>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewGroupItem.GroupText">
+            <summary>
+            Gets the a string representing the group item.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.ListView.ListViewItemsCollection">
+            <summary>
+            The collection of ListViewItem
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemsCollection.#ctor(C1.WPF.ListView.C1ListView)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="listView"></param>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemsCollection.DataCollection">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemsCollection.OnCollectionChanged(System.Collections.Specialized.NotifyCollectionChangedEventArgs)">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemsCollection.Add(System.Object)">
+            <summary>
+            Add data object directly
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemsCollection.Clear">
+            <summary>
+            Removes all items from the collection.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.ListView.BoundItemsDataCollection">
+            <summary>
+            The collection that contains cacheable <see cref="T:C1.WPF.ListView.ListViewItem"/>
+            </summary>
+        </member>
+        <member name="T:C1.WPF.ListView.BoundItemsDataCollection.BoundItemsSelectDataCollection">
+            <summary>
+            Transforms the data item in collection into collection of ListViewItem
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.BoundItemsDataCollection.BoundItemsSelectDataCollection.Parent">
+            <summary>
+            The parent ListViewGroupItem that contains this collection of ListViewItem
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.BoundItemsDataCollection.#ctor(C1.DataCollection.IDataCollection{System.Object},C1.WPF.ListView.ListViewGroupItem,C1.WPF.ListView.C1ListView)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="source"></param>
+            <param name="parent"></param>
+            <param name="owner"></param>
+        </member>
+        <member name="M:C1.WPF.ListView.BoundItemsDataCollection.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="T:C1.WPF.ListView.GroupedItemsDataCollection">
+            <summary>
+            The collection that contains grouped ListViewItem and their children.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.GroupedItemsDataCollection.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="T:C1.WPF.ListView.ListViewPanel">
+            <summary>
+            Virtualizing stack panel which supports preview templates in order to scroll quickly.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewPanel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.ListView.ListViewPanel"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewPanel.#ctor(C1.WPF.ListView.C1ListView)">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.ListView.ListViewPanel"/> class.
+            </summary>
+            <param name="listView"></param>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewPanel.Owner">
+            <summary>
+            Gets sets the items control which is parent of this panel.
+            </summary>
+        </member>
+        <member name="E:C1.WPF.ListView.ListViewPanel.PropertyChanged">
+            <summary>
+            Occurs when a property value changes.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewPanel.ItemWidth">
+            <summary>
+            Gets or sets the width of each item.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewPanel.ItemHeight">
+            <summary>
+            Gets or sets the height of each item.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewPanel.Padding">
+            <summary>
+            Gets the padding of the list of items.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewPanel.ViewportGap">
+            <summary>
+            Gets a coefficient which will determine in each layout pass the size of the viewport. 
+            If zero is specified the size of the viewport will be equal to the scrollviewer viewport. 
+            If 0.5 is specified the size of the viewport will be enlarged to take up half screen more at both sides of the original viewport.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewPanel.ViewportPreviewGap">
+            <summary>
+            Gets a coefficient which will determine in each layout pass the size of the viewport to render items in preview mode.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewPanel.ExtentWidth">
+            <summary>
+            <inheritdoc cref="P:C1.WPF.Core.IScrollViewerLargeScrolling.ExtentWidth"/>
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewPanel.ExtentHeight">
+            <summary>
+            <inheritdoc cref="P:C1.WPF.Core.IScrollViewerLargeScrolling.ExtentHeight"/>
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewPanel.GetDesiredExtentWidth">
+            <summary>
+            Returns desired extend width.
+            </summary>
+            <returns>Extent width to use.</returns>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewPanel.GetDesiredExtentHeight">
+            <summary>
+            Returns desired extend height.
+            </summary>
+            <returns>Extent height to use.</returns>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewPanel.Offset">
+            <summary>
+            <inheritdoc cref="P:C1.WPF.Core.IScrollViewerLargeScrolling.Offset"/>
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewPanel.RaisePropertyChanged(System.String)">
+            <summary>
+            Raises the property changed event.
+            </summary>
+            <param name="propertyName">Name of the property which changed.</param>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewPanel.HandlePreviewKeyUp(System.Windows.Input.KeyEventArgs,System.Boolean)">
+            <summary>
+            HandlePreviewKeyUp
+            </summary>
+            <param name="e"></param>
+            <param name="forceSelection">
+            If this parameter is true, <see cref="P:C1.WPF.ListView.C1ListView.SelectionMode"/> will be ignored, 
+            and <see cref="M:C1.WPF.ListView.C1ListView.HandleSelectedItem(System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)"/> will be called in all cases (but only if it is appropriate).
+            </param>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewPanel.HandlePreviewKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>
+            HandlePreviewKeyDown
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewPanel.MeasureOverride(System.Windows.Size)">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewPanel.ArrangeOverride(System.Windows.Size)">
+            <inheritdoc/>
+        </member>
+        <member name="T:C1.WPF.ListView.TileListViewPanel">
+            <summary>
+            Virtualizing panel which render the items in columns depending on the size of the items.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.TileListViewPanel.#ctor(C1.WPF.ListView.C1TileListView)">
+            <summary>
+            Default constructor
+            </summary>
+            <param name="listview"></param>
+        </member>
+        <member name="M:C1.WPF.ListView.TileListViewPanel.MeasureOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the Measure pass of Silverlight layout. Classes can override this method to define their own Measure pass behavior.
+            </summary>
+            <param name="availableSize">The available size that this object can give to child objects. Infinity (<see cref="F:System.Double.PositiveInfinity"/>) can be specified as a value to indicate that the object will size to whatever content is available.</param>
+            <returns>
+            The size that this object determines it needs during layout, based on its calculations of the allocated sizes for child objects; or based on other considerations, such as a fixed container size.
+            </returns>
+        </member>
+        <member name="M:C1.WPF.ListView.TileListViewPanel.ArrangeOverride(System.Windows.Size)">
+            <summary>
+            Provides the behavior for the Arrange pass of Silverlight layout. Classes can override this method to define their own Arrange pass behavior.
+            </summary>
+            <param name="finalSize">The final area within the parent that this object should use to arrange itself and its children.</param>
+            <returns>
+            The actual size that is used after the element is arranged in layout.
+            </returns>
+        </member>
+        <member name="M:C1.WPF.ListView.TileListViewPanel.GetDesiredExtentWidth">
+            <summary>
+            Returns desired extend width.
+            </summary>
+            <returns>Extent width to use.</returns>
+        </member>
+        <member name="M:C1.WPF.ListView.TileListViewPanel.GetDesiredExtentHeight">
+            <summary>
+            Returns desired extend height.
+            </summary>
+            <returns>Extent height to use.</returns>
+        </member>
+        <member name="T:C1.WPF.ListView.ListViewItemView">
+            <summary>
+            Visual element used inside a <see cref="T:C1.WPF.ListView.C1ListView"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView._state">
+            <summary>
+            Gets or sets the state of the item, which can be Preview or Full.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView._previewContent">
+            <summary>
+            Gets or sets the content of the preview state.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView._previewContentTemplate">
+            <summary>
+            Gets or sets the DataTemplate used when in preview state.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView._isSelected">
+            <summary>
+            Specifies whether item is selected.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView._isCursor">
+            <summary>
+            Specifies whether the item is the cursor.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView._showCheckBox">
+            <summary>
+            Show hide Checkbox.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView._mouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView._cursorBorderBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the border of the item used as cursor.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView._selectedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it is selected.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemView.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>
+            OnPropertyChanged
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemView.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.ListView.ListViewItemView"/> class.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemView.OnApplyTemplate">
+            <inheritdoc/>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemView.Dispose(System.Boolean)">
+            <inheritdoc/>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.IsFocused">
+            <summary>
+            Gets whether the control is focused.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView.StateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.ListViewItemView.State"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.State">
+            <summary>
+            Gets or sets the state of the item, which can be Preview or Full.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView.PreviewContentProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.ListViewItemView.PreviewContent"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.PreviewContent">
+            <summary>
+            Gets or sets the content of the preview state.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView.PreviewContentTemplateProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.ListViewItemView.PreviewContentTemplate"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.PreviewContentTemplate">
+            <summary>
+            Gets or sets the DataTemplate used when in preview state.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView.IsSelectedProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.ListViewItemView.IsSelected"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.IsSelected">
+            <summary>
+            Specifies whether item is selected.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView.IsCursorProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.ListViewItemView.IsCursor"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.IsCursor">
+            <summary>
+            Specifies whether the item is the cursor.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView.ShowCheckBoxProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.ListViewItemView.ShowCheckBox"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.ShowCheckBox">
+            <summary>
+            Show hide Checkbox.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView.MouseOverBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.ListViewItemView.MouseOverBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.MouseOverBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it has the mouse over.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView.CursorBorderBrushProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.ListViewItemView.CursorBorderBrush"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.CursorBorderBrush">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the border of the item used as cursor.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.ListViewItemView.SelectedBackgroundProperty">
+            <summary>
+            Identifies the <see cref="P:C1.WPF.ListView.ListViewItemView.SelectedBackground"/> dependency property. 
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.ListViewItemView.SelectedBackground">
+            <summary>
+            Gets or sets the <see cref="T:System.Windows.Media.Brush" /> used to highlight the control when it is selected.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemView.ChangeVisualStateCommon(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Common visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemView.ChangeVisualStatePreview(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Preview visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewItemView.ChangeVisualStateSelection(System.Boolean)">
+            <summary>
+            Updates the current visual state of the Selection visual state group to match the object's properties.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.ListView.C1ListBoxItemState">
+            <summary>
+            State of a <see cref="T:C1.WPF.ListView.ListViewItemView"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListBoxItemState.Preview">
+            <summary>
+            Display the preview template of the <see cref="T:C1.WPF.ListView.ListViewItemView"/>.
+            </summary>
+        </member>
+        <member name="F:C1.WPF.ListView.C1ListBoxItemState.Full">
+            <summary>
+            Display the full template of the <see cref="T:C1.WPF.ListView.ListViewItemView"/>.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.ListView.ListViewResources">
+            <summary>
+            This class gives access to localized resources from xaml.
+            </summary>
+        </member>
+        <member name="M:C1.WPF.ListView.ListViewResources.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:C1.WPF.ListView.ListViewResources"/> class.
+            </summary>
+        </member>
+        <member name="T:C1.WPF.ListView.Resources.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.Resources.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.Resources.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.Resources.Resources.CheckList_SelectAllCaption">
+            <summary>
+              Looks up a localized string similar to Select All.
+            </summary>
+        </member>
+        <member name="P:C1.WPF.ListView.Resources.Resources.CheckList_UnSelectAllCaption">
+            <summary>
+              Looks up a localized string similar to UnSelect All.
+            </summary>
+        </member>
+    </members>
+</doc>

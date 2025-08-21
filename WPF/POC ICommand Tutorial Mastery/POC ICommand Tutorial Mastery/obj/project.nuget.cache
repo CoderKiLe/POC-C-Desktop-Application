@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TJi8VPoi8eE=",
+  "success": true,
+  "projectFilePath": "K:\\POC and My Samples\\POC\\WPF\\POC ICommand Tutorial Mastery\\POC ICommand Tutorial Mastery\\POC ICommand Tutorial Mastery.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kile3\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.135\\microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512"
+  ],
+  "logs": []
+}

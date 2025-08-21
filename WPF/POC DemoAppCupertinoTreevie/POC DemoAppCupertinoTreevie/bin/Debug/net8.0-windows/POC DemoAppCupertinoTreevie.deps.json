@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "POC DemoAppCupertinoTreevie/1.0.0": {
+        "dependencies": {
+          "CupertinoForms": "1.0.0"
+        },
+        "runtime": {
+          "POC DemoAppCupertinoTreevie.dll": {}
+        }
+      },
+      "CupertinoForms/1.0.0": {
+        "runtime": {
+          "CupertinoForms.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "POC DemoAppCupertinoTreevie/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CupertinoForms/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\Themes\Generic.baml
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\CupertinoForms_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\bin\Debug\net8.0-windows\CupertinoForms.deps.json
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\bin\Debug\net8.0-windows\CupertinoForms.dll
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\bin\Debug\net8.0-windows\CupertinoForms.pdb
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\CupertinoForms_MarkupCompile.lref
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\Themes\Views\CupertinoWindow.baml
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\CupertinoForms.g.resources
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\CupertinoForms.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\CupertinoForms.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\CupertinoForms.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\CupertinoForms.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\CupertinoForms.dll
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\refint\CupertinoForms.dll
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\CupertinoForms.pdb
+K:\POC and My Samples\POC\WPF\POC DemoAppCupertinoTreevie\CupertinoForms\obj\Debug\net8.0-windows\ref\CupertinoForms.dll

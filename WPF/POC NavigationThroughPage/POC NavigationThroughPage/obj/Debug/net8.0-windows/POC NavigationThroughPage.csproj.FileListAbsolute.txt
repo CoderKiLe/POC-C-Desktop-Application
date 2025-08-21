@@ -1,0 +1,28 @@
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\bin\Debug\net8.0-windows\POC NavigationThroughPage.exe
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\bin\Debug\net8.0-windows\POC NavigationThroughPage.deps.json
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\bin\Debug\net8.0-windows\POC NavigationThroughPage.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\bin\Debug\net8.0-windows\POC NavigationThroughPage.dll
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\bin\Debug\net8.0-windows\POC NavigationThroughPage.pdb
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\Pages\Page1.g.cs
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\Pages\Page2.g.cs
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\Pages\Page3.g.cs
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\Pages\Page4.g.cs
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\App.g.cs
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage_MarkupCompile.lref
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\MainWindow.baml
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\Pages\Page1.baml
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\Pages\Page2.baml
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\Pages\Page3.baml
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\Pages\Page4.baml
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage.g.resources
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage.dll
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\refint\POC NavigationThroughPage.dll
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage.pdb
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\POC NavigationThroughPage.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC NavigationThroughPage\POC NavigationThroughPage\obj\Debug\net8.0-windows\ref\POC NavigationThroughPage.dll

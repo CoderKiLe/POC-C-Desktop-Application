@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B67387D6-7251-4386-9F50-CBC3354707C6}|POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj|k:\\poc - wpf and winforms\\wpf\\poc-richtextbox ribbon\\poc-richtextbox ribbon\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B67387D6-7251-4386-9F50-CBC3354707C6}|POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj|solutionrelative:poc-richtextbox ribbon\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B67387D6-7251-4386-9F50-CBC3354707C6}|POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj|k:\\poc - wpf and winforms\\wpf\\poc-richtextbox ribbon\\poc-richtextbox ribbon\\poc-richtextbox ribbon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B67387D6-7251-4386-9F50-CBC3354707C6}|POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj|solutionrelative:poc-richtextbox ribbon\\poc-richtextbox ribbon.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B67387D6-7251-4386-9F50-CBC3354707C6}|POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj|k:\\poc - wpf and winforms\\wpf\\poc-richtextbox ribbon\\poc-richtextbox ribbon\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B67387D6-7251-4386-9F50-CBC3354707C6}|POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj|solutionrelative:poc-richtextbox ribbon\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "POC-RichTextBox Ribbon.csproj",
+              "DocumentMoniker": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj",
+              "RelativeDocumentMoniker": "POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj",
+              "ToolTip": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj",
+              "RelativeToolTip": "POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T04:44:23.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "POC-RichTextBox Ribbon\\MainWindow.xaml",
+              "ToolTip": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\MainWindow.xaml",
+              "RelativeToolTip": "POC-RichTextBox Ribbon\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-07-16T04:44:36.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "POC-RichTextBox Ribbon\\AssemblyInfo.cs",
+              "ToolTip": "K:\\POC - WPF and Winforms\\WPF\\POC-RichTextBox Ribbon\\POC-RichTextBox Ribbon\\AssemblyInfo.cs",
+              "RelativeToolTip": "POC-RichTextBox Ribbon\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T04:44:33.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

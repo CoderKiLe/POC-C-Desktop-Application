@@ -1,0 +1,1031 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "POC RichTextBox Net9/1.0.0": {
+        "dependencies": {
+          "C1.WPF.RichTextBox.Ribbon": "9.0.20251.1102"
+        },
+        "runtime": {
+          "POC RichTextBox Net9.dll": {}
+        }
+      },
+      "C1.DataCollection/9.0.20242.209": {
+        "dependencies": {
+          "System.Linq.Parallel": "4.3.0"
+        },
+        "runtime": {
+          "lib/net7.0/C1.DataCollection.dll": {
+            "assemblyVersion": "9.0.20242.209",
+            "fileVersion": "9.0.20242.209"
+          }
+        }
+      },
+      "C1.WPF.Core/9.0.20251.1102": {
+        "dependencies": {
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.135"
+        },
+        "runtime": {
+          "lib/net7.0-windows7.0/C1.WPF.Core.dll": {
+            "assemblyVersion": "9.0.20251.1102",
+            "fileVersion": "9.0.20251.1102"
+          }
+        }
+      },
+      "C1.WPF.DataCollection/9.0.20242.209": {
+        "dependencies": {
+          "C1.DataCollection": "9.0.20242.209"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/C1.WPF.DataCollection.dll": {
+            "assemblyVersion": "9.0.20242.209",
+            "fileVersion": "9.0.20242.209"
+          }
+        }
+      },
+      "C1.WPF.Input/9.0.20251.1102": {
+        "dependencies": {
+          "C1.WPF.Core": "9.0.20251.1102",
+          "C1.WPF.ListView": "9.0.20251.1102"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/C1.WPF.Input.dll": {
+            "assemblyVersion": "9.0.20251.1102",
+            "fileVersion": "9.0.20251.1102"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/ar/C1.WPF.Input.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net6.0-windows7.0/cs/C1.WPF.Input.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0-windows7.0/da/C1.WPF.Input.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net6.0-windows7.0/de/C1.WPF.Input.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/el/C1.WPF.Input.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net6.0-windows7.0/es/C1.WPF.Input.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fi/C1.WPF.Input.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net6.0-windows7.0/fr/C1.WPF.Input.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/he/C1.WPF.Input.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net6.0-windows7.0/it/C1.WPF.Input.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0-windows7.0/ja/C1.WPF.Input.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/C1.WPF.Input.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/nl/C1.WPF.Input.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net6.0-windows7.0/no/C1.WPF.Input.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net6.0-windows7.0/pl/C1.WPF.Input.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0-windows7.0/pt/C1.WPF.Input.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ro/C1.WPF.Input.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net6.0-windows7.0/ru/C1.WPF.Input.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/sk/C1.WPF.Input.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net6.0-windows7.0/sv/C1.WPF.Input.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net6.0-windows7.0/tr/C1.WPF.Input.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-Hans/C1.WPF.Input.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0-windows7.0/zh-Hant/C1.WPF.Input.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net6.0-windows7.0/zh/C1.WPF.Input.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "C1.WPF.ListView/9.0.20251.1102": {
+        "dependencies": {
+          "C1.WPF.Core": "9.0.20251.1102",
+          "C1.WPF.DataCollection": "9.0.20242.209"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/C1.WPF.ListView.dll": {
+            "assemblyVersion": "9.0.20251.1102",
+            "fileVersion": "9.0.20251.1102"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/ar/C1.WPF.ListView.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net6.0-windows7.0/cs/C1.WPF.ListView.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0-windows7.0/da/C1.WPF.ListView.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net6.0-windows7.0/de/C1.WPF.ListView.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/el/C1.WPF.ListView.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net6.0-windows7.0/es/C1.WPF.ListView.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fi/C1.WPF.ListView.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net6.0-windows7.0/fr/C1.WPF.ListView.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/he/C1.WPF.ListView.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net6.0-windows7.0/it/C1.WPF.ListView.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0-windows7.0/ja/C1.WPF.ListView.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/C1.WPF.ListView.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/nl/C1.WPF.ListView.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net6.0-windows7.0/no/C1.WPF.ListView.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net6.0-windows7.0/pl/C1.WPF.ListView.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0-windows7.0/pt/C1.WPF.ListView.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ro/C1.WPF.ListView.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net6.0-windows7.0/ru/C1.WPF.ListView.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/sk/C1.WPF.ListView.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net6.0-windows7.0/sv/C1.WPF.ListView.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net6.0-windows7.0/tr/C1.WPF.ListView.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-Hans/C1.WPF.ListView.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0-windows7.0/zh-Hant/C1.WPF.ListView.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net6.0-windows7.0/zh/C1.WPF.ListView.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "C1.WPF.Menu/9.0.20251.1102": {
+        "dependencies": {
+          "C1.WPF.Core": "9.0.20251.1102",
+          "C1.WPF.Input": "9.0.20251.1102",
+          "C1.WPF.ListView": "9.0.20251.1102"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/C1.WPF.Menu.dll": {
+            "assemblyVersion": "9.0.20251.1102",
+            "fileVersion": "9.0.20251.1102"
+          }
+        }
+      },
+      "C1.WPF.Ribbon/9.0.20251.1102": {
+        "dependencies": {
+          "C1.WPF.Core": "9.0.20251.1102",
+          "C1.WPF.DataCollection": "9.0.20242.209",
+          "C1.WPF.Input": "9.0.20251.1102",
+          "C1.WPF.Menu": "9.0.20251.1102",
+          "C1.WPF.TabControl": "9.0.20251.1102"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/C1.WPF.Ribbon.dll": {
+            "assemblyVersion": "9.0.20251.1102",
+            "fileVersion": "9.0.20251.1102"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/de/C1.WPF.Ribbon.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/ja/C1.WPF.Ribbon.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/C1.WPF.Ribbon.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/zh/C1.WPF.Ribbon.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "C1.WPF.RichTextBox/9.0.20251.1102": {
+        "dependencies": {
+          "C1.WPF.Core": "9.0.20251.1102",
+          "C1.WPF.Input": "9.0.20251.1102",
+          "System.Drawing.Common": "8.0.8"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/C1.WPF.RichTextBox.dll": {
+            "assemblyVersion": "9.0.20251.1102",
+            "fileVersion": "9.0.20251.1102"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/ar/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net6.0-windows7.0/cs/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0-windows7.0/da/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net6.0-windows7.0/de/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/el/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net6.0-windows7.0/es/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fi/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net6.0-windows7.0/fr/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/he/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net6.0-windows7.0/it/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0-windows7.0/ja/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/nl/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net6.0-windows7.0/no/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net6.0-windows7.0/pl/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0-windows7.0/pt/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ro/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net6.0-windows7.0/ru/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/sk/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net6.0-windows7.0/sv/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net6.0-windows7.0/tr/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-Hans/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0-windows7.0/zh-Hant/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net6.0-windows7.0/zh/C1.WPF.RichTextBox.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "C1.WPF.RichTextBox.Ribbon/9.0.20251.1102": {
+        "dependencies": {
+          "C1.WPF.Core": "9.0.20251.1102",
+          "C1.WPF.Input": "9.0.20251.1102",
+          "C1.WPF.Ribbon": "9.0.20251.1102",
+          "C1.WPF.RichTextBox": "9.0.20251.1102",
+          "C1.WPF.SpellChecker": "9.0.20251.1102"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/C1.WPF.RichTextBox.Ribbon.dll": {
+            "assemblyVersion": "9.0.20251.1102",
+            "fileVersion": "9.0.20251.1102"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/ar/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net6.0-windows7.0/cs/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0-windows7.0/da/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net6.0-windows7.0/de/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/el/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net6.0-windows7.0/es/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fi/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net6.0-windows7.0/fr/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/he/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net6.0-windows7.0/hu-HU/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "hu-HU"
+          },
+          "lib/net6.0-windows7.0/hu/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net6.0-windows7.0/it/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0-windows7.0/ja/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/nl/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net6.0-windows7.0/no/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net6.0-windows7.0/pl/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0-windows7.0/pt/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ro/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net6.0-windows7.0/ru/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/sk/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net6.0-windows7.0/sl-SI/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "sl-SI"
+          },
+          "lib/net6.0-windows7.0/sl/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "sl"
+          },
+          "lib/net6.0-windows7.0/sv/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net6.0-windows7.0/tr/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-Hans/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0-windows7.0/zh-Hant/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net6.0-windows7.0/zh/C1.WPF.RichTextBox.Ribbon.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "C1.WPF.SpellChecker/9.0.20251.1102": {
+        "dependencies": {
+          "C1.WPF.Core": "9.0.20251.1102",
+          "C1.WPF.Input": "9.0.20251.1102",
+          "C1.Zip": "9.0.20251.10"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/C1.WPF.SpellChecker.dll": {
+            "assemblyVersion": "9.0.20251.1102",
+            "fileVersion": "9.0.20251.1102"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/ar/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net6.0-windows7.0/cs/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0-windows7.0/da/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net6.0-windows7.0/de/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/el/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net6.0-windows7.0/es/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fi/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net6.0-windows7.0/fr/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/he/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net6.0-windows7.0/hu-HU/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "hu-HU"
+          },
+          "lib/net6.0-windows7.0/hu/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net6.0-windows7.0/it/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0-windows7.0/ja/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/nl/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net6.0-windows7.0/no/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net6.0-windows7.0/pl/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0-windows7.0/pt/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ro/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net6.0-windows7.0/ru/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/sk/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net6.0-windows7.0/sl-SI/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "sl-SI"
+          },
+          "lib/net6.0-windows7.0/sl/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "sl"
+          },
+          "lib/net6.0-windows7.0/sv/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net6.0-windows7.0/tr/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-Hans/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0-windows7.0/zh-Hant/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net6.0-windows7.0/zh/C1.WPF.SpellChecker.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "C1.WPF.TabControl/9.0.20251.1102": {
+        "dependencies": {
+          "C1.WPF.Core": "9.0.20251.1102",
+          "C1.WPF.Input": "9.0.20251.1102",
+          "C1.WPF.Menu": "9.0.20251.1102"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/C1.WPF.TabControl.dll": {
+            "assemblyVersion": "9.0.20251.1102",
+            "fileVersion": "9.0.20251.1102"
+          }
+        },
+        "resources": {
+          "lib/net6.0-windows7.0/ar/C1.WPF.TabControl.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net6.0-windows7.0/cs/C1.WPF.TabControl.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net6.0-windows7.0/da/C1.WPF.TabControl.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net6.0-windows7.0/de/C1.WPF.TabControl.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net6.0-windows7.0/el/C1.WPF.TabControl.resources.dll": {
+            "locale": "el"
+          },
+          "lib/net6.0-windows7.0/es/C1.WPF.TabControl.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net6.0-windows7.0/fi/C1.WPF.TabControl.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/net6.0-windows7.0/fr/C1.WPF.TabControl.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net6.0-windows7.0/he/C1.WPF.TabControl.resources.dll": {
+            "locale": "he"
+          },
+          "lib/net6.0-windows7.0/it/C1.WPF.TabControl.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net6.0-windows7.0/ja/C1.WPF.TabControl.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net6.0-windows7.0/ko/C1.WPF.TabControl.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net6.0-windows7.0/nl/C1.WPF.TabControl.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net6.0-windows7.0/no/C1.WPF.TabControl.resources.dll": {
+            "locale": "no"
+          },
+          "lib/net6.0-windows7.0/pl/C1.WPF.TabControl.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net6.0-windows7.0/pt/C1.WPF.TabControl.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net6.0-windows7.0/ro/C1.WPF.TabControl.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net6.0-windows7.0/ru/C1.WPF.TabControl.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net6.0-windows7.0/sk/C1.WPF.TabControl.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net6.0-windows7.0/sv/C1.WPF.TabControl.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net6.0-windows7.0/tr/C1.WPF.TabControl.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net6.0-windows7.0/zh-Hans/C1.WPF.TabControl.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net6.0-windows7.0/zh-Hant/C1.WPF.TabControl.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/net6.0-windows7.0/zh/C1.WPF.TabControl.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "C1.Zip/9.0.20251.10": {
+        "runtime": {
+          "lib/netstandard2.0/C1.Zip.dll": {
+            "assemblyVersion": "9.0.20251.10",
+            "fileVersion": "9.0.20251.10"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Win32.SystemEvents/8.0.0": {},
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+        "runtime": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.135.29210"
+          }
+        }
+      },
+      "System.Collections/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Collections.Concurrent/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Diagnostics.Debug/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Diagnostics.Tracing/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Drawing.Common/8.0.8": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        }
+      },
+      "System.Globalization/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.IO/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0",
+          "System.Text.Encoding": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Linq/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0"
+        }
+      },
+      "System.Linq.Parallel/4.3.0": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Diagnostics.Debug": "4.3.0",
+          "System.Diagnostics.Tracing": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Reflection/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.IO": "4.3.0",
+          "System.Reflection.Primitives": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Reflection.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Resources.ResourceManager/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Globalization": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.Extensions/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "POC RichTextBox Net9/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.DataCollection/9.0.20242.209": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4gpwsn67bYIt4eCpQLYDobqZwcPweASDvGbV46NOhv04KI0o71qmtXicXDrUF2kewbb4Bqh7cl/09vqG/+62+g==",
+      "path": "c1.datacollection/9.0.20242.209",
+      "hashPath": "c1.datacollection.9.0.20242.209.nupkg.sha512"
+    },
+    "C1.WPF.Core/9.0.20251.1102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NiHsEy4qjXO5IRxAUSlkOZu5Gvjs1BGcrX4Vo/21B5rhL+38c5jakRaw/ZwCWWRPfnnPolF3lNI/D4/lHOvxVw==",
+      "path": "c1.wpf.core/9.0.20251.1102",
+      "hashPath": "c1.wpf.core.9.0.20251.1102.nupkg.sha512"
+    },
+    "C1.WPF.DataCollection/9.0.20242.209": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Um9lOxJiOCGyFOOykmY5Yx5e3ZeYNXMhp20EW8mteL9dX7lTiKWEwmGHzWTRoQnNSZ+Ne6RP2A0t2a4vZqoPeQ==",
+      "path": "c1.wpf.datacollection/9.0.20242.209",
+      "hashPath": "c1.wpf.datacollection.9.0.20242.209.nupkg.sha512"
+    },
+    "C1.WPF.Input/9.0.20251.1102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o2orwrQkIXHEVfGwkADkLDhNSRJJzRIbblyOcH4zPtstV1B6gXOHYRQi0fA5SVe4Kd/V2CMSpEWfG6zyhh1nRQ==",
+      "path": "c1.wpf.input/9.0.20251.1102",
+      "hashPath": "c1.wpf.input.9.0.20251.1102.nupkg.sha512"
+    },
+    "C1.WPF.ListView/9.0.20251.1102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SSUVummdwojZj2DCTvhBWLjBJHLFQWr0N+lxuc+aDAMOwaS20+DcY1ZbUCy8DUf4SInhm05uVY109fcDYlxGlg==",
+      "path": "c1.wpf.listview/9.0.20251.1102",
+      "hashPath": "c1.wpf.listview.9.0.20251.1102.nupkg.sha512"
+    },
+    "C1.WPF.Menu/9.0.20251.1102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1b+asx1dqdo7zc+0QFO4XE2qF0CLZt3milW3T6Bz928t6gFpIJLvr040aFyehdN5btqpxEAIWClYeuHHPZMGaA==",
+      "path": "c1.wpf.menu/9.0.20251.1102",
+      "hashPath": "c1.wpf.menu.9.0.20251.1102.nupkg.sha512"
+    },
+    "C1.WPF.Ribbon/9.0.20251.1102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CiCspkHIzePQU7qYEjysTlbz1upDgvZuig+CU4f0l11jm60SmfJFxKnG7x2Sxx90Aym73o1cPAzuzvxEEY6ogA==",
+      "path": "c1.wpf.ribbon/9.0.20251.1102",
+      "hashPath": "c1.wpf.ribbon.9.0.20251.1102.nupkg.sha512"
+    },
+    "C1.WPF.RichTextBox/9.0.20251.1102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CauhzL3Rm4Vnf6uUtdartoiwGXOZu2Sug2h2ToEZzDqZdvNLDNeUy/hqUb3wSQwaAjFKXgtSm3SmGYEa4wIqWg==",
+      "path": "c1.wpf.richtextbox/9.0.20251.1102",
+      "hashPath": "c1.wpf.richtextbox.9.0.20251.1102.nupkg.sha512"
+    },
+    "C1.WPF.RichTextBox.Ribbon/9.0.20251.1102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aC9nfTU/Hfn/snEbQe0MiVdtUSJQHxZZAWd5EWRlAvL4OHyoVx7sXNPW+c4r+y2myfj9dJmRpAA0yEARZzd30Q==",
+      "path": "c1.wpf.richtextbox.ribbon/9.0.20251.1102",
+      "hashPath": "c1.wpf.richtextbox.ribbon.9.0.20251.1102.nupkg.sha512"
+    },
+    "C1.WPF.SpellChecker/9.0.20251.1102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lYqRXP134cxnN254s8XzpPToQCvvBaVz+b0yMn99KONfcYmXuT6Z2Gw8DKSKryO8ysvF9kE5YJOao5kXUFknxA==",
+      "path": "c1.wpf.spellchecker/9.0.20251.1102",
+      "hashPath": "c1.wpf.spellchecker.9.0.20251.1102.nupkg.sha512"
+    },
+    "C1.WPF.TabControl/9.0.20251.1102": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y0iVW9gLv2KhFSvFu7jh86djwGWHFQBaGz0W1m97KbKHwpUDFPWdyktMBdcgIFGPH7xmOu/KYp28Fcrap/CchQ==",
+      "path": "c1.wpf.tabcontrol/9.0.20251.1102",
+      "hashPath": "c1.wpf.tabcontrol.9.0.20251.1102.nupkg.sha512"
+    },
+    "C1.Zip/9.0.20251.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/+fI1mEWXF7iSaFCZCeMIsLYHDhLlyEG/okDdsE9O+w39QBgueE+PCkkEencyuaQj+ryiVhk9aQ1Vsb0qX8XKA==",
+      "path": "c1.zip/9.0.20251.10",
+      "hashPath": "c1.zip.9.0.20251.10.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.135": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r8qBEXmQfORso2+MVHnt8PSH4761zJ0SIxgQTSEDVLU97EN2FZdG6/ZCYUPhQy+OrPKgnpYBCAs3PS6Bs7wRsg==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.135",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.135.nupkg.sha512"
+    },
+    "System.Collections/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "path": "system.collections/4.3.0",
+      "hashPath": "system.collections.4.3.0.nupkg.sha512"
+    },
+    "System.Collections.Concurrent/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
+      "path": "system.collections.concurrent/4.3.0",
+      "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Debug/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZUhUOdqmaG5Jk3Xdb8xi5kIyQYAA4PnTNlHx1mu9ZY3qv4ELIdKbnL/akbGaKi2RnNUWaZsAs31rvzFdewTj2g==",
+      "path": "system.diagnostics.debug/4.3.0",
+      "hashPath": "system.diagnostics.debug.4.3.0.nupkg.sha512"
+    },
+    "System.Diagnostics.Tracing/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rswfv0f/Cqkh78rA5S8eN8Neocz234+emGCtTF3lxPY96F+mmmUen6tbn0glN6PMvlKQb9bPAY5e9u7fgPTkKw==",
+      "path": "system.diagnostics.tracing/4.3.0",
+      "hashPath": "system.diagnostics.tracing.4.3.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ZM1wvLjz9nVVExsfPAaSl/qOvU+QNedJL5rQ+2Wbow+iGeyO0e7XN07707rMBgaffEeeLrCZBwC0oHUuvRdPw==",
+      "path": "system.drawing.common/8.0.8",
+      "hashPath": "system.drawing.common.8.0.8.nupkg.sha512"
+    },
+    "System.Globalization/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kYdVd2f2PAdFGblzFswE4hkNANJBKRmsfa2X5LG2AcWE1c7/4t0pYae1L8vfZ5xvE2nK/R9JprtToA61OSHWIg==",
+      "path": "system.globalization/4.3.0",
+      "hashPath": "system.globalization.4.3.0.nupkg.sha512"
+    },
+    "System.IO/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "path": "system.io/4.3.0",
+      "hashPath": "system.io.4.3.0.nupkg.sha512"
+    },
+    "System.Linq/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
+      "path": "system.linq/4.3.0",
+      "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Parallel/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-td7x21K8LalpjTWCzW/nQboQIFbq9i0r+PCyBBCdLWWnm4NBcdN18vpz/G9hCpUaCIfRL+ZxJNVTywlNlB1aLQ==",
+      "path": "system.linq.parallel/4.3.0",
+      "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "path": "system.reflection/4.3.0",
+      "hashPath": "system.reflection.4.3.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "path": "system.reflection.primitives/4.3.0",
+      "hashPath": "system.reflection.primitives.4.3.0.nupkg.sha512"
+    },
+    "System.Resources.ResourceManager/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/zrcPkkWdZmI4F92gL/TPumP98AVDu/Wxr3CSJGQQ+XN6wbRZcyfSKVoPo17ilb3iOr0cCRqJInGwNMolqhS8A==",
+      "path": "system.resources.resourcemanager/4.3.0",
+      "hashPath": "system.resources.resourcemanager.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.Extensions/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
+      "path": "system.runtime.extensions/4.3.0",
+      "hashPath": "system.runtime.extensions.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
+      "path": "system.threading/4.3.0",
+      "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    }
+  }
+}

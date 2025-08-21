@@ -1,0 +1,20 @@
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\bin\Debug\net8.0-windows\POC JsonDataParsingAndBinding.exe
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\bin\Debug\net8.0-windows\POC JsonDataParsingAndBinding.deps.json
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\bin\Debug\net8.0-windows\POC JsonDataParsingAndBinding.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\bin\Debug\net8.0-windows\POC JsonDataParsingAndBinding.dll
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\bin\Debug\net8.0-windows\POC JsonDataParsingAndBinding.pdb
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\App.g.cs
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\POC JsonDataParsingAndBinding_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\MainWindow.baml
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\POC JsonDataParsingAndBinding.g.resources
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\POC JsonDataParsingAndBinding.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\POC JsonDataParsingAndBinding.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\POC JsonDataParsingAndBinding.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\POC JsonDataParsingAndBinding.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\POC JsonDataParsingAndBinding.dll
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\refint\POC JsonDataParsingAndBinding.dll
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\POC JsonDataParsingAndBinding.pdb
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\POC JsonDataParsingAndBinding.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\obj\Debug\net8.0-windows\ref\POC JsonDataParsingAndBinding.dll
+K:\POC and My Samples\POC\WPF\POC JsonDataParsingAndBinding\POC JsonDataParsingAndBinding\bin\Debug\net8.0-windows\featureTreeEN.json

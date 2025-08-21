@@ -1,0 +1,19 @@
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\bin\Debug\net8.0\POC Apps Installation Unpacking Logic.exe
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\bin\Debug\net8.0\POC Apps Installation Unpacking Logic.deps.json
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\bin\Debug\net8.0\POC Apps Installation Unpacking Logic.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\bin\Debug\net8.0\POC Apps Installation Unpacking Logic.dll
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\bin\Debug\net8.0\POC Apps Installation Unpacking Logic.pdb
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.dll
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\refint\POC Apps Installation Unpacking Logic.dll
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.pdb
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\ref\POC Apps Installation Unpacking Logic.dll
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\bin\Debug\net8.0\SharpCompress.dll
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\bin\Debug\net8.0\ZstdSharp.dll
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.csproj.AssemblyReference.cache
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps.B99F4B07.Up2Date
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\bin\Debug\net8.0\Resources\Apps.json

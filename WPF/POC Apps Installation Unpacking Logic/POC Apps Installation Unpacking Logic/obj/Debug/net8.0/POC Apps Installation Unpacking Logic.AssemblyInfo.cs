@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("POC Apps Installation Unpacking Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8875fd344fc9ade6184345cf67dc96b855fe8be")]
 [assembly: System.Reflection.AssemblyProductAttribute("POC Apps Installation Unpacking Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("POC Apps Installation Unpacking Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,14 @@
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\bin\Debug\net8.0\C1Installer.Core.deps.json
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\bin\Debug\net8.0\C1Installer.Core.dll
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\bin\Debug\net8.0\C1Installer.Core.pdb
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\bin\Debug\net8.0\KR\C1Installer.Core.resources.dll
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\C1Installer.Core.GeneratedMSBuildEditorConfig.editorconfig
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\C1Installer.Core.AssemblyInfoInputs.cache
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\C1Installer.Core.AssemblyInfo.cs
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\C1Installer.Core.csproj.CoreCompileInputs.cache
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\C1Installer.Core.sourcelink.json
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\KR\C1Installer.Core.resources.dll
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\C1Installer.Core.dll
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\refint\C1Installer.Core.dll
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\C1Installer.Core.pdb
+K:\Source Clone Items\C1 Installer - Source Clone\C1 Installer [New Project]\C1Installer.Core\obj\Debug\net8.0\ref\C1Installer.Core.dll

@@ -1,0 +1,92 @@
+{
+  "Desktop": [
+    {
+      "id": "winFormsControls",
+      "name": "WinForms Controls",
+      "groupBy":  "Desktop",
+      "description": "Rich UI controls for classic desktop apps",
+      "gettingStarted": "https://developer.mescius.com/componentone/docs/win",
+      "learMore": "https://developer.mescius.com/componentone/winforms-ui-controls"
+    },
+    {
+      "id": "wpfControls",
+      "name": "WPF Controls",
+      "description": "Modern data-aware controls for WPF apps"
+    },
+    {
+      "id": "winuiControls",
+      "name": "WinUI Controls",
+      "description": "Next-gen Windows UI controls"
+    }
+  ],
+  "Web": [
+    {
+      "id": "aspNetMvcControls",
+      "name": "ASP.NET MVC Controls",
+      "description": "UI components for server-side ASP.NET MVC apps"
+    },
+    {
+      "id": "aspNetCoreControls",
+      "name": "ASP.NET Core Controls",
+      "description": "Lightweight components for ASP.NET Core"
+    },
+    {
+      "id": "blazorControls",
+      "name": "Blazor Controls",
+      "description": "Modern web UI with C# and Razor"
+    },
+    {
+      "id": "webapi",
+      "name": "WebAPI",
+      "description": "REST APIs for document and report processing"
+    }
+  ],
+  "Mobile": [
+    {
+      "id": "dotnetMauiControls",
+      "name": ".NET MAUI Controls",
+      "description": "Cross-platform controls for mobile and desktop apps"
+    }
+  ],
+  "ServiceComponents": [
+    {
+      "id": "dataServices",
+      "name": "Data Services",
+      "description": "Connectivity and data virtualization tools"
+    }
+  ],
+  "Legacy": [
+    {
+      "id": "uwpControls",
+      "name": "UWP Controls",
+      "description": "Controls for Universal Windows Platform"
+    },
+    {
+      "id": "xamarinControls",
+      "name": "Xamarin Controls",
+      "description": "Controls for Xamarin.Forms mobile apps"
+    },
+    {
+      "id": "xapOptimizer",
+      "name": "XapOptimizer",
+      "description": "Silverlight XAP file compressor"
+    },
+    {
+      "id": "activeXControls",
+      "name": "ActiveX Controls",
+      "description": "Legacy COM components for Windows Forms"
+    }
+  ],
+  "Utilities": [
+    {
+      "id": "iconPack",
+      "name": "Icon Pack",
+      "description": "Flat and material icon sets"
+    },
+    {
+      "id": "intelliSpell",
+      "name": "IntelliSpell",
+      "description": "Spell checking for WinForms and WPF"
+    }
+  ]
+}

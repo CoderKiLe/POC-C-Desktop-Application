@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Configurations>Debug;Release;US;KR;JP;CN</Configurations>
+  </PropertyGroup>
+
+
+	<!-- 
+  Define localization constants based on the active build configuration.
+  These constants (e.g., LOCALE_US, LOCALE_KR) are used at compile-time 
+  to determine which localized strings (US, KR, JP, CN) should be loaded 
+  from the editionProducts.json file in C1Installer.Core.
+	-->
+
+	<PropertyGroup Condition="'$(Configuration)' == 'US'">
+		<DefineConstants>LOCALE_US</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'KR'">
+		<DefineConstants>LOCALE_KR</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'JP'">
+		<DefineConstants>LOCALE_JP</DefineConstants>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)' == 'CN'">
+		<DefineConstants>LOCALE_CN</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Data\editionProducts.CN.json" />
+	  <None Remove="Data\editionProducts.JP.json" />
+	  <None Remove="Data\editionProducts.KR.json" />
+	  <None Remove="Data\editionProducts.US.json" />
+	  <None Remove="Data\Legacy\c1ControlPanelEN.json" />
+	  <None Remove="Data\Legacy\c1ControlPanelJP.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Data\Legacy\c1ControlPanelEN.json" />
+	  <EmbeddedResource Include="Data\Legacy\c1ControlPanelJP.json" />
+	  <EmbeddedResource Include="Data\Master\editionProducts.CN.json" />
+	  <EmbeddedResource Include="Data\Master\editionProducts.JP.json" />
+	  <EmbeddedResource Include="Data\Master\editionProducts.KR.json" />
+	  <EmbeddedResource Include="Data\Master\editionProducts.US.json" />
+	</ItemGroup>
+
+</Project>

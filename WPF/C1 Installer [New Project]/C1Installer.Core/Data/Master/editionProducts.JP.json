@@ -1,0 +1,89 @@
+{
+  "Desktop": [
+    {
+      "id": "winFormsControls",
+      "name": "WinForms コントロール",
+      "description": "クラシックなデスクトップアプリ向けの高機能UIコントロール"
+    },
+    {
+      "id": "wpfControls",
+      "name": "WPF コントロール",
+      "description": "最新のデータ対応 WPF コントロール"
+    },
+    {
+      "id": "winuiControls",
+      "name": "WinUI コントロール",
+      "description": "次世代 Windows UI コントロール"
+    }
+  ],
+  "Web": [
+    {
+      "id": "aspNetMvcControls",
+      "name": "ASP.NET MVC コントロール",
+      "description": "サーバー側 ASP.NET MVC アプリ用 UI コンポーネント"
+    },
+    {
+      "id": "aspNetCoreControls",
+      "name": "ASP.NET Core コントロール",
+      "description": "ASP.NET Core 用の軽量コンポーネント"
+    },
+    {
+      "id": "blazorControls",
+      "name": "Blazor コントロール",
+      "description": "C#とRazorで構築するモダンなWeb UI"
+    },
+    {
+      "id": "webapi",
+      "name": "WebAPI",
+      "description": "ドキュメントとレポート処理のための REST API"
+    }
+  ],
+  "Mobile": [
+    {
+      "id": "dotnetMauiControls",
+      "name": ".NET MAUI コントロール",
+      "description": "モバイルとデスクトップ向けのクロスプラットフォームコントロール"
+    }
+  ],
+  "ServiceComponents": [
+    {
+      "id": "dataServices",
+      "name": "データサービス",
+      "description": "接続とデータ仮想化ツール"
+    }
+  ],
+  "Legacy": [
+    {
+      "id": "uwpControls",
+      "name": "UWP コントロール",
+      "description": "ユニバーサル Windows プラットフォーム用コントロール"
+    },
+    {
+      "id": "xamarinControls",
+      "name": "Xamarin コントロール",
+      "description": "Xamarin.Forms モバイルアプリ用コントロール"
+    },
+    {
+      "id": "xapOptimizer",
+      "name": "XapOptimizer",
+      "description": "Silverlight XAP ファイル圧縮ツール"
+    },
+    {
+      "id": "activeXControls",
+      "name": "ActiveX コントロール",
+      "description": "Windows Forms 用のレガシー COM コンポーネント"
+    }
+  ],
+  "Utilities": [
+    {
+      "id": "iconPack",
+      "name": "アイコンパック",
+      "description": "フラットおよびマテリアル アイコンセット"
+    },
+    {
+      "id": "intelliSpell",
+      "name": "IntelliSpell",
+      "description": "WinForms および WPF 向けのスペルチェック"
+    }
+  ]
+}

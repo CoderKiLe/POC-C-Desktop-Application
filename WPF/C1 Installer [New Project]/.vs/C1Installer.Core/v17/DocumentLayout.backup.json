@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "K:\\Source Clone Items\\C1 Installer - Source Clone\\C1 Installer [New Project]\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E971E82-9051-412C-A199-2209551787CC}|testProject\\testProject.csproj|k:\\source clone items\\c1 installer - source clone\\c1 installer [new project]\\testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E971E82-9051-412C-A199-2209551787CC}|testProject\\testProject.csproj|solutionrelative:testproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6379E886-3E83-4C65-97D5-864828DBB975}|C1Installer.Core\\C1Installer.Core.csproj|k:\\source clone items\\c1 installer - source clone\\c1 installer [new project]\\c1installer.core\\oldproductversionreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6379E886-3E83-4C65-97D5-864828DBB975}|C1Installer.Core\\C1Installer.Core.csproj|solutionrelative:c1installer.core\\oldproductversionreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6379E886-3E83-4C65-97D5-864828DBB975}|C1Installer.Core\\C1Installer.Core.csproj|k:\\source clone items\\c1 installer - source clone\\c1 installer [new project]\\c1installer.core\\models\\productversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6379E886-3E83-4C65-97D5-864828DBB975}|C1Installer.Core\\C1Installer.Core.csproj|solutionrelative:c1installer.core\\models\\productversion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6379E886-3E83-4C65-97D5-864828DBB975}|C1Installer.Core\\C1Installer.Core.csproj|k:\\source clone items\\c1 installer - source clone\\c1 installer [new project]\\c1installer.core\\legacyproductversionreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6379E886-3E83-4C65-97D5-864828DBB975}|C1Installer.Core\\C1Installer.Core.csproj|solutionrelative:c1installer.core\\legacyproductversionreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductVersion.cs",
+              "DocumentMoniker": "K:\\Source Clone Items\\C1 Installer - Source Clone\\C1 Installer [New Project]\\C1Installer.Core\\Models\\ProductVersion.cs",
+              "RelativeDocumentMoniker": "C1Installer.Core\\Models\\ProductVersion.cs",
+              "ToolTip": "K:\\Source Clone Items\\C1 Installer - Source Clone\\C1 Installer [New Project]\\C1Installer.Core\\Models\\ProductVersion.cs",
+              "RelativeToolTip": "C1Installer.Core\\Models\\ProductVersion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T04:22:38.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OldProductVersionReader.cs",
+              "DocumentMoniker": "K:\\Source Clone Items\\C1 Installer - Source Clone\\C1 Installer [New Project]\\C1Installer.Core\\OldProductVersionReader.cs",
+              "RelativeDocumentMoniker": "C1Installer.Core\\OldProductVersionReader.cs",
+              "ToolTip": "K:\\Source Clone Items\\C1 Installer - Source Clone\\C1 Installer [New Project]\\C1Installer.Core\\OldProductVersionReader.cs",
+              "RelativeToolTip": "C1Installer.Core\\OldProductVersionReader.cs",
+              "ViewState": "AgIAAHcBAAAAAAAAAAAqwJMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T04:12:55.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LegacyProductVersionReader.cs",
+              "DocumentMoniker": "K:\\Source Clone Items\\C1 Installer - Source Clone\\C1 Installer [New Project]\\C1Installer.Core\\LegacyProductVersionReader.cs",
+              "RelativeDocumentMoniker": "C1Installer.Core\\LegacyProductVersionReader.cs",
+              "ToolTip": "K:\\Source Clone Items\\C1 Installer - Source Clone\\C1 Installer [New Project]\\C1Installer.Core\\LegacyProductVersionReader.cs",
+              "RelativeToolTip": "C1Installer.Core\\LegacyProductVersionReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T04:12:52.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "K:\\Source Clone Items\\C1 Installer - Source Clone\\C1 Installer [New Project]\\testProject\\Program.cs",
+              "RelativeDocumentMoniker": "testProject\\Program.cs",
+              "ToolTip": "K:\\Source Clone Items\\C1 Installer - Source Clone\\C1 Installer [New Project]\\testProject\\Program.cs",
+              "RelativeToolTip": "testProject\\Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwCAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T04:10:39.105Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

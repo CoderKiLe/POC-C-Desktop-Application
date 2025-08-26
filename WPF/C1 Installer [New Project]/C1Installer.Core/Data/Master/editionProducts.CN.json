@@ -1,0 +1,90 @@
+{
+  "Desktop": [
+    {
+      "id": "winFormsControls",
+      "name": "WinForms 控件",
+      "description": "适用于传统桌面应用程序的高级 UI 控件"
+      
+    },
+    {
+      "id": "wpfControls",
+      "name": "WPF 控件",
+      "description": "现代数据感知的 WPF 控件"
+    },
+    {
+      "id": "winuiControls",
+      "name": "WinUI 控件",
+      "description": "新一代 Windows UI 控件"
+    }
+  ],
+  "Web": [
+    {
+      "id": "aspNetMvcControls",
+      "name": "ASP.NET MVC 控件",
+      "description": "适用于服务器端 ASP.NET MVC 应用的 UI 组件"
+    },
+    {
+      "id": "aspNetCoreControls",
+      "name": "ASP.NET Core 控件",
+      "description": "适用于 ASP.NET Core 的轻量级组件"
+    },
+    {
+      "id": "blazorControls",
+      "name": "Blazor 控件",
+      "description": "使用 C# 和 Razor 的现代 Web UI"
+    },
+    {
+      "id": "webapi",
+      "name": "WebAPI",
+      "description": "用于文档和报表处理的 REST API"
+    }
+  ],
+  "Mobile": [
+    {
+      "id": "dotnetMauiControls",
+      "name": ".NET MAUI 控件",
+      "description": "用于移动和桌面应用的跨平台控件"
+    }
+  ],
+  "ServiceComponents": [
+    {
+      "id": "dataServices",
+      "name": "数据服务",
+      "description": "连接和数据虚拟化工具"
+    }
+  ],
+  "Legacy": [
+    {
+      "id": "uwpControls",
+      "name": "UWP 控件",
+      "description": "用于通用 Windows 平台的控件"
+    },
+    {
+      "id": "xamarinControls",
+      "name": "Xamarin 控件",
+      "description": "用于 Xamarin.Forms 移动应用的控件"
+    },
+    {
+      "id": "xapOptimizer",
+      "name": "XapOptimizer",
+      "description": "Silverlight XAP 文件压缩工具"
+    },
+    {
+      "id": "activeXControls",
+      "name": "ActiveX 控件",
+      "description": "用于 Windows Forms 的传统 COM 组件"
+    }
+  ],
+  "Utilities": [
+    {
+      "id": "iconPack",
+      "name": "图标包",
+      "description": "扁平化和材质图标集"
+    },
+    {
+      "id": "intelliSpell",
+      "name": "IntelliSpell",
+      "description": "用于 WinForms 和 WPF 的拼写检查"
+    }
+  ]
+}

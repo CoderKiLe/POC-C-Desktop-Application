@@ -1,0 +1,91 @@
+{
+  "Desktop": [
+    {
+      "id": "winFormsControls",
+      "name": "윈폼 컨트롤",
+      "description": "클래식 데스크탑 앱용 고급 UI 컨트롤",
+      "gettingStarted": "https://www.mescius.co.kr/componentone-winforms",
+      "learMore": "https://developer.mescius.com/componentone/docs/win"
+    },
+    {
+      "id": "wpfControls",
+      "name": "WPF 컨트롤",
+      "description": "현대적인 데이터 인식 WPF 컨트롤"
+    },
+    {
+      "id": "winuiControls",
+      "name": "WinUI 컨트롤",
+      "description": "차세대 Windows UI 컨트롤"
+    }
+  ],
+  "Web": [
+    {
+      "id": "aspNetMvcControls",
+      "name": "ASP.NET MVC 컨트롤",
+      "description": "서버 측 ASP.NET MVC 앱용 UI 구성요소"
+    },
+    {
+      "id": "aspNetCoreControls",
+      "name": "ASP.NET Core 컨트롤",
+      "description": "ASP.NET Core를 위한 경량 구성요소"
+    },
+    {
+      "id": "blazorControls",
+      "name": "Blazor 컨트롤",
+      "description": "C#과 Razor를 활용한 최신 웹 UI"
+    },
+    {
+      "id": "webapi",
+      "name": "웹 API",
+      "description": "문서 및 보고서 처리를 위한 REST API"
+    }
+  ],
+  "Mobile": [
+    {
+      "id": "dotnetMauiControls",
+      "name": ".NET MAUI 컨트롤",
+      "description": "모바일 및 데스크탑 앱을 위한 크로스 플랫폼 컨트롤"
+    }
+  ],
+  "ServiceComponents": [
+    {
+      "id": "dataServices",
+      "name": "데이터 서비스",
+      "description": "연결성과 데이터 가상화 도구"
+    }
+  ],
+  "Legacy": [
+    {
+      "id": "uwpControls",
+      "name": "UWP 컨트롤",
+      "description": "범용 Windows 플랫폼을 위한 컨트롤"
+    },
+    {
+      "id": "xamarinControls",
+      "name": "Xamarin 컨트롤",
+      "description": "Xamarin.Forms 모바일 앱을 위한 컨트롤"
+    },
+    {
+      "id": "xapOptimizer",
+      "name": "XapOptimizer",
+      "description": "Silverlight XAP 파일 압축기"
+    },
+    {
+      "id": "activeXControls",
+      "name": "ActiveX 컨트롤",
+      "description": "Windows Forms를 위한 레거시 COM 구성요소"
+    }
+  ],
+  "Utilities": [
+    {
+      "id": "iconPack",
+      "name": "아이콘 팩",
+      "description": "플랫 및 머티리얼 아이콘 세트"
+    },
+    {
+      "id": "intelliSpell",
+      "name": "IntelliSpell",
+      "description": "WinForms 및 WPF용 맞춤법 검사"
+    }
+  ]
+}

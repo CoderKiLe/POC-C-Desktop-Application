@@ -17,3 +17,4 @@ K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Ins
 K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.csproj.AssemblyReference.cache
 K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps.B99F4B07.Up2Date
 K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\bin\Debug\net8.0\Resources\Apps.json
+K:\POC and My Samples\POC\WPF\POC Apps Installation Unpacking Logic\POC Apps Installation Unpacking Logic\obj\Debug\net8.0\POC Apps Installation Unpacking Logic.sourcelink.json

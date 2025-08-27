@@ -17,5 +17,14 @@ namespace C1Installer.Core.Models
         public string C1LiveVersion { get; set; }      // e.g. "20231.672"
         public string FrameWorkVersions { get; set; }  // e.g. "v68.0,v4.8,v4.6.2"
         public string DefaultCheckFrameWorks { get; set; } // e.g. "v68.0"
+        public ProductVersionSource Source { get; set; } = ProductVersionSource.NewJson;
+
+
+    }
+
+    public enum ProductVersionSource
+    {
+        NewJson, // default
+        OldJson
     }
 }

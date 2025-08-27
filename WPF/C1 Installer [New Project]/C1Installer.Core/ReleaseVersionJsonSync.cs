@@ -43,8 +43,8 @@ namespace C1Installer.Core
             var remoteJsonUrl = CombineUri(remoteRoot, JsonFileConstant.ReleaseVersionFileName);
 
             string localRegionDir = _localRoot;
-            string localShaPath = Path.Combine(localRegionDir, JsonFileConstant.Sha256FileNameRelease);
-            string localJsonPath = Path.Combine(localRegionDir, JsonFileConstant.ReleaseVersionFileName);
+            string localShaPath = Path.Combine(localRegionDir,_regionKey, JsonFileConstant.Sha256FileNameRelease);
+            string localJsonPath = Path.Combine(localRegionDir, _regionKey, JsonFileConstant.ReleaseVersionFileName);
             Directory.CreateDirectory(localRegionDir);
 
             // Get remote SHA (throws FileNotFoundException on 404)
@@ -73,7 +73,7 @@ namespace C1Installer.Core
             bool regionUpdated = await SyncReleaseVersionShaAsync();
 
             // Step 2: validate each Release Configuration entry
-            string localJsonPath = Path.Combine(_localRoot, JsonFileConstant.ReleaseVersionFileName);
+            string localJsonPath = Path.Combine(_localRoot,_regionKey, JsonFileConstant.ReleaseVersionFileName);
             if (!File.Exists(localJsonPath))
                 throw new FileNotFoundException($"Local {JsonFileConstant.ReleaseVersionFileName} not found after sync.", localJsonPath);
 
@@ -92,7 +92,7 @@ namespace C1Installer.Core
 
         private async Task<bool> ReleaseConfigurationAsync(ReleaseVersionEntry entry)
         {
-            string entryDir = Path.Combine(_localRoot, entry.Id);
+            string entryDir = Path.Combine(_localRoot,_regionKey, entry.Id);
             Directory.CreateDirectory(entryDir);
 
             string localShaPath = Path.Combine(entryDir, JsonFileConstant.Sha256FileNameReleaseConfiguration);

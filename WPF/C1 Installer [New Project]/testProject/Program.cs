@@ -1,9 +1,10 @@
 ﻿
 using C1Installer.Core;
+using C1Installer.Core.Models;
 using C1Installer.Core.Utility;
+using System.Net.Http;
 using System.Reflection;
 using System.Text;
-using System.Net.Http;
 
 namespace TestEditionCatalog
 {
@@ -11,33 +12,8 @@ namespace TestEditionCatalog
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("hello World");
-
             Console.WriteLine($"Locale: {LocaleInfo.Key}");
             Console.WriteLine(new string('-', 40));
-
-
-            var products = OldProductVersionReaders.ReadOldProductsVersion("US");
-            foreach (var product in products)
-            {
-                Console.WriteLine(product.Versions);
-                foreach (var version in product.Versions)
-                {
-                    Console.WriteLine(version.DisplayVersion);
-                }
-            }
-
-            // basically i ahv eto all this api with whatever
-
-            //var newProducts = LegacyEditionVersionReader.GetLegacyProductVersions();
-            //foreach(var p in newProducts)
-            //{
-            //    Console.WriteLine(p.Value);
-            //    foreach(var pop in p.Value)
-            //    {
-            //        Console.WriteLine(pop);
-            //    }
-            //}
 
             Console.OutputEncoding = Encoding.UTF8;
             using var http = new HttpClient { Timeout = TimeSpan.FromSeconds(60) };
@@ -49,9 +25,35 @@ namespace TestEditionCatalog
             Console.WriteLine(updated);
             #endregion
 
+            #region ReadProductVersions()
+
+            var combinedProduct = ProductVersionCatalogue.ReadProductVersions(
+                @"C:\Program Files (x86)\MESCIUS\ComponentOne\version_data",
+                "US"
+            );
+
+            foreach (var product in combinedProduct)
+            {
+                Console.WriteLine($"Product: {product.Name}");
+                foreach (var v in product.Versions)
+                {
+                    Console.WriteLine("   -----------------------------");
+                    Console.WriteLine($"   Version:              {v.Version}");
+                    Console.WriteLine($"   DisplayVersion:       {v.DisplayVersion}");
+                    Console.WriteLine($"   ToolBoxVersion:       {v.ToolBoxVersion}");
+                    Console.WriteLine($"   C1LiveVersion:        {v.C1LiveVersion}");
+                    Console.WriteLine($"   FrameWorkVersions:    {v.FrameWorkVersions}");
+                    Console.WriteLine($"   DefaultCheckFrameworks: {v.DefaultCheckFrameWorks}");
+                    Console.WriteLine($"   Source:               {v.Source}");
+                }
+            }
+
+            #endregion
+
+
         }
 
 
-        
+
     }
 }

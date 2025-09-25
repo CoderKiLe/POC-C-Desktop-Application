@@ -1,0 +1,30 @@
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\bin\Debug\net8.0-windows\POC Events.exe
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\bin\Debug\net8.0-windows\POC Events.deps.json
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\bin\Debug\net8.0-windows\POC Events.runtimeconfig.json
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\bin\Debug\net8.0-windows\POC Events.dll
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\bin\Debug\net8.0-windows\POC Events.pdb
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\MainWindow.g.cs
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\App.g.cs
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events_MarkupCompile.cache
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events_MarkupCompile.lref
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\MainWindow.baml
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events.g.resources
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events.GeneratedMSBuildEditorConfig.editorconfig
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events.AssemblyInfoInputs.cache
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events.AssemblyInfo.cs
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events.csproj.CoreCompileInputs.cache
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events.sourcelink.json
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events.dll
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\refint\POC Events.dll
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events.pdb
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\POC Events.genruntimeconfig.cache
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\ref\POC Events.dll
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\Controls\SideNavigationPanel.g.cs
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\Controls\SideNavigationPanel.baml
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\Pages\Page1.g.cs
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\Pages\Page2.g.cs
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\Pages\Page3.g.cs
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\Pages\Page1.baml
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\Pages\Page2.baml
+K:\POC and My Samples\POC\WPF\POC Events\POC Events\obj\Debug\net8.0-windows\Pages\Page3.baml

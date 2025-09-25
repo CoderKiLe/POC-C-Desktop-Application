@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC Events", "POC Events\POC Events.csproj", "{FCF486D5-4AB5-4B7D-AFF9-52555ACB3B68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF486D5-4AB5-4B7D-AFF9-52555ACB3B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF486D5-4AB5-4B7D-AFF9-52555ACB3B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF486D5-4AB5-4B7D-AFF9-52555ACB3B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF486D5-4AB5-4B7D-AFF9-52555ACB3B68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C635CFE-5420-4733-B7B7-4F973952F7D2}
+	EndGlobalSection
+EndGlobal

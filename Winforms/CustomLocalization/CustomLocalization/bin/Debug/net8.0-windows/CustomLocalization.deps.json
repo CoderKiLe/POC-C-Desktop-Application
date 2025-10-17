@@ -1,0 +1,380 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CustomLocalization/1.0.0": {
+        "dependencies": {
+          "C1.Win.Command": "8.0.20251.721",
+          "C1.Win.DataFilter": "8.0.20251.721",
+          "C1.Win.FlexGrid": "8.0.20251.721",
+          "C1.Win.GanttView": "8.0.20251.721",
+          "C1.Win.Input": "8.0.20251.721",
+          "C1.Win.InputPanel": "8.0.20251.721",
+          "C1.Win.Schedule": "8.0.20251.721"
+        },
+        "runtime": {
+          "CustomLocalization.dll": {}
+        },
+        "resources": {
+          "dz/CustomLocalization.resources.dll": {
+            "locale": "dz"
+          },
+          "hi/CustomLocalization.resources.dll": {
+            "locale": "hi"
+          }
+        }
+      },
+      "C1.DataCollection/8.0.20242.201": {
+        "runtime": {
+          "lib/net7.0/C1.DataCollection.dll": {
+            "assemblyVersion": "8.0.20242.201",
+            "fileVersion": "8.0.20242.201"
+          }
+        }
+      },
+      "C1.DataCollection.BindingList/8.0.20242.201": {
+        "dependencies": {
+          "C1.DataCollection": "8.0.20242.201"
+        },
+        "runtime": {
+          "lib/netstandard2.0/C1.DataCollection.BindingList.dll": {
+            "assemblyVersion": "8.0.20242.201",
+            "fileVersion": "8.0.20242.201"
+          }
+        }
+      },
+      "C1.ScheduleCore/8.0.20242.54": {
+        "runtime": {
+          "lib/netstandard2.0/C1.ScheduleCore.dll": {
+            "assemblyVersion": "8.0.20242.54",
+            "fileVersion": "8.0.20242.54"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/ar/C1.ScheduleCore.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/netstandard2.0/cs/C1.ScheduleCore.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/da/C1.ScheduleCore.resources.dll": {
+            "locale": "da"
+          },
+          "lib/netstandard2.0/de/C1.ScheduleCore.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/el/C1.ScheduleCore.resources.dll": {
+            "locale": "el"
+          },
+          "lib/netstandard2.0/es/C1.ScheduleCore.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fi/C1.ScheduleCore.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/netstandard2.0/fr/C1.ScheduleCore.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/he/C1.ScheduleCore.resources.dll": {
+            "locale": "he"
+          },
+          "lib/netstandard2.0/it/C1.ScheduleCore.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/C1.ScheduleCore.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/C1.ScheduleCore.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/nl/C1.ScheduleCore.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/netstandard2.0/no/C1.ScheduleCore.resources.dll": {
+            "locale": "no"
+          },
+          "lib/netstandard2.0/pl/C1.ScheduleCore.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt/C1.ScheduleCore.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/netstandard2.0/ro/C1.ScheduleCore.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/netstandard2.0/ru/C1.ScheduleCore.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/sk/C1.ScheduleCore.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/netstandard2.0/sv/C1.ScheduleCore.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/netstandard2.0/tr/C1.ScheduleCore.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/C1.ScheduleCore.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/C1.ScheduleCore.resources.dll": {
+            "locale": "zh-Hant"
+          },
+          "lib/netstandard2.0/zh/C1.ScheduleCore.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      },
+      "C1.Win/8.0.20251.721": {
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.Calendar/8.0.20251.721": {
+        "dependencies": {
+          "C1.Win.Input": "8.0.20251.721"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.Calendar.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.Command/8.0.20251.721": {
+        "dependencies": {
+          "C1.Win": "8.0.20251.721"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.Command.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.DataFilter/8.0.20251.721": {
+        "dependencies": {
+          "C1.DataCollection.BindingList": "8.0.20242.201",
+          "C1.Win.TreeView": "8.0.20251.721"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.DataFilter.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.FlexGrid/8.0.20251.721": {
+        "dependencies": {
+          "C1.Win": "8.0.20251.721"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.FlexGrid.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.GanttView/8.0.20251.721": {
+        "dependencies": {
+          "C1.ScheduleCore": "8.0.20242.54",
+          "C1.Win.FlexGrid": "8.0.20251.721",
+          "C1.Win.SuperTooltip": "8.0.20251.721"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.GanttView.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.Input/8.0.20251.721": {
+        "dependencies": {
+          "C1.Win": "8.0.20251.721"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.Input.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.InputPanel/8.0.20251.721": {
+        "dependencies": {
+          "C1.Win": "8.0.20251.721"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.InputPanel.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.Schedule/8.0.20251.721": {
+        "dependencies": {
+          "C1.ScheduleCore": "8.0.20242.54",
+          "C1.Win": "8.0.20251.721",
+          "C1.Win.ScheduleCore": "8.0.20242.54"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.Schedule.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.ScheduleCore/8.0.20242.54": {
+        "dependencies": {
+          "C1.ScheduleCore": "8.0.20242.54"
+        },
+        "runtime": {
+          "lib/netstandard2.0/C1.Win.ScheduleCore.dll": {
+            "assemblyVersion": "8.0.20242.54",
+            "fileVersion": "8.0.20242.54"
+          }
+        }
+      },
+      "C1.Win.SuperTooltip/8.0.20251.721": {
+        "dependencies": {
+          "C1.Win": "8.0.20251.721"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.SuperTooltip.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      },
+      "C1.Win.TreeView/8.0.20251.721": {
+        "dependencies": {
+          "C1.Win.Calendar": "8.0.20251.721"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/C1.Win.TreeView.8.dll": {
+            "assemblyVersion": "8.0.20251.721",
+            "fileVersion": "8.0.20251.721"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomLocalization/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "C1.DataCollection/8.0.20242.201": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Io6UhxU9SfkhO3EXGZRUgJTqyU0d3tbjo6GGkeTpqEVD7E2wKsdlnYhz7OF8KzuyKygwSMZBEna6lXZHONqRQQ==",
+      "path": "c1.datacollection/8.0.20242.201",
+      "hashPath": "c1.datacollection.8.0.20242.201.nupkg.sha512"
+    },
+    "C1.DataCollection.BindingList/8.0.20242.201": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yUOV2WUVwwrHWzHhm3LkPqAFdF46KQU4pQrx2IZ8aGuo4k1skI6VRvFhebXAiUA1udpqFv4fBg6gk1Iiib5z6Q==",
+      "path": "c1.datacollection.bindinglist/8.0.20242.201",
+      "hashPath": "c1.datacollection.bindinglist.8.0.20242.201.nupkg.sha512"
+    },
+    "C1.ScheduleCore/8.0.20242.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8hQJdgBKIRZpopmVOvqOja+oMztMBcLY3J37wHjZJUy46CdN1Iv4u5d1EdebIN6LS4JbgwA/m8muh3m4Jdid+A==",
+      "path": "c1.schedulecore/8.0.20242.54",
+      "hashPath": "c1.schedulecore.8.0.20242.54.nupkg.sha512"
+    },
+    "C1.Win/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZmEY9z5QYj8fi130jSSWN5Y1hXqugpH0NFX5UHm89Wz1I+u7MeA+aeUsC9gzqHzinYfD128+lh78YJ/U55+TEQ==",
+      "path": "c1.win/8.0.20251.721",
+      "hashPath": "c1.win.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.Calendar/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M2DAyQav7I95qfzDsrvNKoMsXFqcZQg7iHz6WrYP/7nx06Jp30BYxRzBO+GmgtGEsaBuLECc9hEINTWsvDFEww==",
+      "path": "c1.win.calendar/8.0.20251.721",
+      "hashPath": "c1.win.calendar.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.Command/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i7wnShgmFlG8sgDJ7M9N+L6siol1qhWfaB2t39WVCrjUh2rZjFfIgIQm7lJRnBoOJ8pyOKtNEEsVCgk2MJk3rQ==",
+      "path": "c1.win.command/8.0.20251.721",
+      "hashPath": "c1.win.command.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.DataFilter/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9fdAdJuPv5pRJvbEM4lwb0DNl+ujgrxeVqQloEwa3B7ASclhhg0PdRMznPc2T4PEikji+CZjuLpnJz4t2NwRLg==",
+      "path": "c1.win.datafilter/8.0.20251.721",
+      "hashPath": "c1.win.datafilter.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.FlexGrid/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U4N7ykr7JflqL9iIt+/HGBB6TaskU2WRX7XEjhrN6b90+bwd+/AfPbH+fVvtYrVlsN+aNsfq6q0BNfTFVBAWxA==",
+      "path": "c1.win.flexgrid/8.0.20251.721",
+      "hashPath": "c1.win.flexgrid.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.GanttView/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5VB9x7XZChli2isQ7Nt6fwiLrCCMt/j6ANV0wzghYXSv/vxXgsV8E5tbWB6y3JJTEGxWmPL3w1wLTzleRssVlg==",
+      "path": "c1.win.ganttview/8.0.20251.721",
+      "hashPath": "c1.win.ganttview.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.Input/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RSRK9p8pfUROl1VxYV9iX+sOS6ls1We6J/qUjtVFEUtiZuYiluyWYUc7a/mQqLsJ8XOUuBGX0BFrC6aeXSwrSA==",
+      "path": "c1.win.input/8.0.20251.721",
+      "hashPath": "c1.win.input.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.InputPanel/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ea4x8PHJ+pptF+xEqXzj4EHMMIDOypby8niil1dp7tVdSZMQedLKELkAYd1uq53RHvWlialFPC8NWUgZz8VQrg==",
+      "path": "c1.win.inputpanel/8.0.20251.721",
+      "hashPath": "c1.win.inputpanel.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.Schedule/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FsfYIGZ+3MIoMUEmy3rdd9YTVXlL2M44iCR63oiBGM8taF2x/xT4ehQXn9U5ax60CH0bk2xqCmkIjv+89EJdOA==",
+      "path": "c1.win.schedule/8.0.20251.721",
+      "hashPath": "c1.win.schedule.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.ScheduleCore/8.0.20242.54": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qCP8Y7R+V6HREi9R9whLtXEgY+Dq1XAG/lqm6GUlUqmBBFZfBndu7GxDfPdENmA8J88VSjaM4TDTVU2gF3Lgyg==",
+      "path": "c1.win.schedulecore/8.0.20242.54",
+      "hashPath": "c1.win.schedulecore.8.0.20242.54.nupkg.sha512"
+    },
+    "C1.Win.SuperTooltip/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p/uNh2c2Folgd0CTpn3NIuCsBt84eKj9O1oqSzLseIvVGag76BcdlEUnUZ5toX0QkwpZHzwI7/J4Rn8WdYkiHg==",
+      "path": "c1.win.supertooltip/8.0.20251.721",
+      "hashPath": "c1.win.supertooltip.8.0.20251.721.nupkg.sha512"
+    },
+    "C1.Win.TreeView/8.0.20251.721": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZNhPlERMVrYpEp8VkF5HMMdc9QoghyWnxH0lZEyD1ZGUKcXSFf20ECeD3zbfAaipZQMLSwe1jyZEdLHR3qxKjA==",
+      "path": "c1.win.treeview/8.0.20251.721",
+      "hashPath": "c1.win.treeview.8.0.20251.721.nupkg.sha512"
+    }
+  }
+}

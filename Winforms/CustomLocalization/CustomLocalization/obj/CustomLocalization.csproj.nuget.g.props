@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\kile3\.nuget\packages\;C:\Program Files (x86)\MESCIUS\ComponentOne\WinForms\bin\v8\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\kile3\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\MESCIUS\ComponentOne\WinForms\bin\v8\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgC1_Win Condition=" '$(PkgC1_Win)' == '' ">C:\Users\kile3\.nuget\packages\c1.win\8.0.20251.721</PkgC1_Win>
+    <PkgC1_Win_Input Condition=" '$(PkgC1_Win_Input)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.input\8.0.20251.721</PkgC1_Win_Input>
+    <PkgC1_Win_Calendar Condition=" '$(PkgC1_Win_Calendar)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.calendar\8.0.20251.721</PkgC1_Win_Calendar>
+    <PkgC1_Win_TreeView Condition=" '$(PkgC1_Win_TreeView)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.treeview\8.0.20251.721</PkgC1_Win_TreeView>
+    <PkgC1_Win_SuperTooltip Condition=" '$(PkgC1_Win_SuperTooltip)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.supertooltip\8.0.20251.721</PkgC1_Win_SuperTooltip>
+    <PkgC1_Win_Schedule Condition=" '$(PkgC1_Win_Schedule)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.schedule\8.0.20251.721</PkgC1_Win_Schedule>
+    <PkgC1_Win_InputPanel Condition=" '$(PkgC1_Win_InputPanel)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.inputpanel\8.0.20251.721</PkgC1_Win_InputPanel>
+    <PkgC1_Win_FlexGrid Condition=" '$(PkgC1_Win_FlexGrid)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.flexgrid\8.0.20251.721</PkgC1_Win_FlexGrid>
+    <PkgC1_Win_GanttView Condition=" '$(PkgC1_Win_GanttView)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.ganttview\8.0.20251.721</PkgC1_Win_GanttView>
+    <PkgC1_Win_DataFilter Condition=" '$(PkgC1_Win_DataFilter)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.datafilter\8.0.20251.721</PkgC1_Win_DataFilter>
+    <PkgC1_Win_Command Condition=" '$(PkgC1_Win_Command)' == '' ">C:\Users\kile3\.nuget\packages\c1.win.command\8.0.20251.721</PkgC1_Win_Command>
+  </PropertyGroup>
+</Project>

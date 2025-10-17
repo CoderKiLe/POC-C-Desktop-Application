@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)c1.win\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.targets" Condition="Exists('$(NuGetPackageRoot)c1.win\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.input\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.Input.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.input\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.Input.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.calendar\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.Calendar.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.calendar\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.Calendar.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.treeview\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.TreeView.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.treeview\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.TreeView.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.supertooltip\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.SuperTooltip.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.supertooltip\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.SuperTooltip.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.schedulecore\8.0.20242.54\buildTransitive\netstandard2.0\C1.ScheduleCore.targets" Condition="Exists('$(NuGetPackageRoot)c1.schedulecore\8.0.20242.54\buildTransitive\netstandard2.0\C1.ScheduleCore.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.schedulecore\8.0.20242.54\buildTransitive\netstandard2.0\C1.Win.ScheduleCore.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.schedulecore\8.0.20242.54\buildTransitive\netstandard2.0\C1.Win.ScheduleCore.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.schedule\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.Schedule.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.schedule\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.Schedule.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.inputpanel\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.InputPanel.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.inputpanel\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.InputPanel.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.flexgrid\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.FlexGrid.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.flexgrid\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.FlexGrid.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.ganttview\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.GanttView.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.ganttview\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.GanttView.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.datafilter\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.DataFilter.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.datafilter\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.DataFilter.targets')" />
+    <Import Project="$(NuGetPackageRoot)c1.win.command\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.Command.targets" Condition="Exists('$(NuGetPackageRoot)c1.win.command\8.0.20251.721\buildTransitive\net8.0-windows7.0\C1.Win.Command.targets')" />
+  </ImportGroup>
+</Project>

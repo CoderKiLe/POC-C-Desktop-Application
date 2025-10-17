@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="C1.Win.Command" Version="8.0.20251.721" />
+    <PackageReference Include="C1.Win.DataFilter" Version="8.0.20251.721" />
+    <PackageReference Include="C1.Win.FlexGrid" Version="8.0.20251.721" />
+    <PackageReference Include="C1.Win.GanttView" Version="8.0.20251.721" />
+    <PackageReference Include="C1.Win.Input" Version="8.0.20251.721" />
+    <PackageReference Include="C1.Win.InputPanel" Version="8.0.20251.721" />
+    <PackageReference Include="C1.Win.Schedule" Version="8.0.20251.721" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

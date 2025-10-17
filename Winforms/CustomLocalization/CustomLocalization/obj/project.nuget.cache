@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fep7xP4q6vM=",
+  "success": true,
+  "projectFilePath": "K:\\POC and My Samples\\POC\\Winforms\\CustomLocalization\\CustomLocalization\\CustomLocalization.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.datacollection\\8.0.20242.201\\c1.datacollection.8.0.20242.201.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.datacollection.bindinglist\\8.0.20242.201\\c1.datacollection.bindinglist.8.0.20242.201.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.schedulecore\\8.0.20242.54\\c1.schedulecore.8.0.20242.54.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win\\8.0.20251.721\\c1.win.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.calendar\\8.0.20251.721\\c1.win.calendar.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.command\\8.0.20251.721\\c1.win.command.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.datafilter\\8.0.20251.721\\c1.win.datafilter.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.flexgrid\\8.0.20251.721\\c1.win.flexgrid.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.ganttview\\8.0.20251.721\\c1.win.ganttview.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.input\\8.0.20251.721\\c1.win.input.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.inputpanel\\8.0.20251.721\\c1.win.inputpanel.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.schedule\\8.0.20251.721\\c1.win.schedule.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.schedulecore\\8.0.20242.54\\c1.win.schedulecore.8.0.20242.54.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.supertooltip\\8.0.20251.721\\c1.win.supertooltip.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\c1.win.treeview\\8.0.20251.721\\c1.win.treeview.8.0.20251.721.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.18\\microsoft.windowsdesktop.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.18\\microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.18\\microsoft.aspnetcore.app.ref.8.0.18.nupkg.sha512",
+    "C:\\Users\\kile3\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.18\\microsoft.netcore.app.host.win-x64.8.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}
